@@ -17,7 +17,7 @@ export default function ContactDetails(){
         <>
         <Navbar navClass="nav-light" />
 
-        <section className="md:h-screen flex py-36 w-full items-center bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/cta.jpg')"}}>
+        <section className="md:h-screen flex py-36 w-full items-center bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/childrenofadam/hospital.jpeg')"}}>
             <div className="absolute inset-0 bg-black/70"></div>
             <div className="container relative">
                 <div className="lg:flex justify-center mt-12">
@@ -32,7 +32,7 @@ export default function ContactDetails(){
                             <div className="lg:col-span-5 md:col-span-6">
                                 <div className="p-6">
                                     <h3 className="mb-6 text-2xl leading-normal font-medium">Lets talk about your portfolio</h3>
-                                    <p className="text-slate-400">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    {/* <p className="text-slate-400">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p> */}
 
                                     <div className="flex items-center mt-6">
                                         <Icon.Mail className="w-6 h-6 me-4"></Icon.Mail>
@@ -68,11 +68,7 @@ export default function ContactDetails(){
                                         <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-red-600 hover:text-white hover:bg-red-600"><Icon.Gitlab className="h-4 w-4"></Icon.Gitlab></Link></li>
                                     </ul>
                                 </div>
-                                <div className="flex justify-center text-center p-6 border-t border-gray-100 dark:border-gray-800">
-                                    <p className="mb-0 text-slate-400">© {new Date().getFullYear()} Techwind. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/https://shreethemes.in/" target="_blank"
-
-                                  className="text-reset">Shreethemes</Link>.</p>
-                                </div>
+   
                             </div>
                         </div>
                     </div>

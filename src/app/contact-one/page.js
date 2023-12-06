@@ -46,7 +46,7 @@ export default function ContactOne(){
         <>
         <Navbar navClass="nav-light"/>
         
-        <section className="relative table w-full py-36  bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/company/aboutus.jpg')"}}>
+        <section className="relative table w-full py-36  bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/childrenofadam/hospital.jpeg')"}}>
             <div className="absolute inset-0 bg-black opacity-75"></div>
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-8 text-center mt-10">
@@ -56,7 +56,7 @@ export default function ContactOne(){
 
             <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
                 <ul className="tracking-[0.5px] mb-0 inline-flex space-x-1">
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Techwind</Link></li>
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Children of Adam</Link></li>
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
                     <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Contact Us</li>
                 </ul>
@@ -71,7 +71,7 @@ export default function ContactOne(){
         </div>
 
         <section className="relative md:py-24 py-16">
-            <div className="container relative">
+            {/* <div className="container relative">
                 <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-[30px]">
                     {contactData.map((item,index)=>{
                         let Icons = item.icon
@@ -93,7 +93,7 @@ export default function ContactOne(){
                         )
                     })}
                 </div>
-            </div>
+            </div> */}
 
             <div className="container relative md:mt-24 mt-16">
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
@@ -161,7 +161,7 @@ export default function ContactOne(){
         <div className="container-fluid relative">
             <div className="grid grid-cols-1">
                 <div className="w-full leading-[0] border-0">
-                    <iframe  title='google' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" style={{border:0}} className="w-full h-[500px]" allowFullScreen></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14486.069560347178!2d67.0497617!3d24.811974!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f3157f9cc29%3A0x22bd8897793192ff!2sChildren%20of%20Adam!5e0!3m2!1sen!2s!4v1701869071207!5m2!1sen!2s" style={{border:0}} className="w-full h-[500px]" allowFullScreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>

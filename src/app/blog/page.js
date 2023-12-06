@@ -24,7 +24,7 @@ export default function IndexBlog(){
         <>
         <Navbar navClass="nav-light"/>
 
-        <section className="relative table w-full py-32 lg:py-36 bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/blog/bg.jpg')"}}>
+        <section className="relative table w-full py-32 lg:py-36 bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/childrenofadam/hospital.jpeg')"}}>
             <div className="absolute inset-0 bg-black opacity-80"></div>
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-8 text-center mt-10">
@@ -36,7 +36,7 @@ export default function IndexBlog(){
                 <ul className="tracking-[0.5px]  mb-0 inline-flex space-x-1">
                     <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Children of Adam</Link></li>
                     <li className="inline-block text-base text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
-                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Blogs</li>
+                    <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-white" aria-current="page">Projects</li>
                 </ul>
             </div>
         </section>
