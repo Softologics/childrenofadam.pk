@@ -66,7 +66,7 @@ export default function UsersBilling(){
                                 <div className="md:w-1/2 md:px-3">
                                     <div className="flex items-center mb-4 justify-between">
                                         <h5 className="text-xl font-semibold">Billing Address:</h5>
-                                        <Link href="/#" className="text-indigo-600 text-lg"><FiEdit/></Link>
+                                        <Link href="/#" className="text-red-600 text-lg"><FiEdit/></Link>
                                     </div>
                                     <div className="pt-4 border-t border-gray-100 dark:border-gray-700">
                                         <p className="text-lg font-semibold mb-2">Jenny Jimenez</p>
@@ -88,7 +88,7 @@ export default function UsersBilling(){
                                 <div className="md:w-1/2 md:px-3 mt-[30] md:mt-0">
                                     <div className="flex items-center mb-4 justify-between">
                                         <h5 className="text-xl font-semibold">Shipping Address:</h5>
-                                        <Link href="/#" className="text-indigo-600 text-lg"><FiEdit/></Link>
+                                        <Link href="/#" className="text-red-600 text-lg"><FiEdit/></Link>
                                     </div>
                                     <div className="pt-4 border-t border-gray-100 dark:border-gray-700">
                                         <p className="text-lg font-semibold mb-2">Jenny Jimenez</p>

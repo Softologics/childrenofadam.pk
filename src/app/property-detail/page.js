@@ -47,7 +47,7 @@ export default function PropretiesDetails(){
                             <Image src="/images/real/property/single/1.jpg" width={0} height={0} sizes="100vw" style={{width:'100%', height:"auto"}} alt="" />
                             <div className="absolute inset-0 group-hover:bg-slate-900/70 duration-500 ease-in-out"></div>
                             <div className="absolute top-1/2 -translate-y-1/2 start-0 end-0 text-center invisible group-hover:visible">
-                                <Link href="#" onClick={() => handleCLick(0)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full lightbox"><FiCamera className="w-4 h-4"/></Link>
+                                <Link href="#" onClick={() => handleCLick(0)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-full lightbox"><FiCamera className="w-4 h-4"/></Link>
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@ export default function PropretiesDetails(){
                                     <Image src="/images/real/property/single/2.jpg" width={0} height={0} sizes="100vw" style={{width:'100%', height:"auto"}} alt="" />
                                     <div className="absolute inset-0 group-hover:bg-slate-900/70 duration-500 ease-in-out"></div>
                                     <div className="absolute top-1/2 -translate-y-1/2 start-0 end-0 text-center invisible group-hover:visible">
-                                        <Link href="#" onClick={() => handleCLick(1)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full lightbox"><FiCamera className="w-4 h-4"/></Link>
+                                        <Link href="#" onClick={() => handleCLick(1)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-full lightbox"><FiCamera className="w-4 h-4"/></Link>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ export default function PropretiesDetails(){
                                     <Image src="/images/real/property/single/3.jpg" width={0} height={0} sizes="100vw" style={{width:'100%', height:"auto"}} alt="" />
                                     <div className="absolute inset-0 group-hover:bg-slate-900/70 duration-500 ease-in-out"></div>
                                     <div className="absolute top-1/2 -translate-y-1/2 start-0 end-0 text-center invisible group-hover:visible">
-                                        <Link href="#" onClick={() => handleCLick(2)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full lightbox"><FiCamera className="w-4 h-4"/></Link>
+                                        <Link href="#" onClick={() => handleCLick(2)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-full lightbox"><FiCamera className="w-4 h-4"/></Link>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@ export default function PropretiesDetails(){
                                     <Image src="/images/real/property/single/4.jpg" width={0} height={0} sizes="100vw" style={{width:'100%', height:"auto"}} alt="" />
                                     <div className="absolute inset-0 group-hover:bg-slate-900/70 duration-500 ease-in-out"></div>
                                     <div className="absolute top-1/2 -translate-y-1/2 start-0 end-0 text-center invisible group-hover:visible">
-                                        <Link href="#" onClick={() => handleCLick(3)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full lightbox"><FiCamera className="w-4 h-4"/></Link>
+                                        <Link href="#" onClick={() => handleCLick(3)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-full lightbox"><FiCamera className="w-4 h-4"/></Link>
                                     </div>
                                 </div>
                             </div>
@@ -91,7 +91,7 @@ export default function PropretiesDetails(){
                                     <Image src="/images/real/property/single/5.jpg" width={0} height={0} sizes="100vw" style={{width:'100%', height:"auto"}} alt="" />
                                     <div className="absolute inset-0 group-hover:bg-slate-900/70 duration-500 ease-in-out"></div>
                                     <div className="absolute top-1/2 -translate-y-1/2 start-0 end-0 text-center invisible group-hover:visible">
-                                        <Link href="#" onClick={() => handleCLick(4)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full lightbox"><FiCamera className="w-4 h-4"/></Link>
+                                        <Link href="#" onClick={() => handleCLick(4)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-full lightbox"><FiCamera className="w-4 h-4"/></Link>
                                     </div>
                                 </div>
                             </div>
@@ -124,17 +124,17 @@ export default function PropretiesDetails(){
 
                         <ul className="py-6 flex items-center list-none">
                             <li className="flex items-center lg:me-6 me-4">
-                                <LiaCompressArrowsAltSolid className=" lg:text-3xl text-2xl me-2 text-indigo-600"/>
+                                <LiaCompressArrowsAltSolid className=" lg:text-3xl text-2xl me-2 text-red-600"/>
                                 <span className="lg:text-xl">8000sqf</span>
                             </li>
 
                             <li className="flex items-center lg:me-6 me-4">
-                                <LuBedDouble className="lg:text-3xl text-2xl me-2 text-indigo-600"/>
+                                <LuBedDouble className="lg:text-3xl text-2xl me-2 text-red-600"/>
                                 <span className="lg:text-xl">4 Beds</span>
                             </li>
 
                             <li className="flex items-center">
-                                <LuBath className="lg:text-3xl text-2xl me-2 text-indigo-600"/>
+                                <LuBath className="lg:text-3xl text-2xl me-2 text-red-600"/>
                                 <span className="lg:text-xl">4 Baths</span>
                             </li>
                         </ul>
@@ -158,7 +158,7 @@ export default function PropretiesDetails(){
                                     <div className="flex justify-between items-center mt-4">
                                         <span className="text-xl font-medium">$ 45,231</span>
 
-                                        <span className="bg-indigo-600/10 text-indigo-600 text-sm px-2.5 py-0.75 rounded h-6">For Sale</span>
+                                        <span className="bg-red-600/10 text-red-600 text-sm px-2.5 py-0.75 rounded h-6">For Sale</span>
                                     </div>
 
                                     <ul className="list-none space-x-1 mt-4">
@@ -181,10 +181,10 @@ export default function PropretiesDetails(){
 
                                 <div className="flex">
                                     <div className="p-1 w-1/2">
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md w-full">Book Now</Link>
+                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md w-full">Book Now</Link>
                                     </div>
                                     <div className="p-1 w-1/2">
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md w-full">Offer Now</Link>
+                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md w-full">Offer Now</Link>
                                     </div>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@ export default function PropretiesDetails(){
                                 <h3 className="mb-6 text-xl leading-normal font-medium">Have Question ? Get in touch!</h3>
 
                                 <div className="mt-6">
-                                    <Link href="/contact-one" className="py-2 px-5 inline-flex font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-transparent hover:bg-indigo-600 border border-indigo-600 text-indigo-600 hover:text-white rounded-md"><FiPhone className="me-1 text-lg"/>Contact us</Link>
+                                    <Link href="/contact-one" className="py-2 px-5 inline-flex font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-transparent hover:bg-red-600 border border-red-600 text-red-600 hover:text-white rounded-md"><FiPhone className="me-1 text-lg"/>Contact us</Link>
                                 </div>
                             </div>
                         </div>

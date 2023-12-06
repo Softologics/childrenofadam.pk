@@ -153,7 +153,7 @@ export default function JobDetails(){
                             {
                                 desc1.map((data,index) => {
                                     return (
-                                        <li key={index} className="text-slate-400 flex mt-2"><Icon.ArrowRight width={16} className="text-indigo-600 h5 mb-0 me-2"></Icon.ArrowRight> {data.desc}</li>
+                                        <li key={index} className="text-slate-400 flex mt-2"><Icon.ArrowRight width={16} className="text-red-600 h5 mb-0 me-2"></Icon.ArrowRight> {data.desc}</li>
                                     )
                                 })
                             }
@@ -165,7 +165,7 @@ export default function JobDetails(){
                             {
                                 desc2.map((data , index) => {
                                     return (
-                                        <li key={index} className="text-slate-400 flex mt-2"><Icon.ArrowRight width={16} className="text-indigo-600 h5 mb-0 me-2"></Icon.ArrowRight> {data.desc}</li>
+                                        <li key={index} className="text-slate-400 flex mt-2"><Icon.ArrowRight width={16} className="text-red-600 h5 mb-0 me-2"></Icon.ArrowRight> {data.desc}</li>
                                     )
                                 })
                             }
@@ -177,7 +177,7 @@ export default function JobDetails(){
                             {
                                 desc3.map((data,index) => {
                                     return (
-                                        <li key={index} className="text-slate-400 flex mt-2"><Icon.ArrowRight width={16} className="text-indigo-600 h5 mb-0 me-2"></Icon.ArrowRight> {data.desc}</li>
+                                        <li key={index} className="text-slate-400 flex mt-2"><Icon.ArrowRight width={16} className="text-red-600 h5 mb-0 me-2"></Icon.ArrowRight> {data.desc}</li>
                                     )
                                 })
                             }
@@ -193,7 +193,7 @@ export default function JobDetails(){
                             {
                                 desc4.map((data, index) => {
                                     return (
-                                        <li key={index} className="text-slate-400 flex mt-2"><Icon.ArrowRight width={16} className="text-indigo-600 h5 mb-0 me-2"></Icon.ArrowRight> {data.desc}</li>
+                                        <li key={index} className="text-slate-400 flex mt-2"><Icon.ArrowRight width={16} className="text-red-600 h5 mb-0 me-2"></Icon.ArrowRight> {data.desc}</li>
                                     )
                                 })
                             }
@@ -204,7 +204,7 @@ export default function JobDetails(){
                         <p className="text-slate-400 mb-4">Employees residing outside of Japan are classified as Independent Contractors and are paid in the cryptocurrency of their choice.</p>
 
                         <div className="mt-6">
-                            <Link href="/page-job-apply" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Apply now</Link>
+                            <Link href="/page-job-apply" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Apply now</Link>
                         </div>
                     </div>
                 </div>

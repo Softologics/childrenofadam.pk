@@ -36,7 +36,7 @@ export default function BlogLeftSidebarPost(){
 
                             <div className="mt-6">
                                 <p className="text-slate-400">The most well-known dummy text is the Lorem Ipsum, which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to proper Latin. It contains a series of real Latin words. This ancient dummy text is also incomprehensible, but it imitates the rhythm of most European languages in Latin script.</p>
-                                <p className="text-slate-400 italic border-x-4 border-indigo-600 rounded-ss-xl rounded-ee-xl mt-3 p-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which Do not look even slightly believable. </p>
+                                <p className="text-slate-400 italic border-x-4 border-red-600 rounded-ss-xl rounded-ee-xl mt-3 p-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which Do not look even slightly believable. </p>
                                 <p className="text-slate-400 mt-3">The advantage of its Latin origin and the relative meaninglessness of Lorum Ipsum is that the text does not attract attention to itself or distract the viewers attention from the layout.</p>
                             </div>
                         </div>
@@ -50,12 +50,12 @@ export default function BlogLeftSidebarPost(){
                                         <Image src="/images/client/01.jpg" height={44} width={44} className="h-11 w-11 rounded-full shadow" alt="" />
 
                                         <div className="ms-3 flex-1">
-                                            <Link href="#" className="text-lg font-semibold hover:text-indigo-600 transition-all duration-500 ease-in-out">Calvin Carlo</Link>
+                                            <Link href="#" className="text-lg font-semibold hover:text-red-600 transition-all duration-500 ease-in-out">Calvin Carlo</Link>
                                             <p className="text-sm text-slate-400">6th May 2022 at 01:25 pm</p>
                                         </div>
                                     </div>
 
-                                    <Link href="#" className="text-slate-400 hover:text-indigo-600 transition-all duration-500 ease-in-out ms-5"><i className="mdi mdi-reply"></i> Reply</Link>
+                                    <Link href="#" className="text-slate-400 hover:text-red-600 transition-all duration-500 ease-in-out ms-5"><i className="mdi mdi-reply"></i> Reply</Link>
                                 </div>
                                 <div className="p-4 bg-gray-50 dark:bg-slate-800 rounded-md shadow dark:shadow-gray-800 mt-6">
                                     <p className="text-slate-400 italic">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour </p>
@@ -68,12 +68,12 @@ export default function BlogLeftSidebarPost(){
                                         <Image src="/images/client/02.jpg" height={44} width={44} className="h-11 w-11 rounded-full shadow" alt="" />
 
                                         <div className="ms-3 flex-1">
-                                            <Link href="#" className="text-lg font-semibold hover:text-indigo-600 transition-all duration-500 ease-in-out">Calvin Carlo</Link>
+                                            <Link href="#" className="text-lg font-semibold hover:text-red-600 transition-all duration-500 ease-in-out">Calvin Carlo</Link>
                                             <p className="text-sm text-slate-400">6th May 2022 at 01:25 pm</p>
                                         </div>
                                     </div>
 
-                                    <Link href="#" className="text-slate-400 hover:text-indigo-600 transition-all duration-500 ease-in-out ms-5"><i className="mdi mdi-reply"></i> Reply</Link>
+                                    <Link href="#" className="text-slate-400 hover:text-red-600 transition-all duration-500 ease-in-out ms-5"><i className="mdi mdi-reply"></i> Reply</Link>
                                 </div>
                                 <div className="p-4 bg-gray-50 dark:bg-slate-800 rounded-md shadow dark:shadow-gray-800 mt-6">
                                     <p className="text-slate-400 italic">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour </p>
@@ -86,12 +86,12 @@ export default function BlogLeftSidebarPost(){
                                         <Image src="/images/client/03.jpg" height={44} width={44} className="h-11 w-11 rounded-full shadow" alt="" />
 
                                         <div className="ms-3 flex-1">
-                                            <Link href="#" className="text-lg font-semibold hover:text-indigo-600 transition-all duration-500 ease-in-out">Calvin Carlo</Link>
+                                            <Link href="#" className="text-lg font-semibold hover:text-red-600 transition-all duration-500 ease-in-out">Calvin Carlo</Link>
                                             <p className="text-sm text-slate-400">6th May 2022 at 01:25 pm</p>
                                         </div>
                                     </div>
 
-                                    <Link href="#" className="text-slate-400 hover:text-indigo-600 transition-all duration-500 ease-in-out ms-5"><i className="mdi mdi-reply"></i> Reply</Link>
+                                    <Link href="#" className="text-slate-400 hover:text-red-600 transition-all duration-500 ease-in-out ms-5"><i className="mdi mdi-reply"></i> Reply</Link>
                                 </div>
                                 <div className="p-4 bg-gray-50 dark:bg-slate-800 rounded-md shadow dark:shadow-gray-800 mt-6">
                                     <p className="text-slate-400 italic">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour </p>
@@ -104,12 +104,12 @@ export default function BlogLeftSidebarPost(){
                                         <Image src="/images/client/04.jpg" height={44} width={44} className="h-11 w-11 rounded-full shadow" alt="" />
 
                                         <div className="ms-3 flex-1">
-                                            <Link href="#"  className="text-lg font-semibold hover:text-indigo-600 transition-all duration-500 ease-in-out">Calvin Carlo</Link>
+                                            <Link href="#"  className="text-lg font-semibold hover:text-red-600 transition-all duration-500 ease-in-out">Calvin Carlo</Link>
                                             <p className="text-sm text-slate-400">6th May 2022 at 01:25 pm</p>
                                         </div>
                                     </div>
 
-                                    <Link href="#"  className="text-slate-400 hover:text-indigo-600 transition-all duration-500 ease-in-out ms-5"><i className="mdi mdi-reply"></i> Reply</Link>
+                                    <Link href="#"  className="text-slate-400 hover:text-red-600 transition-all duration-500 ease-in-out ms-5"><i className="mdi mdi-reply"></i> Reply</Link>
                                 </div>
                                 <div className="p-4 bg-gray-50 dark:bg-slate-800 rounded-md shadow dark:shadow-gray-800 mt-6">
                                     <p className="text-slate-400 italic">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour </p>
@@ -133,7 +133,7 @@ export default function BlogLeftSidebarPost(){
                             <div className="text-center subcribe-form">
                                 <form className="relative mx-auto max-w-xl">
                                     <input type="email" id="subemail" name="name" className="pt-4 pe-40 pb-4 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white/70 dark:bg-slate-900/70 border border-gray-100 dark:border-gray-700" placeholder="Enter your email id.." />
-                                    <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-full">Subcribe Now</button>
+                                    <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white rounded-full">Subcribe Now</button>
                                 </form>
                             </div>
                         </div>

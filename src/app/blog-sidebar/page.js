@@ -62,11 +62,11 @@ export default function BlogSideBar(){
                                                 <Image src={data.Image} width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} alt="" />
 
                                                 <div className="content p-6">
-                                                    <Link href={`/blog-detail/${data.id}`} className="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out">{data.title}</Link>
+                                                    <Link href={`/blog-detail/${data.id}`} className="title h5 text-lg font-medium hover:text-red-600 duration-500 ease-in-out">{data.title}</Link>
                                                     <p className="text-slate-400 mt-3">{data.desc}</p>
 
                                                     <div className="mt-4">
-                                                        <Link href={`/blog-detail/${data.id}`} className="relative inline-flex items-center font-normal tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                                                        <Link href={`/blog-detail/${data.id}`} className="relative inline-flex items-center font-normal tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 hover:text-red-600 after:bg-red-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -81,27 +81,27 @@ export default function BlogSideBar(){
                                 <nav>
                                     <ul className="inline-flex items-center -space-x-px">
                                         <li>
-                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 bg-white dark:bg-slate-900 rounded-s-lg hover:text-white border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 bg-white dark:bg-slate-900 rounded-s-lg hover:text-white border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">
                                                 <MdOutlineKeyboardArrowLeft className="text-[20px] rtl:rotate-180 rtl:-mt-1"/>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">1</Link>
+                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">1</Link>
                                         </li>
                                         <li>
-                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">2</Link>
+                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">2</Link>
                                         </li>
                                         <li>
-                                            <Link href="/#" aria-current="page" className="z-10 w-[40px] h-[40px] inline-flex justify-center items-center text-white bg-indigo-600 border border-indigo-600">3</Link>
+                                            <Link href="/#" aria-current="page" className="z-10 w-[40px] h-[40px] inline-flex justify-center items-center text-white bg-red-600 border border-red-600">3</Link>
                                         </li>
                                         <li>
-                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">4</Link>
+                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">4</Link>
                                         </li>
                                         <li>
-                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">5</Link>
+                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">5</Link>
                                         </li>
                                         <li>
-                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 bg-white dark:bg-slate-900 rounded-e-lg hover:text-white border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                            <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 bg-white dark:bg-slate-900 rounded-e-lg hover:text-white border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">
                                                 <MdKeyboardArrowRight className="text-xl rtl:rotate-180 rtl:-mt-1"/>
                                             </Link>
                                         </li>
@@ -125,7 +125,7 @@ export default function BlogSideBar(){
                             <div className="text-center subcribe-form">
                                 <form className="relative mx-auto max-w-xl">
                                     <input type="email" id="subemail" name="name" className="pt-4 pe-40 pb-4 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white/70 dark:bg-slate-900/70 border border-gray-100 dark:border-gray-700" placeholder="Enter your email id.." />
-                                    <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-full">Subcribe Now</button>
+                                    <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white rounded-full">Subcribe Now</button>
                                 </form>
                             </div>
                         </div>

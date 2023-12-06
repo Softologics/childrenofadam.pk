@@ -38,7 +38,7 @@ export default function Hotel(){
 
         <section className="relative table w-full py-36 lg:py-64">
             <div className="absolute inset-0" id="overlay" style={{ backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundImage: `url('/images/hotel/bg2.jpg')` }}></div>
-            <div className="absolute inset-0 ltr:md:bg-gradient-to-l rtl:md:bg-gradient-to-r md:from-transparent md:via-indigo-600/80 md:to-indigo-800"></div>
+            <div className="absolute inset-0 ltr:md:bg-gradient-to-l rtl:md:bg-gradient-to-r md:from-transparent md:via-red-600/80 md:to-red-800"></div>
             <div className="container relative">
                 <div className="grid grid-cols-1">
                     <div className="md:text-start text-center mt-10">
@@ -67,26 +67,26 @@ export default function Hotel(){
                                 <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 gap-4">
                                     <div>
                                         <label className="font-semibold">Check in :</label>
-                                        <input name="date" type="date" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0 start" placeholder="Select date :" />
+                                        <input name="date" type="date" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0 start" placeholder="Select date :" />
                                     </div>
 
                                     <div>
                                         <label className="font-semibold">Check out :</label>
-                                        <input name="date1" type="date" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0 end" placeholder="Select date :" />
+                                        <input name="date1" type="date" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0 end" placeholder="Select date :" />
                                     </div>
 
                                     <div>
                                         <label className="font-semibold">Adults :</label>
-                                        <input type="number" min="0"  id="adult" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" required="" placeholder="Adults :" />
+                                        <input type="number" min="0"  id="adult" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" required="" placeholder="Adults :" />
                                     </div>
 
                                     <div>
                                         <label className="font-semibold">Childrens :</label>
-                                        <input type="number" min="0"  id="childrens" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" required="" placeholder="Childrens :" />
+                                        <input type="number" min="0"  id="childrens" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" required="" placeholder="Childrens :" />
                                     </div>
 
                                     <div className="lg:mt-7">
-                                        <input type="submit" id="submit" name="send" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md w-full" value="Search Now" />
+                                        <input type="submit" id="submit" name="send" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md w-full" value="Search Now" />
                                     </div>
                                 </div>
                             </form>
@@ -115,13 +115,13 @@ export default function Hotel(){
                             <p className="text-slate-400 max-w-xl">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with real content.</p>
 
                             <ul className="list-none text-slate-400 mt-4">
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Create your own skin to match your brand</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Create your own skin to match your brand</li>
                             </ul>
 
                             <div className="mt-6">
-                                <Link href="/contact-one" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2"><FaRegEnvelope className="me-2 text-sm"/> Contact us</Link>
+                                <Link href="/contact-one" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md me-2 mt-2"><FaRegEnvelope className="me-2 text-sm"/> Contact us</Link>
                             </div>
                             
                         </div>
@@ -178,13 +178,13 @@ export default function Hotel(){
                             <p className="text-slate-400 max-w-xl">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with real content.</p>
 
                             <ul className="list-none  text-slate-400 mt-4">
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Create your own skin to match your brand</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Create your own skin to match your brand</li>
                             </ul>
 
                             <div className="mt-6">
-                                <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white lightbox"><Icon.Video className="h-4 w-4"></Icon.Video></Link><span className="font-semibold ms-2 align-middle">Watch Now</span>
+                                <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white lightbox"><Icon.Video className="h-4 w-4"></Icon.Video></Link><span className="font-semibold ms-2 align-middle">Watch Now</span>
                             </div>
                             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="S_CGed6E610" onClose={() => setOpen(false)} />
                         </div>

@@ -90,7 +90,7 @@ export default function Business(){
                                         <p className="text-white/70 text-lg max-w-xl">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
 
                                         <div className="md:mt-8 mt-4">
-                                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Contact us</Link>
+                                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Contact us</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -108,7 +108,7 @@ export default function Business(){
                                         <p className="text-white/70 text-lg max-w-xl mx-auto">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
 
                                         <div className="mt-8">
-                                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">See Services</Link>
+                                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">See Services</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -126,7 +126,7 @@ export default function Business(){
                                         <p className="text-white/70 text-lg max-w-xl md:ms-auto">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
 
                                         <div className="mt-8">
-                                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Pricing Plans</Link>
+                                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Pricing Plans</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@ export default function Business(){
             </CarouselProvider>
         </section>
 
-        <section className="relative py-8 bg-indigo-600">
+        <section className="relative py-8 bg-red-600">
             <div className="container relative">
                 <CompanyLogo/>
             </div>
@@ -153,7 +153,7 @@ export default function Business(){
                                 <Image src="/images/business/about01.jpg" width={0} height={0} sizes="100vw" style={{width:"100%",height:"auto"}}  className="rounded-md shadow-md w-48 h-48" alt="" />
                                 <div className="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
                                     <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610"
-                                        className="lightbox h-14 w-14 rounded-full shadow-md dark:shadow-gyay-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600">
+                                        className="lightbox h-14 w-14 rounded-full shadow-md dark:shadow-gyay-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600">
                                         <i className="mdi mdi-play inline-flex items-center justify-center text-xl"></i>
                                     </Link>
                                 </div>
@@ -166,7 +166,7 @@ export default function Business(){
                         <div className="lg:ms-4">
                             <h4 className="mb-6 md:text-3xl text-2xl lg:leading-normal leading-normal font-medium">We are the largest <br /> Business expert </h4>
                             <p className="text-slate-400 max-w-xl">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with real content. This is required when, for example, the final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.</p>
-                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-3">Buy Now <i className="mdi mdi-chevron-right align-middle"></i></Link>
+                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md mt-3">Buy Now <i className="mdi mdi-chevron-right align-middle"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -174,7 +174,7 @@ export default function Business(){
 
             <div className="container relative md:mt-24 mt-16">
                 <div className="grid grid-cols-1 pb-8 text-center">
-                    <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">Who We Are ?</h6>
+                    <h6 className="text-red-600 text-sm font-bold uppercase mb-2">Who We Are ?</h6>
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Business strategies and top <br /> permormance ideas</h3>
 
                     <p className="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
@@ -185,14 +185,14 @@ export default function Business(){
                         let Icons = item.icon
                         return(
                             <div className="group text-center" key={index}>
-                                <Icons className="h-10 w-10 stroke-1 group-hover:stroke-[1.5px] group-hover:text-indigo-600 transition-all duration-500 ease-in-out mx-auto"/>
+                                <Icons className="h-10 w-10 stroke-1 group-hover:stroke-[1.5px] group-hover:text-red-600 transition-all duration-500 ease-in-out mx-auto"/>
                                 <div className="mt-6">
-                                    <Link href="#" className="text-xl font-semibold group-hover:text-indigo-600 transition-all duration-500 ease-in-out">Profitable Marketing</Link>
+                                    <Link href="#" className="text-xl font-semibold group-hover:text-red-600 transition-all duration-500 ease-in-out">Profitable Marketing</Link>
 
                                     <p className="text-slate-400 mt-4">We develop digital strategies, products and services appreciated by clients.</p>
 
                                     <div className="mt-4">
-                                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Read More <FaArrowRight className="ms-2 text-[10px]"/> </Link>
+                                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 hover:text-red-600 after:bg-red-600 duration-500 ease-in-out">Read More <FaArrowRight className="ms-2 text-[10px]"/> </Link>
                                     </div>
                                 </div>
                             </div>
@@ -208,7 +208,7 @@ export default function Business(){
                 <div className="grid grid-cols-1 text-center">
                     <h3 className="mb-4 md:text-3xl text-2xl text-white font-medium">Stop leaving money on the table.</h3>
                     <p className="text-white/80 max-w-xl mx-auto">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                    <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 mx-auto mt-10">
+                    <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 mx-auto mt-10">
                         <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                     </Link>
                 </div>
@@ -226,9 +226,9 @@ export default function Business(){
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 mt-8 gap-[30px]">
                     {PricingData.map((item,index)=>{
                         return(
-                            <div key={index} className="group border-b-[3px] dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 transition-all duration-500 ease-in-out hover:scale-105 relative shadow dark:shadow-gray-800 rounded-md bg-white dark:bg-slate-900">
+                            <div key={index} className="group border-b-[3px] dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 transition-all duration-500 ease-in-out hover:scale-105 relative shadow dark:shadow-gray-800 rounded-md bg-white dark:bg-slate-900">
                                 <div className="p-6 py-8">
-                                    <h6 className="font-bold uppercase mb-5 text-indigo-600">{item.title}</h6>
+                                    <h6 className="font-bold uppercase mb-5 text-red-600">{item.title}</h6>
         
                                     <div className="flex mb-5">
                                         <span className="text-xl font-semibold">$</span>
@@ -239,12 +239,12 @@ export default function Business(){
                                     <ul className="list-none text-slate-400">
                                         {item.subData.map((el,index)=>{
                                             return(
-                                                <li className="mb-1 flex" key={index}><BsCheckCircle className="text-indigo-600 text-base me-2"/>{el}</li>
+                                                <li className="mb-1 flex" key={index}><BsCheckCircle className="text-red-600 text-base me-2"/>{el}</li>
                                             )
                                         })}
                                        
                                     </ul>
-                                    <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Get Started</Link>
+                                    <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md mt-5">Get Started</Link>
                                 </div>
                             </div>
                         )

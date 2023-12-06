@@ -15,7 +15,7 @@ export default function PricingOne(){
                 <p className="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                 <div className="mt-6">
-                    <Link href="/page-pricing" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2"><RiMastercardLine className="me-1 text-lg"/> Subscribe Now</Link>
+                    <Link href="/page-pricing" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md me-2 mt-2"><RiMastercardLine className="me-1 text-lg"/> Subscribe Now</Link>
                 </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@ export default function PricingOne(){
                 <div className="grid md:grid-cols-2 grid-cols-1 md:gap-0 gap-[30px]">
                     <div className="group border-b-[3px] dark:border-gray-700 relative shadow dark:shadow-gray-800 rounded-md md:scale-110 z-3 bg-white dark:bg-slate-900">
                     <div className="p-6 py-8">
-                        <h6 className="font-bold uppercase mb-5 text-indigo-600">Starter</h6>
+                        <h6 className="font-bold uppercase mb-5 text-red-600">Starter</h6>
 
                         <div className="flex mb-5">
                         <span className="text-xl font-semibold">$</span>
@@ -34,18 +34,18 @@ export default function PricingOne(){
                         </div>
 
                         <ul className="list-none text-slate-400">
-                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/>Full Access</li>
-                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Source Files</li>
-                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Free Appointments</li>
-                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Enhanced Security</li>
+                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/>Full Access</li>
+                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Source Files</li>
+                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Free Appointments</li>
+                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Enhanced Security</li>
                         </ul>
-                        <Link href='#' className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Get Started</Link>
+                        <Link href='#' className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md mt-5">Get Started</Link>
                     </div>
                     </div>
 
                     <div className="group border-b-[3px] dark:border-gray-700 relative shadow dark:shadow-gray-800 rounded-md z-2 bg-gray-50 dark:bg-slate-800">
                     <div className="p-6 py-8 md:ps-10">
-                        <h6 className="font-bold uppercase mb-5 text-indigo-600">Professional</h6>
+                        <h6 className="font-bold uppercase mb-5 text-red-600">Professional</h6>
 
                         <div className="flex mb-5">
                         <span className="text-xl font-semibold">$</span>
@@ -54,12 +54,12 @@ export default function PricingOne(){
                         </div>
 
                         <ul className="list-none text-slate-400">
-                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Full Access</li>
-                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Source Files</li>
-                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Free Appointments</li>
-                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Enhanced Security</li>
+                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Full Access</li>
+                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Source Files</li>
+                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Free Appointments</li>
+                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Enhanced Security</li>
                         </ul>
-                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Try it Now</Link>
+                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md mt-5">Try it Now</Link>
                     </div>
                     </div>
                 </div>

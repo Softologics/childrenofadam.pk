@@ -127,11 +127,11 @@ export default function Portfolio(){
         <section className="relative table w-full pt-28 lg:pt-36">
             <div className="container relative">
                 <div className="grid grid-cols-1 mt-10 text-center">
-                    <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text mb-5">Building <br /> digital products, brands, <br /> and experience.</h4>
+                    <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl bg-gradient-to-r from-red-600 to-red-600 text-transparent bg-clip-text mb-5">Building <br /> digital products, brands, <br /> and experience.</h4>
                     <p className="text-slate-400 text-lg max-w-xl mx-auto">A <span className="text-black dark:text-white font-semibold">Product Designer</span> and <span className="text-black dark:text-white font-semibold">Visual Developer</span> in NY. We specialize in UI/UX Design, Responsive Web Design, and Visual Development.</p>
 
                     <div className="mt-6">
-                        <Link href="/contact-one" className="py-2 px-5 inline-flex items-center  font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full"><FaRegEnvelope className="me-2 text-sm"/> Contact Us</Link>
+                        <Link href="/contact-one" className="py-2 px-5 inline-flex items-center  font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-full"><FaRegEnvelope className="me-2 text-sm"/> Contact Us</Link>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@ export default function Portfolio(){
                                                 <Image src={data.image} width={0} height={0} sizes="100vw" style={{height:"auto", width:"100%"}} className="" alt="" />
                                             </Link>
                                             <div className="absolute -bottom-52 group-hover:bottom-2 start-2 end-2 transition-all duration-500 bg-white dark:bg-slate-900 p-4 rounded shadow dark:shadow-gray-800">
-                                                <Link href="/portfolio-detail-two" className="hover:text-indigo-600 text-lg transition duration-500 font-medium">Iphone mockup</Link>
+                                                <Link href="/portfolio-detail-two" className="hover:text-red-600 text-lg transition duration-500 font-medium">Iphone mockup</Link>
                                                 <h6 className="text-slate-400">Branding</h6>
                                             </div>
                                         </div>
@@ -191,7 +191,7 @@ export default function Portfolio(){
                 )}
 
                 <div className="flex justify-center mt-8">
-                    <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full">See More</Link>
+                    <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-full">See More</Link>
                 </div>
             </div>
             <AvailableProject/>

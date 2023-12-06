@@ -76,7 +76,7 @@ export default function UserSocial(){
                         <form>
                             <div className="form-icon relative">
                             <Icon.Twitter className="w-4 h-4 absolute top-3 start-4"></Icon.Twitter>
-                            <input type="text" className="form-input ps-12 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Twitter Profile Name" id="twitter_name" name="name" required="" />
+                            <input type="text" className="form-input ps-12 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Twitter Profile Name" id="twitter_name" name="name" required="" />
                             </div>
                         </form>
 
@@ -93,7 +93,7 @@ export default function UserSocial(){
                         <form>
                             <div className="form-icon relative">
                             <Icon.Facebook className="w-4 h-4 absolute top-3 start-4"></Icon.Facebook>
-                            <input type="text" className="form-input ps-12 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Facebook Profile Name" id="facebook_name" name="name" required="" />
+                            <input type="text" className="form-input ps-12 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Facebook Profile Name" id="facebook_name" name="name" required="" />
                             </div>
                         </form>
 
@@ -110,7 +110,7 @@ export default function UserSocial(){
                         <form>
                             <div className="form-icon relative">
                             <Icon.Instagram className="w-4 h-4 absolute top-3 start-4"></Icon.Instagram>
-                            <input type="text" className="form-input ps-12 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Instagram Profile Name" id="insta_name" name="name" required="" />
+                            <input type="text" className="form-input ps-12 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Instagram Profile Name" id="insta_name" name="name" required="" />
                             </div>
                         </form>
 
@@ -127,7 +127,7 @@ export default function UserSocial(){
                         <form>
                             <div className="form-icon relative">
                             <Icon.Linkedin className="w-4 h-4 absolute top-3 start-4"></Icon.Linkedin>
-                            <input type="text" className="form-input ps-12 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Linkedin Profile Name" id="linkedin_name" name="name" required="" />
+                            <input type="text" className="form-input ps-12 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Linkedin Profile Name" id="linkedin_name" name="name" required="" />
                             </div>
                         </form>
 
@@ -144,7 +144,7 @@ export default function UserSocial(){
                         <form>
                             <div className="form-icon relative">
                             <Icon.Youtube className="w-4 h-4 absolute top-3 start-4"></Icon.Youtube>
-                            <input type="url" className="form-input ps-12 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Youtube url" id="you_url" name="url" required="" />
+                            <input type="url" className="form-input ps-12 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Youtube url" id="you_url" name="url" required="" />
                             </div>
                         </form>
 
@@ -155,7 +155,7 @@ export default function UserSocial(){
                     <div className="md:flex">
                         <div className="md:w-1/3">
                         <span className="font-medium"></span>
-                        <button className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-5">Save Social Profile</button>
+                        <button className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md mt-5">Save Social Profile</button>
                         </div>
                     </div>
                     </div>

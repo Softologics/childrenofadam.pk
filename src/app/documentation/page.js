@@ -28,9 +28,9 @@ export default function Documentation(){
 
                 <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
                     <ul className="tracking-[0.5px] mb-0 inline-flex space-x-1">
-                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><Link href="/">Techwind</Link></li>
+                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-red-600"><Link href="/">Techwind</Link></li>
                         <li className="inline-block text-base mx-0.5 ltr:rotate-0 rtl:rotate-180"><MdKeyboardArrowRight className="text-xl"/></li>
-                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-indigo-600"aria-current="page">Documentation</li>
+                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-red-600"aria-current="page">Documentation</li>
                     </ul>
                 </div>
             </section>
@@ -74,7 +74,7 @@ export default function Documentation(){
                                     <div className="ml-2">
                                         <h6>Nodejs</h6>
                                         <p className="text-slate-400 text-base leading-8">Make sure to have the <Link href="https://nodejs.org/"
-                                                className="text-indigo-600 font-semibold mx-2" target="_blank">Node.js</Link>
+                                                className="text-red-600 font-semibold mx-2" target="_blank">Node.js</Link>
                                             installed & running in your computer. If you already have installed Node on
                                             your computer, you can skip this step if your existing node version is
                                             greater than 16.</p>
@@ -86,7 +86,7 @@ export default function Documentation(){
                                     <div className="ml-2">
                                         <h6>Git</h6>
                                         <p className="text-slate-400 text-base leading-8">Make sure to have the <Link href="https://git-scm.com/"
-                                                className="text-indigo-600 font-semibold mx-2" target="_blank">Git</Link> installed
+                                                className="text-red-600 font-semibold mx-2" target="_blank">Git</Link> installed
                                             globally & running on your computer. If you already have installed git on
                                             your computer, you can skip this step.</p>
                                     </div>
@@ -138,7 +138,7 @@ export default function Documentation(){
                                                 Runs the project locally, starts the development server and watches for any
                                                 changes in your code, including your HTML, javascript, sass, etc. The
                                                 development server is accessible at <Link href="http://localhost:3000"
-                                                    className="text-indigo-600 font-semibold mx-2"
+                                                    className="text-red-600 font-semibold mx-2"
                                                     target="_blank">http://localhost:3000</Link>.
                                             </td>
                                         </tr>

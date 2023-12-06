@@ -65,14 +65,14 @@ export default function JobCareer(){
                                         <Image src={data.image} width={80} height={80} className="rounded-full shadow-md h-20 w-20 mx-auto block" alt="" />
 
                                         <div className="mt-3">
-                                            <Link href={`/page-job-candidate-detail/${data.id}`} className="text-lg font-medium hover:text-indigo-600 transition duration-500 block">{data.name}</Link>
+                                            <Link href={`/page-job-candidate-detail/${data.id}`} className="text-lg font-medium hover:text-red-600 transition duration-500 block">{data.name}</Link>
                                             <span className="block text-sm text-slate-400">Web Designer</span>
                                         </div>
                                     </div>
 
                                     <div className="flex items-center justify-around my-4">
-                                        <span className="text-slate-400 flex items-center"><RiMapPinLine  className="text-indigo-600 me-1"/>London</span>
-                                        <span className="text-slate-400 flex items-center"><PiCurrencyDollarSimpleLight className="text-indigo-600 me-2"/>3300/mo</span>
+                                        <span className="text-slate-400 flex items-center"><RiMapPinLine  className="text-red-600 me-1"/>London</span>
+                                        <span className="text-slate-400 flex items-center"><PiCurrencyDollarSimpleLight className="text-red-600 me-2"/>3300/mo</span>
                                     </div>
 
                                     <Link href="#" className="bg-gray-100 dark:bg-gray-800 text-slate-400 text-xs font-medium px-3 py-1 rounded-lg h-[24px] inline-block m-1">PHP</Link>
@@ -81,11 +81,11 @@ export default function JobCareer(){
                                     <Link href="#" className="bg-gray-100 dark:bg-gray-800 text-slate-400 text-xs font-medium px-3 py-1 rounded-lg h-[24px] inline-block m-1">WordPress</Link>
 
                                     <div className="mt-4">
-                                        <Link href={`/page-job-candidate-detail/${data.id}`} className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white rounded-md w-full">View Profile</Link>
+                                        <Link href={`/page-job-candidate-detail/${data.id}`} className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600/5 hover:bg-red-600 border-red-600/10 hover:border-red-600 text-red-600 hover:text-white rounded-md w-full">View Profile</Link>
                                     </div>
 
                                     <div className="absolute top-6 start-6">
-                                        <span className="bg-indigo-600/5 text-indigo-600 text-sm font-medium px-4 py-1 rounded-full h-[28px]">Featured</span>
+                                        <span className="bg-red-600/5 text-red-600 text-sm font-medium px-4 py-1 rounded-full h-[28px]">Featured</span>
                                     </div>
                                     <div className="absolute top-6 end-6">
                                         <Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 border hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700 rounded-full"><BiBookmark/></Link>

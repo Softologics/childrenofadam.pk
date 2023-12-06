@@ -83,27 +83,27 @@ export default function CorporateTwo(){
                     <p className="text-white/60 text-lg max-w-xl mx-auto">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
 
                     <div className="mt-8">
-                        <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-gray-50 hover:bg-indigo-600 border-gray-50 hover:border-indigo-600 text-slate-900 hover:text-white rounded-md">Learn More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                        <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-gray-50 hover:bg-red-600 border-gray-50 hover:border-red-600 text-slate-900 hover:text-white rounded-md">Learn More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                     </div>
                 </div>
             </div>
         </section>
         <div className="relative">
-            <div className="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden z-1 text-indigo-600">
+            <div className="shape absolute sm:-bottom-px -bottom-[2px] start-0 end-0 overflow-hidden z-1 text-red-600">
                 <svg className="w-full h-auto scale-[2.0] origin-top" viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
                 </svg>
             </div>
         </div>
 
-        <section className="relative bg-indigo-600 py-10">
+        <section className="relative bg-red-600 py-10">
             <div className="container relative">
                 <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
                     {
                         aboutData.map((item,index)=>{
                             let Icons = item.icon
                             return(
-                                <div key={index} className="group px-6 py-8 hover:bg-indigo-700 duration-500 ease-in-out">
+                                <div key={index} className="group px-6 py-8 hover:bg-red-700 duration-500 ease-in-out">
                                     <Icons className="h-10 w-10 stroke-1 text-white"/>
                                     <div className="content mt-6">
                                         <Link href="#" className="text-lg font-semibold text-white/80 hover:text-white">{item.title}</Link>
@@ -125,11 +125,11 @@ export default function CorporateTwo(){
             <div className="container relative">
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px]">
                     <div className="lg:col-span-4 md:col-span-6 lg:order-1 order-2 lg:text-center">
-                        <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-indigo-600 hover:bg-indigo-700 text-white duration-500 ease-in-out mx-auto">
+                        <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-red-600 hover:bg-red-700 text-white duration-500 ease-in-out mx-auto">
                             <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                         </Link>
 
-                        <h6 className="text-indigo-600 text-sm font-bold uppercase mt-8 mb-2">About Us</h6>
+                        <h6 className="text-red-600 text-sm font-bold uppercase mt-8 mb-2">About Us</h6>
                         <h3 className="mb-4 md:text-4xl md:leading-normal text-3xl leading-normal font-bold">Who we are ?</h3>
                         <p className="text-slate-400 max-w-xl">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
                     </div>
@@ -141,9 +141,9 @@ export default function CorporateTwo(){
                     <div className="lg:col-span-4 md:col-span-12 lg:order-3 order-2">
                         <p className="text-slate-400">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
                         <ul className="list-none text-slate-400 mt-4">
-                            <li className="mb-1 flex items-center"><AiOutlineCheckCircle className="text-indigo-600 text-xl me-2"/> Digital Marketing Solutions for Tomorrow</li>
-                            <li className="mb-1 flex items-center"><AiOutlineCheckCircle className="text-indigo-600 text-xl me-2"/> Our Talented &amp; Experienced Marketing Agency</li>
-                            <li className="mb-1 flex items-center"><AiOutlineCheckCircle className="text-indigo-600 text-xl me-2"/> Create your own skin to match your brand</li>
+                            <li className="mb-1 flex items-center"><AiOutlineCheckCircle className="text-red-600 text-xl me-2"/> Digital Marketing Solutions for Tomorrow</li>
+                            <li className="mb-1 flex items-center"><AiOutlineCheckCircle className="text-red-600 text-xl me-2"/> Our Talented &amp; Experienced Marketing Agency</li>
+                            <li className="mb-1 flex items-center"><AiOutlineCheckCircle className="text-red-600 text-xl me-2"/> Create your own skin to match your brand</li>
                         </ul>
                     </div>
                 </div>
@@ -161,14 +161,14 @@ export default function CorporateTwo(){
                     {services.map((item,index)=>{
                         let Icons = item.icon
                         return(
-                            <div key={index} className="group px-6 py-8 bg-white dark:bg-slate-900 shadow hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out border-t-[3px] border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600">
-                                <Icons className="w-7 h-7 text-indigo-600"/>
+                            <div key={index} className="group px-6 py-8 bg-white dark:bg-slate-900 shadow hover:shadow-lg dark:hover:shadow-gray-800 duration-500 ease-in-out border-t-[3px] border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600">
+                                <Icons className="w-7 h-7 text-red-600"/>
                                 <div className="content mt-6">
-                                    <Link href="#" className="text-xl font-semibold hover:text-indigo-600 duration-500 ease-in-out">{item.title}</Link>
+                                    <Link href="#" className="text-xl font-semibold hover:text-red-600 duration-500 ease-in-out">{item.title}</Link>
                                     <p className="text-slate-400 mt-4">{item.desc}</p>
 
                                     <div className="mt-5">
-                                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                                     </div>
                                 </div>
                             </div>
@@ -186,7 +186,7 @@ export default function CorporateTwo(){
 
                     <p className="text-white/80 max-w-xl mx-auto">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
-                    <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 mx-auto mt-10">
+                    <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 mx-auto mt-10">
                         <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                     </Link>
                 </div>
@@ -202,7 +202,7 @@ export default function CorporateTwo(){
                     </div>
 
                     <div className="lg:col-span-4 md:col-span-6 md:text-end hidden md:block">
-                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">See More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">See More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                     </div>
                 </div>
 
@@ -210,13 +210,13 @@ export default function CorporateTwo(){
                     <div className="sm:w-1/2 picture-item p-4 rounded-md">
                         <div className="">
                             <div className="relative">
-                                <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-indigo-600/5 dark:bg-indigo-600/30">
+                                <div className="shadow dark:shadow-gray-800 p-5 pb-0 rounded-md bg-red-600/5 dark:bg-red-600/30">
                                     <Image src="/images/portfolio/01.jpg" width={0} height={0} sizes="100vw" style={{width:"100%", height:"auto" }} className="rounded-t-md shadow" alt="" />
                                 </div>
                             </div>
 
                             <div className="pt-4 px-3">
-                                <h5 className="mb-1 font-semibold text-xl"><Link href="#" className="hover:text-indigo-600 transition-all duration-500 ease-in-out">Techwind Personal Portfolio</Link></h5>
+                                <h5 className="mb-1 font-semibold text-xl"><Link href="#" className="hover:text-red-600 transition-all duration-500 ease-in-out">Techwind Personal Portfolio</Link></h5>
                                 <span className="text-slate-400">Creative</span>
                             </div>
                         </div>

@@ -149,7 +149,7 @@ export default function IndexLow(){
                     <p className="text-slate-300 text-lg max-w-xl">Create, collaborate, and turn your ideas into incredible products with the definitive platform for digital design.</p>
 
                     <div className="mt-8">
-                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white">Get Started</Link>
+                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white">Get Started</Link>
                     </div>
                 </div>
             </div>
@@ -158,8 +158,8 @@ export default function IndexLow(){
         <section className="relative md:py-24 py-16 bg-gray-50 dark:bg-slate-800 overflow-hidden">
             <div className="container relative">
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1">
-                    <div className="group relative p-6 hover:bg-indigo-600 dark:hover:bg-indigo-600 transition-all duration-500 ease-in-out bg-white dark:bg-slate-900 overflow-hidden text-center">
-                        <div className="w-20 h-20 bg-indigo-600 group-hover:bg-white text-white group-hover:text-indigo-600 rounded-full text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 dark:group-hover:shadow-gray-700 mx-auto">
+                    <div className="group relative p-6 hover:bg-red-600 dark:hover:bg-red-600 transition-all duration-500 ease-in-out bg-white dark:bg-slate-900 overflow-hidden text-center">
+                        <div className="w-20 h-20 bg-red-600 group-hover:bg-white text-white group-hover:text-red-600 rounded-full text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 dark:group-hover:shadow-gray-700 mx-auto">
                             <LiaUniversitySolid className="h-7 w-7"/>
                         </div>
 
@@ -169,8 +169,8 @@ export default function IndexLow(){
                         </div>
                     </div>
 
-                    <div className="group relative p-6 bg-indigo-600 dark:hover:bg-indigo-600 transition-all duration-500 ease-in-out overflow-hidden text-center">
-                        <div className="w-20 h-20 bg-white text-indigo-600 rounded-full text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-600 mx-auto">
+                    <div className="group relative p-6 bg-red-600 dark:hover:bg-red-600 transition-all duration-500 ease-in-out overflow-hidden text-center">
+                        <div className="w-20 h-20 bg-white text-red-600 rounded-full text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-600 mx-auto">
                             
                             <LiaMoneyBillAltSolid className="h-7 w-7"/>
                         </div>
@@ -181,8 +181,8 @@ export default function IndexLow(){
                         </div>
                     </div>
 
-                    <div className="group relative p-6 hover:bg-indigo-600 dark:hover:bg-indigo-600 transition-all duration-500 ease-in-out bg-white dark:bg-slate-900 overflow-hidden text-center">
-                        <div className="w-20 h-20 bg-indigo-600 group-hover:bg-white text-white group-hover:text-indigo-600 rounded-full text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 dark:group-hover:shadow-gray-700 mx-auto">
+                    <div className="group relative p-6 hover:bg-red-600 dark:hover:bg-red-600 transition-all duration-500 ease-in-out bg-white dark:bg-slate-900 overflow-hidden text-center">
+                        <div className="w-20 h-20 bg-red-600 group-hover:bg-white text-white group-hover:text-red-600 rounded-full text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 dark:group-hover:shadow-gray-700 mx-auto">
                            
                             <LiaAwardSolid className="h-7 w-7"/>
                         </div>
@@ -202,7 +202,7 @@ export default function IndexLow(){
                             <div className="relative">
                                 <Image src="/images/law/ab1.jpg" width={0} height={0} sizes='100vw' style={{width:"100%" , height:"auto"}} className="lg:w-[400px] w-[280px]" alt="" />
                                 <div className="absolute top-0 translate-y-2/4 end-0 text-center">
-                                    <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 dark:text-white">
+                                    <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 dark:text-white">
                                         <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                                     </Link>
                                 </div>
@@ -221,13 +221,13 @@ export default function IndexLow(){
                             <p className="text-slate-400 max-w-xl">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with real content.</p>
 
                             <ul className="list-none text-slate-400 mt-4">
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Create your own skin to match your brand</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Create your own skin to match your brand</li>
                             </ul>
 
                             <div className="mt-6">
-                                <Link href="/contact-one" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white me-2 mt-2"><FaRegEnvelope className="me-2 text-sm"/> Contact us</Link>
+                                <Link href="/contact-one" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white me-2 mt-2"><FaRegEnvelope className="me-2 text-sm"/> Contact us</Link>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@ export default function IndexLow(){
                     <p className="text-white/80 max-w-xl mx-auto mb-0">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                     <div className="mt-6">
-                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2">Free Consultation</Link>
+                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md me-2 mt-2">Free Consultation</Link>
                     </div>
                 </div>
             </div>
@@ -309,7 +309,7 @@ export default function IndexLow(){
                                             <label htmlFor="name" className="font-semibold">Your Name:</label>
                                             <div className="form-icon relative mt-2">
                                                 <Icon.User className="w-4 h-4 absolute top-3 start-4"></Icon.User>
-                                                <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Name :" />
+                                                <input name="name" id="name" type="text" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Name :" />
                                             </div>
                                         </div>
 
@@ -317,7 +317,7 @@ export default function IndexLow(){
                                             <label htmlFor="email" className="font-semibold">Your Email:</label>
                                             <div className="form-icon relative mt-2">
                                                 <Icon.Mail className="w-4 h-4 absolute top-3 start-4"></Icon.Mail>
-                                                <input name="email" id="email" type="email" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Email :" />
+                                                <input name="email" id="email" type="email" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Email :" />
                                             </div>
                                         </div>
 
@@ -325,7 +325,7 @@ export default function IndexLow(){
                                             <label htmlFor="subject" className="font-semibold">Your Question:</label>
                                             <div className="form-icon relative mt-2">
                                                 <Icon.Book className="w-4 h-4 absolute top-3 start-4"></Icon.Book>
-                                                <input name="subject" id="subject" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Subject :" />
+                                                <input name="subject" id="subject" className="form-input ps-11 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Subject :" />
                                             </div>
                                         </div>
 
@@ -333,15 +333,15 @@ export default function IndexLow(){
                                             <label htmlFor="comments" className="font-semibold">Your Comment:</label>
                                             <div className="form-icon relative mt-2">
                                                 <Icon.MessageCircle className="w-4 h-4 absolute top-3 start-4"></Icon.MessageCircle>
-                                                <textarea name="comments" id="comments" className="form-input ps-11 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Message :"></textarea>
+                                                <textarea name="comments" id="comments" className="form-input ps-11 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Message :"></textarea>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <button type="submit" id="submit" name="send" className="py-2 px-5 font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md justify-center flex items-center mt-3">Send Message</button>
+                                    <button type="submit" id="submit" name="send" className="py-2 px-5 font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md justify-center flex items-center mt-3">Send Message</button>
                                 </form>
                             </div>
-                            <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-indigo-600/5 bottom-0 end-0 rotate-45 -z-1 rounded-3xl"></div>
+                            <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-red-600/5 bottom-0 end-0 rotate-45 -z-1 rounded-3xl"></div>
                         </div>
                     </div>
 
@@ -349,13 +349,13 @@ export default function IndexLow(){
                         <h4 className="mb-4 text-2xl leading-normal font-medium">We Are Ready To Help <br /> You To Get a Solution.</h4>
                         <p className="text-slate-400">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
                         <ul className="list-none text-slate-400 mt-4">
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Create your own skin to match your brand</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Create your own skin to match your brand</li>
                         </ul>
 
                         <div className="mt-4">
-                            <Link href="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Find Out More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
+                            <Link href="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Find Out More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                         </div>
                     </div>
                 </div>
@@ -377,7 +377,7 @@ export default function IndexLow(){
                                         <Image src={item.image} width={64} height={64} className="h-16 w-16 rounded-full shadow dark:shadow-gray-800" alt="" />
     
                                         <div className="ps-4">
-                                            <Link href="#" className="text-lg hover:text-indigo-600 duration-500 ease-in-out">{item.name}</Link>
+                                            <Link href="#" className="text-lg hover:text-red-600 duration-500 ease-in-out">{item.name}</Link>
                                             <p className="text-slate-400">{item.title}</p>
                                         </div>
                                     </div>
@@ -399,7 +399,7 @@ export default function IndexLow(){
                                         <Image src={item.image1} width={64} height={64} className="h-16 w-16 rounded-full shadow dark:shadow-gray-800" alt="" />
     
                                         <div className="ps-4">
-                                            <Link href="#" className="text-lg hover:text-indigo-600 duration-500 ease-in-out">{item.name1}</Link>
+                                            <Link href="#" className="text-lg hover:text-red-600 duration-500 ease-in-out">{item.name1}</Link>
                                             <p className="text-slate-400">{item.title1}</p>
                                         </div>
                                     </div>
@@ -432,7 +432,7 @@ export default function IndexLow(){
                                     <Image src="/images/law/bg2.jpg" width={0} height={0} sizes='100vw' style={{height:"auto", width:"100%"}} className="shadow-lg" alt="" />
                                     <div className="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
                                         <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610"
-                                            className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 dark:text-white">
+                                            className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 dark:text-white">
                                             <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                                         </Link>
                                     </div>
@@ -464,14 +464,14 @@ export default function IndexLow(){
                 </div>
             </div>
 
-            <div className="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-indigo-500 to-indigo-600"></div>
+            <div className="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-red-500 to-red-600"></div>
         </section>
 
         
         <section className="relative md:pt-24 pt-16">
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-8 text-center">
-                    <h6 className="text-indigo-600 text-base mb-2">Our Minds</h6>
+                    <h6 className="text-red-600 text-base mb-2">Our Minds</h6>
                     <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Management Team</h3>
 
                     <p className="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>

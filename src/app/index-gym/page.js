@@ -199,7 +199,7 @@ export default function IndexGym(){
                 <p className="text-slate-300 text-lg max-w-xl mx-auto">Push your fitness further with our mix of facilities and We will support you with advice on new and better ways to train.</p>
 
                 <div className="mt-8">
-                    <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full lightbox p-1 ps-4">3:07 Min video <span className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-emerald-600 hover:bg-emerald-700 border-emerald-600 hover:border-emerald-700 text-white rounded-full ms-2"><i className="mdi mdi-play"></i></span></Link>
+                    <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-full lightbox p-1 ps-4">3:07 Min video <span className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center bg-emerald-600 hover:bg-emerald-700 border-emerald-600 hover:border-emerald-700 text-white rounded-full ms-2"><i className="mdi mdi-play"></i></span></Link>
                 </div>
             </div>
         </div>
@@ -214,7 +214,7 @@ export default function IndexGym(){
                     <div className="grid md:grid-cols-3 grid-cols-1 gap-[24px]">
                         {gymServices.map((item,index)=>{
                             return(
-                            <div key={index} className="group relative overflow-hidden p-6 rounded-lg shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out border-t-8 border-indigo-600/50">
+                            <div key={index} className="group relative overflow-hidden p-6 rounded-lg shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out border-t-8 border-red-600/50">
                                 <Image src={item.iconImage} width={64} height={64} className="w-16 h-16 mx-auto" alt="" />
     
                                 <div className="content mt-7">
@@ -251,7 +251,7 @@ export default function IndexGym(){
                         <div className="absolute bottom-16 end-0">
                             <Image src="/images/gym/about02.jpg" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} className="rounded-md shadow-md w-48 h-48" alt="" />
                             <div className="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
-                                <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-14 w-14 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 dark:text-white">
+                                <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-14 w-14 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 dark:text-white">
                                     <i className="mdi mdi-play inline-flex items-center justify-center text-xl"></i>
                                 </Link>
                             </div>
@@ -261,12 +261,12 @@ export default function IndexGym(){
 
                 <div className="md:col-span-7">
                     <div className="lg:ms-4">
-                        <h5 className="font-semibold text-base text-indigo-600 mb-2">Gym & Fitness</h5>
+                        <h5 className="font-semibold text-base text-red-600 mb-2">Gym & Fitness</h5>
                         <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Introducing Techwind, <br /> A Fitness Center</h4>
                         <p className="text-slate-400 max-w-xl">Push your fitness further with our mix of facilities and We will support you with advice on new and better ways to train.</p>
                         <p className="text-slate-400 max-w-xl mt-3">It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. This might also explain why one can now find slightly different versions.</p>
                         <div className="mt-6">
-                            <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Read More<MdKeyboardArrowRight className="text-xl ms-1"/></Link>
+                            <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Read More<MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                         </div>
                     </div>
                 </div>
@@ -275,7 +275,7 @@ export default function IndexGym(){
 
         <div className="container-fluid relative md:mt-24 mt-16">
             <div className="grid grid-cols-1 pb-8 text-center">
-                <h5 className="font-semibold text-base text-indigo-600 mb-2">Gallery</h5>
+                <h5 className="font-semibold text-base text-red-600 mb-2">Gallery</h5>
                 <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Take a Sneak Peek Inside</h3>
 
                 <p className="text-slate-400 max-w-xl mx-auto">Push your fitness further with our mix of facilities and We will support you with advice on new and better ways to train.</p>
@@ -311,7 +311,7 @@ export default function IndexGym(){
 
         <div className="container relative md:mt-24 mt-16">
             <div className="grid grid-cols-1 pb-8 text-center">
-                <h5 className="font-semibold text-base text-indigo-600 mb-2">Timetable</h5>
+                <h5 className="font-semibold text-base text-red-600 mb-2">Timetable</h5>
                 <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Gym Schedule</h3>
 
                 <p className="text-slate-400 max-w-xl mx-auto">Push your fitness further with our mix of facilities and We will support you with advice on new and better ways to train.</p>
@@ -357,7 +357,7 @@ export default function IndexGym(){
 
         <div className="container relative md:mt-24 mt-16">
             <div className="grid grid-cols-1 pb-8 text-center">
-                <h5 className="font-semibold text-base text-indigo-600 mb-2">Team</h5>
+                <h5 className="font-semibold text-base text-red-600 mb-2">Team</h5>
                 <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Gym Trainer</h3>
 
                 <p className="text-slate-400 max-w-xl mx-auto">Push your fitness further with our mix of facilities and We will support you with advice on new and better ways to train.</p>
@@ -375,10 +375,10 @@ export default function IndexGym(){
                             <p className="text-white/50 relative -bottom-5 group-hover:bottom-0 transition-all duration-500">{item.title}</p>
 
                             <ul className="list-none relative -bottom-12 group-hover:bottom-0 transition-all duration-500 mt-4 flex justify-center space-x-1">
-                                <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border text-white rounded-md border-indigo-600 bg-indigo-600"><Icon.Facebook className="h-4 w-4"></Icon.Facebook></Link></li>
-                                <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border text-white rounded-md border-indigo-600 bg-indigo-600"><Icon.Instagram className="h-4 w-4"></Icon.Instagram></Link></li>
-                                <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border text-white rounded-md border-indigo-600 bg-indigo-600"><Icon.Twitter className="h-4 w-4"></Icon.Twitter></Link></li>
-                                <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border text-white rounded-md border-indigo-600 bg-indigo-600"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link></li>
+                                <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border text-white rounded-md border-red-600 bg-red-600"><Icon.Facebook className="h-4 w-4"></Icon.Facebook></Link></li>
+                                <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border text-white rounded-md border-red-600 bg-red-600"><Icon.Instagram className="h-4 w-4"></Icon.Instagram></Link></li>
+                                <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border text-white rounded-md border-red-600 bg-red-600"><Icon.Twitter className="h-4 w-4"></Icon.Twitter></Link></li>
+                                <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border text-white rounded-md border-red-600 bg-red-600"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link></li>
                             </ul>
                         </div>
                     </div>
@@ -398,10 +398,10 @@ export default function IndexGym(){
                 <p className="text-white/80 max-w-xl mx-auto">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                 <div className="mt-6">
-                    <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Buy Membership</Link>
+                    <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Buy Membership</Link>
                 </div>
 
-                <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-md dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 mx-auto mt-10">
+                <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-md dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 mx-auto mt-10">
                     <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                 </Link>
             </div>
@@ -413,7 +413,7 @@ export default function IndexGym(){
 
         <div className="container relative md:mt-24 mt-16">
             <div className="grid grid-cols-1 pb-8 text-center">
-                <h5 className="font-semibold text-base text-indigo-600 mb-2">Blogs</h5>
+                <h5 className="font-semibold text-base text-red-600 mb-2">Blogs</h5>
                 <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Our Blogs or News</h3>
 
                 <p className="text-slate-400 max-w-xl mx-auto">Push your fitness further with our mix of facilities and We will support you with advice on new and better ways to train.</p>
@@ -426,11 +426,11 @@ export default function IndexGym(){
                         <Image src={item.Image} height={0} width={0} sizes='100vw' style={{width:"100%", height:"auto"}} alt="" />
 
                         <div className="content p-6">
-                            <Link href={`/blog-detail/${item.id}`} className="title h5 text-lg font-medium hover:text-indigo-600 duration-500 ease-in-out">{item.title}</Link>
+                            <Link href={`/blog-detail/${item.id}`} className="title h5 text-lg font-medium hover:text-red-600 duration-500 ease-in-out">{item.title}</Link>
                             <p className="text-slate-400 mt-3">{item.desc}</p>
 
                             <div className="mt-4">
-                                <Link href={`/blog-detail/${item.id}`} className="relative inline-flex items-center font-normal tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More<FaArrowRight className="ms-2 text-[10px]"/></Link>
+                                <Link href={`/blog-detail/${item.id}`} className="relative inline-flex items-center font-normal tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 hover:text-red-600 after:bg-red-600 duration-500">Read More<FaArrowRight className="ms-2 text-[10px]"/></Link>
                             </div>
                         </div>
                     </div>

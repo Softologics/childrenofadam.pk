@@ -41,7 +41,7 @@ export default function NftDetails(props){
 
                     <div className="lg:col-span-6 md:col-span-7">
                         <div className="">
-                            <h5 className="lg:text-4xl lg:leading-relaxed text-2xl font-semibold">Wolf with Skull <span className="bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text">Orange <br /> Illustration</span> T-shirt Tattoo </h5>
+                            <h5 className="lg:text-4xl lg:leading-relaxed text-2xl font-semibold">Wolf with Skull <span className="bg-gradient-to-r from-red-600 to-red-600 text-transparent bg-clip-text">Orange <br /> Illustration</span> T-shirt Tattoo </h5>
 
                             <div className="grid md:grid-cols-2 grid-cols-1 mt-6">
                                 <div>
@@ -57,20 +57,20 @@ export default function NftDetails(props){
                             </div>
 
                             <div className="mt-6">
-                                <Link href="#"  onClick={()=>setShowModel(!showModal)}  className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2"><i className="mdi mdi-gavel fs-5 me-2"></i> Place a Bid</Link>
-                                <Link href="#"  onClick={()=>setBuyNow(!buyNow)}  data-modal-toggle="NftBuynow" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"><i className="mdi mdi-cart fs-5 me-2"></i> Buy Now</Link>
+                                <Link href="#"  onClick={()=>setShowModel(!showModal)}  className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md me-2"><i className="mdi mdi-gavel fs-5 me-2"></i> Place a Bid</Link>
+                                <Link href="#"  onClick={()=>setBuyNow(!buyNow)}  data-modal-toggle="NftBuynow" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md"><i className="mdi mdi-cart fs-5 me-2"></i> Buy Now</Link>
                             </div>
 
                             <div className="grid grid-cols-1 mt-8">
                                 <ul className="md:w-fit w-full flex-wrap justify-center text-center p-3 bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md" id="myTab" data-tabs-toggle="#StarterContent" role="tablist">
                                     <li role="presentation" className="md:inline-block block md:w-fit w-full">
-                                        <button onClick={() => handleTabClick(0)} className={`${isOpenTab === 0 ?'text-white bg-indigo-600 hover:text-white' : ''} px-4 py-2 text-center font-semibold rounded-md w-full  hover:text-indigo-600 transition-all duration-500 ease-in-out`} >Details</button>
+                                        <button onClick={() => handleTabClick(0)} className={`${isOpenTab === 0 ?'text-white bg-red-600 hover:text-white' : ''} px-4 py-2 text-center font-semibold rounded-md w-full  hover:text-red-600 transition-all duration-500 ease-in-out`} >Details</button>
                                     </li>
                                     <li role="presentation" className="md:inline-block block md:w-fit w-full">
-                                        <button onClick={() => handleTabClick(1)} className={`${isOpenTab === 1 ?'text-white bg-indigo-600 hover:text-white' : ''} px-4 py-2 text-center font-semibold rounded-md w-full  hover:text-indigo-600 transition-all duration-500 ease-in-out`} >Bids</button>
+                                        <button onClick={() => handleTabClick(1)} className={`${isOpenTab === 1 ?'text-white bg-red-600 hover:text-white' : ''} px-4 py-2 text-center font-semibold rounded-md w-full  hover:text-red-600 transition-all duration-500 ease-in-out`} >Bids</button>
                                     </li>
                                     <li role="presentation" className="md:inline-block block md:w-fit w-full">
-                                        <button onClick={() => handleTabClick(2)} className={`${isOpenTab === 2 ?'text-white bg-indigo-600 hover:text-white' : ''} px-4 py-2 text-center font-semibold rounded-md w-full  hover:text-indigo-600 transition-all duration-500 ease-in-out`} >Activity</button>
+                                        <button onClick={() => handleTabClick(2)} className={`${isOpenTab === 2 ?'text-white bg-red-600 hover:text-white' : ''} px-4 py-2 text-center font-semibold rounded-md w-full  hover:text-red-600 transition-all duration-500 ease-in-out`} >Activity</button>
                                     </li>
                                 </ul>
 
@@ -86,7 +86,7 @@ export default function NftDetails(props){
                                                     <Image src="/images/client/08.jpg" width={64} height={64} className="h-16 w-16 rounded-full shadow-md dark:shadow-gray-800" alt="" />
 
                                                     <div className="ms-3">
-                                                        <h6 className="text-lg font-semibold"><Link href="/" className="hover:text-indigo-600 duration-500 ease-in-out">PandaOne</Link></h6>
+                                                        <h6 className="text-lg font-semibold"><Link href="/" className="hover:text-red-600 duration-500 ease-in-out">PandaOne</Link></h6>
                                                     </div>
                                                 </div>
                                             </div>
@@ -101,7 +101,7 @@ export default function NftDetails(props){
                                                     </div>
 
                                                     <div className="ms-3">
-                                                        <h6 className="text-lg font-semibold">2 WETH <span className="text-slate-400">by</span> <Link href="/" className="hover:text-indigo-600 duration-500 ease-in-out">0xe849fa28a...ea14</Link></h6>
+                                                        <h6 className="text-lg font-semibold">2 WETH <span className="text-slate-400">by</span> <Link href="/" className="hover:text-red-600 duration-500 ease-in-out">0xe849fa28a...ea14</Link></h6>
                                                         <span className="text-slate-400">6 hours ago</span>
                                                     </div>
                                                 </div>
@@ -112,7 +112,7 @@ export default function NftDetails(props){
                                                     </div>
 
                                                     <div className="ms-3">
-                                                        <h6 className="text-lg font-semibold">0.001 WETH <span className="text-slate-400">by</span> <Link href="/" className="hover:text-indigo-600 duration-500 ease-in-out">VOTwear</Link></h6>
+                                                        <h6 className="text-lg font-semibold">0.001 WETH <span className="text-slate-400">by</span> <Link href="/" className="hover:text-red-600 duration-500 ease-in-out">VOTwear</Link></h6>
                                                         <span className="text-slate-400">6 hours ago</span>
                                                     </div>
                                                 </div>
@@ -123,7 +123,7 @@ export default function NftDetails(props){
                                                     </div>
 
                                                     <div className="ms-3">
-                                                        <h6 className="text-lg font-semibold">1.225 WETH <span className="text-slate-400">by</span> <Link href="/" className="hover:text-indigo-600 duration-500 ease-in-out">PandaOne</Link></h6>
+                                                        <h6 className="text-lg font-semibold">1.225 WETH <span className="text-slate-400">by</span> <Link href="/" className="hover:text-red-600 duration-500 ease-in-out">PandaOne</Link></h6>
                                                         <span className="text-slate-400">6 hours ago</span>
                                                     </div>
                                                 </div>
@@ -144,7 +144,7 @@ export default function NftDetails(props){
                                                         </div>
 
                                                         <span className="content ms-3">
-                                                            <Link href="/" className="hover:text-indigo-600 text-lg block">Digital Art Collection</Link>
+                                                            <Link href="/" className="hover:text-red-600 text-lg block">Digital Art Collection</Link>
                                                             <span className="text-slate-400 block mt-1">Started Following <Link href="/" className="link font-semibold">@Panda</Link></span>
 
                                                             <span className="text-slate-400 block mt-1">1 hours ago</span>
@@ -179,17 +179,17 @@ export default function NftDetails(props){
                                         </div>
         
                                         <div className="absolute top-1/2 -translate-y-1/2 start-0 end-0 text-center opacity-0 group-hover:opacity-100 scale-0 group-hover:scale-100 duration-500 ease-in-out">
-                                            <Link href={`/nft-detail/${item.id}`} className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Place Bid</Link>
+                                            <Link href={`/nft-detail/${item.id}`} className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Place Bid</Link>
                                         </div>
                                     </div>
         
                                     <div className="p-6 relative">
-                                        <Link href={`/nft-detail/${item.id}`} className="text-lg font-semibold hover:text-indigo-600 duration-500 ease-in-out">{item.title}</Link>
+                                        <Link href={`/nft-detail/${item.id}`} className="text-lg font-semibold hover:text-red-600 duration-500 ease-in-out">{item.title}</Link>
         
                                         <div className="flex items-center justify-between mt-2">
                                             <div className="flex items-center">
-                                                <i className="mdi mdi-ethereum text-xl leading-none text-indigo-600 me-1"></i>
-                                                <span className="block font-semibold text-indigo-600">{item.amount}</span>
+                                                <i className="mdi mdi-ethereum text-xl leading-none text-red-600 me-1"></i>
+                                                <span className="block font-semibold text-red-600">{item.amount}</span>
                                             </div>
         
                                             <div>

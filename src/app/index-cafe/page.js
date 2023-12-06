@@ -108,7 +108,7 @@ export default function IndexCafe(){
                         <span className="font-cursive-kaushan text-white lg:text-9xl lg:leading-tight md:text-8xl md:leading-tight text-6xl leading-tight block">Great Coffee <br /> Good Vibes</span>
 
                         <div className="mt-8">
-                            <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Explore More<FaArrowRight className="ms-2 text-[10px]"/></Link>
+                            <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Explore More<FaArrowRight className="ms-2 text-[10px]"/></Link>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@ export default function IndexCafe(){
                             <div className="group transition-all duration-500 ease-in-out md:text-end text-start">
                                 <Image src="/images/cafe/icons/coffee-time.svg" width={64} height={64} className="h-16 w-16 md:ms-auto p-3 rounded-full shadow-md dark:shadow-gray-800 bg-white" alt="" />
                                 <div className="mt-2 md:order-1 order-2">
-                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-indigo-600">High Quality</Link>
+                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-red-600">High Quality</Link>
                                     <p className="text-slate-400 mt-3">Composed in a pseudo-Latin language which more or less pseudo-Latin.</p>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@ export default function IndexCafe(){
                             <div className="group transition-all duration-500 ease-in-out md:text-end text-start">
                                 <Image src="/images/cafe/icons/pot.svg" width={64} height={64} className="h-16 w-16 md:ms-auto p-3 rounded-full shadow-md dark:shadow-gray-800 bg-white" alt="" />
                                 <div className="mt-2 md:order-1 order-2">
-                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-indigo-600">Pure Grades</Link>
+                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-red-600">Pure Grades</Link>
                                     <p className="text-slate-400 mt-3">Composed in a pseudo-Latin language which more or less pseudo-Latin.</p>
                                 </div>
                             </div>
@@ -146,7 +146,7 @@ export default function IndexCafe(){
                             <div className="group transition-all duration-500 ease-in-out md:text-end text-start">
                                 <Image src="/images/cafe/icons/coffee-beans.svg" width={64} height={64} className="h-16 w-16 md:ms-auto p-3 rounded-full shadow-md dark:shadow-gray-800 bg-white" alt="" />
                                 <div className="mt-2 md:order-1 order-2">
-                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-indigo-600">Proper Roasting</Link>
+                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-red-600">Proper Roasting</Link>
                                     <p className="text-slate-400 mt-3">Composed in a pseudo-Latin language which more or less pseudo-Latin.</p>
                                 </div>
                             </div>
@@ -163,7 +163,7 @@ export default function IndexCafe(){
                             <div className="group transition-all duration-500 ease-in-out">
                                 <Image src="/images/cafe/icons/coffee.svg" width={64} height={64} className="h-16 w-16 p-3 rounded-full shadow-md dark:shadow-gray-800 bg-white" alt="" />
                                 <div className="mt-2">
-                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-indigo-600">The Perfect Cup</Link>
+                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-red-600">The Perfect Cup</Link>
                                     <p className="text-slate-400 mt-3">Composed in a pseudo-Latin language which more or less pseudo-Latin.</p>
                                 </div>
                             </div>
@@ -172,7 +172,7 @@ export default function IndexCafe(){
                             <div className="group transition-all duration-500 ease-in-out">
                                 <Image src="/images/cafe/icons/drip-glass.svg" width={64} height={64} className="h-16 w-16 p-3 rounded-full shadow-md dark:shadow-gray-800 bg-white" alt="" />
                                 <div className="mt-2">
-                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-indigo-600">Coffee Machine</Link>
+                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-red-600">Coffee Machine</Link>
                                     <p className="text-slate-400 mt-3">Composed in a pseudo-Latin language which more or less pseudo-Latin.</p>
                                 </div>
                             </div>
@@ -181,7 +181,7 @@ export default function IndexCafe(){
                             <div className="group transition-all duration-500 ease-in-out">
                                 <Image src="/images/cafe/icons/coffee-cup.svg" width={64} height={64} className="h-16 w-16 p-3 rounded-full shadow-md dark:shadow-gray-800 bg-white" alt="" />
                                 <div className="mt-2">
-                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-indigo-600">Coffee to Go</Link>
+                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-red-600">Coffee to Go</Link>
                                     <p className="text-slate-400 mt-3">Composed in a pseudo-Latin language which more or less pseudo-Latin.</p>
                                 </div>
                             </div>
@@ -200,16 +200,16 @@ export default function IndexCafe(){
 
                         <h4 className="font-head-ebgaramond text-3xl font-medium mt-4">Happy Hours</h4>
 
-                        <p className="text-indigo-600 font-head-ebgaramond text-lg font-medium mt-2">Starts at 3pm</p>
+                        <p className="text-red-600 font-head-ebgaramond text-lg font-medium mt-2">Starts at 3pm</p>
 
                         <p className="text-slate-400 mt-4">The restaurant will open at 3pm for happy hour and dinner service starting at 5pm. We will continue to offer brunch on weekends from 10am-3pm with bottomless mimosas. We will also continue with our late night lounge on Friday and Saturdays until 2am.</p>
 
                         <div className="mt-4">
-                            <Link href="/tel:+152534-468-854" className="relative inline-block font-semibold tracking-wide align-middle text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 font-head-ebgaramond text-lg">+152 534-468-854</Link>
+                            <Link href="/tel:+152534-468-854" className="relative inline-block font-semibold tracking-wide align-middle text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500 font-head-ebgaramond text-lg">+152 534-468-854</Link>
                         </div>
 
                         <div className="mt-8">
-                            <Link href="#" className="py-2.5 px-6 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-lg text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Book Now</Link>
+                            <Link href="#" className="py-2.5 px-6 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-lg text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Book Now</Link>
                         </div>
                     </div>
                 </div>
@@ -232,8 +232,8 @@ export default function IndexCafe(){
 
                                     <div className="ms-3 w-full">
                                         <div className="flex justify-between pb-2 border-b border-gray-100 dark:border-gray-800">
-                                            <Link href="#" className="font-head-ebgaramond hover:text-indigo-600 text-xl font-semibold">{data.name}</Link>
-                                            <h6 className="text-indigo-600 font-semibold">${data.price}</h6>
+                                            <Link href="#" className="font-head-ebgaramond hover:text-red-600 text-xl font-semibold">{data.name}</Link>
+                                            <h6 className="text-red-600 font-semibold">${data.price}</h6>
                                         </div>
                                         <p className="text-slate-400 mt-2">A reader will be distracted by the readable</p>
                                     </div>
@@ -298,7 +298,7 @@ export default function IndexCafe(){
                             <div className="group flex transition-all duration-500 ease-in-out items-center">
                                 <Image src="/images/cafe/icons/coffee.svg" width={64} height={64} className="h-16 w-16 p-3 rounded-full shadow-md dark:shadow-gray-800 bg-white" alt="" />
                                 <div className="flex-1 ms-3">
-                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-indigo-600">The Perfect Cup</Link>
+                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-red-600">The Perfect Cup</Link>
                                     <p className="text-slate-400 mt-3">Composed in a pseudo-Latin language which more or less pseudo-Latin.</p>
                                 </div>
                             </div>
@@ -307,7 +307,7 @@ export default function IndexCafe(){
                             <div className="group flex transition-all duration-500 ease-in-out items-center">
                                 <Image src="/images/cafe/icons/drip-glass.svg" width={64} height={64} className="h-16 w-16 p-3 rounded-full shadow-md dark:shadow-gray-800 bg-white" alt="" />
                                 <div className="flex-1 ms-3">
-                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-indigo-600">Coffee Machine</Link>
+                                    <Link href="#" className="text-xl font-semibold font-head-ebgaramond hover:text-red-600">Coffee Machine</Link>
                                     <p className="text-slate-400 mt-3">Composed in a pseudo-Latin language which more or less pseudo-Latin.</p>
                                 </div>
                             </div>
@@ -315,7 +315,7 @@ export default function IndexCafe(){
                         </div>
 
                         <div className="mt-8">
-                            <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Explore More<FaArrowRight className="ms-2 text-[10px]"/></Link>
+                            <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Explore More<FaArrowRight className="ms-2 text-[10px]"/></Link>
                         </div>
                     </div>
                 </div>
@@ -335,11 +335,11 @@ export default function IndexCafe(){
                             <Image src={item.Image} width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} className="" alt="" />
     
                             <div className="content p-6">
-                                <Link href={`/blog-detail/${item.id}`} className="title h5 text-xl font-semibold font-head-ebgaramond hover:text-indigo-600 duration-500 ease-in-out">{item.title}</Link>
+                                <Link href={`/blog-detail/${item.id}`} className="title h5 text-xl font-semibold font-head-ebgaramond hover:text-red-600 duration-500 ease-in-out">{item.title}</Link>
                                 <p className="text-slate-400 mt-3">{item.desc}</p>
     
                                 <div className="mt-4">
-                                    <Link href={`/blog-detail/${item.id}`} className="relative inline-flex items-center font-normal tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/> </Link>
+                                    <Link href={`/blog-detail/${item.id}`} className="relative inline-flex items-center font-normal tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 hover:text-red-600 after:bg-red-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/> </Link>
                                 </div>
                             </div>
                         </div>
@@ -381,7 +381,7 @@ export default function IndexCafe(){
                         )}
 
                 <div className="absolute top-2/4 -translate-y-2/4 start-2/4 ltr:-translate-x-2/4 rtl:translate-x-2/4 text-center hidden md:block">
-                    <Link href="https://www.instagram.com/shreethemes/" target="_blank" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Follow Now</Link>
+                    <Link href="https://www.instagram.com/shreethemes/" target="_blank" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Follow Now</Link>
                 </div>
             </div>
         </div>

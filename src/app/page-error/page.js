@@ -14,7 +14,7 @@ export default function PageError() {
       }, []);
     return (
         <>
-            <section className="relative bg-indigo-600/5">
+            <section className="relative bg-red-600/5">
                 <div className="container-fluid relative">
                     <div className="grid grid-cols-1">
                         <div className="flex flex-col min-h-screen justify-center md:px-10 py-10 px-4">
@@ -27,7 +27,7 @@ export default function PageError() {
                                 <p className="text-slate-400">Whoops, this is embarassing. <br /> Looks like the page you were looking for was not found.</p>
 
                                 <div className="mt-4">
-                                    <Link href="/" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Back to Home</Link>
+                                    <Link href="/" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Back to Home</Link>
                                 </div>
                             </div>
                             <div className="text-center">

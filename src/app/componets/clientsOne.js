@@ -37,7 +37,7 @@ export default function ClientsOne({title,clients}){
     return(
             <div className="container relative" id="review">
                 <div className="grid grid-cols-1 pb-8 text-center">
-                    {title ? <h6 className="text-indigo-600 text-base mb-2">Testimonial</h6> : ""} 
+                    {title ? <h6 className="text-red-600 text-base mb-2">Testimonial</h6> : ""} 
                     {clients?  <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Happy Clients</h3> :
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">What Our Users Say</h3>
                     }
@@ -53,7 +53,7 @@ export default function ClientsOne({title,clients}){
                                 <div className="tiny-slide text-center" key={index}>
                                     <div className="cursor-e-resize">
                                         <div className="content relative shadow dark:shadow-gray-800 m-2 p-6 bg-white dark:bg-slate-900 before:content-[''] before:absolute before:start-1/2 before:-bottom-[4px] before:box-border before:border-8 before:rotate-[45deg] before:border-t-transparent before:border-e-white dark:before:border-e-slate-900 before:border-b-white dark:before:border-b-slate-900 before:border-s-transparent before:shadow-testi dark:before:shadow-gray-700 before:origin-top-left">
-                                            <i className="mdi mdi-format-quote-open mdi-48px text-indigo-600"></i>
+                                            <i className="mdi mdi-format-quote-open mdi-48px text-red-600"></i>
                                             <p className="text-slate-400">{item.description}</p>
                                             <ul className="list-none mb-0 text-amber-400 mt-3 space-x-1">
                                                 <li className="inline"><i className="mdi mdi-star"></i></li>

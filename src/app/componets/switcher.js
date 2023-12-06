@@ -64,7 +64,7 @@ export default function Switcher() {
             </div>
 
             <Link href="#" onClick={scrollToTop}
-                id="back-to-top" className={`${!scrollToTops ? "hidden":"back-to-top fixed  text-lg rounded-full z-10 bottom-5 end-2 h-9 w-9 text-center bg-indigo-600 text-white leading-9 flex items-center justify-center"}`}><HiArrowSmUp /></Link>
+                id="back-to-top" className={`${!scrollToTops ? "hidden":"back-to-top fixed  text-lg rounded-full z-10 bottom-5 end-2 h-9 w-9 text-center bg-red-600 text-white leading-9 flex items-center justify-center"}`}><HiArrowSmUp /></Link>
          
         </>
     )

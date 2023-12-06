@@ -82,14 +82,14 @@ export default function JobGrid(){
                                             <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-0 gap-6">
                                             <div>
                                                 <div className="filter-search-form relative lg:before:content-[''] lg:before:absolute lg:before:top-[10px] lg:before:end-0 lg:before:h-10 lg:before:z-1 lg:before:border-r lg:before:border-inherit lg:before:rounded-md lg:before:outline-0 lg:dark:before:border-gray-700">
-                                                    <LuSearch className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-indigo-600 text-[20px]" />
+                                                    <LuSearch className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-red-600 text-[20px]" />
                                                     <input name="name" type="text" id="job-keyword" className="form-input lg:rounded-t-sm lg:rounded-e-none lg:rounded-b-none lg:rounded-s-sm lg:outline-0 w-full filter-input-box bg-gray-50 dark:bg-slate-800 border-0 focus:ring-0" placeholder="Search your Keywords" />
                                                 </div>
                                             </div>
 
                                             <div>                                                        
                                                 <div className="filter-search-form relative lg:before:content-[''] lg:before:absolute lg:before:top-[10px] lg:before:end-0 lg:before:h-10 lg:before:z-1 lg:before:border-r lg:before:border-inherit lg:before:rounded-md lg:before:outline-0 lg:dark:before:border-gray-700">
-                                                    <AiOutlineHome className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-indigo-600 text-[20px]"/>
+                                                    <AiOutlineHome className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-red-600 text-[20px]"/>
                                                     <Select className="form-input filter-input-box bg-gray-50 dark:bg-slate-800 border-0" options={country} />
 
                                                     </div>
@@ -97,14 +97,14 @@ export default function JobGrid(){
 
                                             <div>                                                       
                                                 <div className="filter-search-form relative lg:before:content-[''] lg:before:absolute lg:before:top-[10px] lg:before:end-0 lg:before:h-10 lg:before:z-1 lg:before:border-r lg:before:border-inherit lg:before:rounded-md lg:before:outline-0 lg:dark:before:border-gray-700">
-                                                    <AiOutlineDollar className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-indigo-600 text-[20px]"/>
+                                                    <AiOutlineDollar className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-red-600 text-[20px]"/>
                                                         <Select className="form-input filter-input-box bg-gray-50 dark:bg-slate-800 border-0" options={time} />
 
                                                 </div>
                                                 </div>
 
                                             <div>
-                                                <input type="submit" id="search-buy" name="search" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white searchbtn lg:rounded-t-none lg w-full" value="Search" style={{height:"60px"}} />
+                                                <input type="submit" id="search-buy" name="search" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white searchbtn lg:rounded-t-none lg w-full" value="Search" style={{height:"60px"}} />
                                             </div>
                                             </div>
                                     </div>
@@ -120,13 +120,13 @@ export default function JobGrid(){
                         return(
                             <div className="rounded-md shadow dark:shadow-gray-800" key={index}>
                                 <div className="p-6">
-                                    <Link href={`/page-job-detail/${item.id}`} className="title h5 text-lg font-semibold hover:text-indigo-600">{item.title}</Link>
-                                    <p className="text-slate-400 mt-2 flex items-center"><GoClock className="me-1 text-indigo-600"/>{item.posted}</p>
+                                    <Link href={`/page-job-detail/${item.id}`} className="title h5 text-lg font-semibold hover:text-red-600">{item.title}</Link>
+                                    <p className="text-slate-400 mt-2 flex items-center"><GoClock className="me-1 text-red-600"/>{item.posted}</p>
     
                                     <div className="flex justify-between items-center mt-4">
-                                        <span className="bg-indigo-600/5 text-indigo-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">{item.jobTitle}</span>
+                                        <span className="bg-red-600/5 text-red-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">{item.jobTitle}</span>
     
-                                        <p className="text-slate-400 flex"><AiOutlineDollar className="me-1 text-lg text-indigo-600"/>{item.package}</p>
+                                        <p className="text-slate-400 flex"><AiOutlineDollar className="me-1 text-lg text-red-600"/>{item.package}</p>
                                     </div>
                                 </div>
     
@@ -148,27 +148,27 @@ export default function JobGrid(){
                         <nav aria-label="Page navigation example">
                             <ul className="inline-flex items-center -space-x-px">
                                 <li>
-                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 bg-white dark:bg-slate-900 rounded-s-lg hover:text-white border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 bg-white dark:bg-slate-900 rounded-s-lg hover:text-white border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">
                                         <MdOutlineKeyboardArrowLeft className="text-[20px] rtl:rotate-180 rtl:-mt-1"/>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">1</Link>
+                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">1</Link>
                                 </li>
                                 <li>
-                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">2</Link>
+                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">2</Link>
                                 </li>
                                 <li>
-                                    <Link href="/#" aria-current="page" className="z-10 w-[40px] h-[40px] inline-flex justify-center items-center text-white bg-indigo-600 border border-indigo-600">3</Link>
+                                    <Link href="/#" aria-current="page" className="z-10 w-[40px] h-[40px] inline-flex justify-center items-center text-white bg-red-600 border border-red-600">3</Link>
                                 </li>
                                 <li>
-                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">4</Link>
+                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">4</Link>
                                 </li>
                                 <li>
-                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">5</Link>
+                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 hover:text-white bg-white dark:bg-slate-900 border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">5</Link>
                                 </li>
                                 <li>
-                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 bg-white dark:bg-slate-900 rounded-e-lg hover:text-white border border-gray-100 dark:border-gray-700 hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                                    <Link href="/#" className="w-[40px] h-[40px] inline-flex justify-center items-center text-slate-400 bg-white dark:bg-slate-900 rounded-e-lg hover:text-white border border-gray-100 dark:border-gray-700 hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600">
                                         <MdKeyboardArrowRight className="text-xl rtl:rotate-180 rtl:-mt-1"/>
                                     </Link>
                                 </li>

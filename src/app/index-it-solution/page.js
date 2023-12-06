@@ -35,7 +35,7 @@ export default function IndexItSolution(){
         <>
         <Navbar navClass="nav-light"/>
 
-        <section className="relative table w-full py-36 pb-0 lg:py-44 lg:pb-0 bg-indigo-600  bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/bg2.png')"}}>
+        <section className="relative table w-full py-36 pb-0 lg:py-44 lg:pb-0 bg-red-600  bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/bg2.png')"}}>
             <div className="container relative">
                 <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                     <div className="lg:col-span-7">
@@ -82,10 +82,10 @@ export default function IndexItSolution(){
                         itSolutionData.map((data,index) => {
                             let Icons = data.icon
                             return (
-                                <div key={index} className="group relative p-6 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-indigo-600 dark:hover:bg-indigo-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
+                                <div key={index} className="group relative p-6 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-red-600 dark:hover:bg-red-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
                                     <div className="relative overflow-hidden text-transparent -m-3">
-                                        <Icon.Hexagon className="h-24 w-24 fill-indigo-600/5 group-hover:fill-white/10 mx-auto"></Icon.Hexagon>
-                                        <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-indigo-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                                        <Icon.Hexagon className="h-24 w-24 fill-red-600/5 group-hover:fill-white/10 mx-auto"></Icon.Hexagon>
+                                        <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-red-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
                                             <Icons className="w-7 h-7"/>
                                         </div>
                                     </div>
@@ -123,7 +123,7 @@ export default function IndexItSolution(){
                     <div className="lg:col-span-7 md:col-span-6">
                         <div className="lg:ms-5">
                             <div className="flex mb-4">
-                                <span className="text-indigo-600 text-2xl font-bold mb-0"><CountUp className="counter-value text-6xl font-bold" end={15} start={1} />+</span>
+                                <span className="text-red-600 text-2xl font-bold mb-0"><CountUp className="counter-value text-6xl font-bold" end={15} start={1} />+</span>
                                 <span className="self-end font-medium ms-2">Years <br /> Experience</span>
                             </div>
 
@@ -132,7 +132,7 @@ export default function IndexItSolution(){
                             <p className="text-slate-400 max-w-xl">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with real content.</p>
 
                             <div className="mt-6">
-                                <Link href="/contact-one" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2"><FaRegEnvelope className="me-2 text-sm"/> Contact us</Link>
+                                <Link href="/contact-one" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md me-2 mt-2"><FaRegEnvelope className="me-2 text-sm"/> Contact us</Link>
                             </div>
                         </div>
                     </div>
@@ -149,12 +149,12 @@ export default function IndexItSolution(){
 
                     <div className="md:col-span-6 order-2 md:order-1">
                         <div className="lg:me-5">
-                            <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">Fast & Effective</h6>
+                            <h6 className="text-red-600 text-sm font-bold uppercase mb-2">Fast & Effective</h6>
                             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Powerful Digitalization <br /> With Techwind</h3>
 
                             <p className="text-slate-400 max-w-xl mb-6">Get instant helpful resources about anything on the go, easily implement secure money transfer solutions, boost your daily efficiency, connect to other app users and create your own Techwind network, and much more with just a few taps. commodo consequat. Duis aute irure.</p>
 
-                            <Link href="/page-services" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"><MdOutlineEventNote className="me-2 text-lg"/> Get Started</Link>
+                            <Link href="/page-services" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md"><MdOutlineEventNote className="me-2 text-lg"/> Get Started</Link>
                         </div>
                     </div>
                 </div>
@@ -169,7 +169,7 @@ export default function IndexItSolution(){
 
                     <p className="text-white/70 max-w-xl mx-auto">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
-                    <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 mx-auto mt-10">
+                    <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 mx-auto mt-10">
                         <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                     </Link>
                 </div>

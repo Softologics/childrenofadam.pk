@@ -13,30 +13,15 @@ export default function Footer() {
     const footerLinks = [
         {
             liClass: '',
-            route: '/page-terms',
+            route: '/',
             title: 'Terms of Services',
 
         },
         {
             liClass: 'mt-[10px]',
-            route: '/page-privacy',
+            route: '/',
             title: 'Privacy Policy',
 
-        },
-        {
-            route: '/documentation',
-            title: 'Documentation',
-            liClass: 'mt-[10px]',
-        },
-        {
-            route: '/changelog',
-            title: 'Changelog',
-            liClass: 'mt-[10px]',
-        },
-        {
-            route: '#!',
-            title: 'Widget',
-            liClass: 'mt-[10px]',
         }
     ];
     const footerCompany = [
@@ -75,13 +60,13 @@ export default function Footer() {
 
 </p>
                                         <ul className="list-none mt-5 space-x-1 space-y-1">
-                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><PiShoppingCart className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaBehance className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaDribbble className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaLinkedin className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaFacebookF className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaInstagram className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaTwitter className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600"><PiShoppingCart className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600"><FaBehance className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600"><FaDribbble className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600"><FaLinkedin className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600"><FaFacebookF className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600"><FaInstagram className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 dark:hover:bg-red-600"><FaTwitter className='text-sm'/></Link></li>
                                         </ul>
                                     </div>
 
@@ -94,14 +79,14 @@ export default function Footer() {
                                         </ul>
                                     </div>
 
-                                    {/* <div className="lg:col-span-3 md:col-span-4">
+                                    <div className="lg:col-span-3 md:col-span-4">
                                         <h5 className="tracking-[1px] text-gray-100 font-semibold">Usefull Links</h5>
                                         <ul className="list-none footer-list mt-6">
                                             {footerLinks.map((data, index) => (
                                                 <li key={index} className={data.liClass}><Link href={data.route} className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="text-xl me-1"/> {data.title}</Link></li>
                                             ))}
                                         </ul>
-                                    </div> */}
+                                    </div>
 
                                     <div className="lg:col-span-3 md:col-span-4">
                                         <h5 className="tracking-[1px] text-gray-100 font-semibold">Newsletter</h5>
@@ -116,7 +101,7 @@ export default function Footer() {
                                                     </div>
                                                 </div>
 
-                                                <button type="submit" id="submitsubscribe" name="send" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Subscribe</button>
+                                                <button type="submit" id="submitsubscribe" name="send" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Subscribe</button>
                                             </div>
                                         </form>
                                     </div>
@@ -129,7 +114,7 @@ export default function Footer() {
                     <div className="container relative text-center">
                         <div className="grid md:grid-cols-2 items-center">
                             <div className="md:text-start text-center">
-                                <p className="mb-0">© {new Date().getFullYear()} Children of Adam. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/https://shreethemes.in/" target="_blank" className="text-reset">Plug Orange</Link>.</p>
+                                <p className="mb-0">© {new Date().getFullYear()} Children of Adam. Design & Develop by <Link href="/https://shreethemes.in/" target="_blank" className="text-reset">Plug Orange</Link>.</p>
                             </div>
 
                             <ul className="list-none md:text-end text-center space-x-1 mt-6 md:mt-0">

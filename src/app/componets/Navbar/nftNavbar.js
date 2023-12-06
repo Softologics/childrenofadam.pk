@@ -219,23 +219,23 @@ export default function NftNavbar() {
                     <li className="inline-block mb-0">
                         <div className="form-icon relative">
                             <LuSearch className="text-xl absolute top-1/2 -translate-y-1/2 start-3"/>
-                            <input type="text" className="form-input sm:w-44 w-28 ps-10 py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-3xl outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0 bg-white" name="s" id="searchItem" placeholder="Search..." />
+                            <input type="text" className="form-input sm:w-44 w-28 ps-10 py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-3xl outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0 bg-white" name="s" id="searchItem" placeholder="Search..." />
                         </div>
                     </li>
 
                     <li className="inline-block ps-1 mb-0">
-                        <Link href="#" id="connectWallet" onClick={metamask}  className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white"><BiWallet/></Link>
+                        <Link href="#" id="connectWallet" onClick={metamask}  className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white"><BiWallet/></Link>
                     </li>
 
                     <li className="dropdown inline-block relative ps-1">
-                        <button onClick={() => openDropdown(!isDropdown)}  data-dropdown-toggle="dropdown" className="dropdown-toggle h-9 w-9  items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white inline-flex" type="button">
+                        <button onClick={() => openDropdown(!isDropdown)}  data-dropdown-toggle="dropdown" className="dropdown-toggle h-9 w-9  items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white inline-flex" type="button">
                             <Image  src="/images/client/05.jpg" width={34} height={34} className="rounded-full" alt="" />
                         </button>
 
                         <div className= {`dropdown-menu absolute end-0 m-0 mt-4 z-10 w-48 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow dark:shadow-gray-800  ${isDropdown ? 'hidden' : 'block'}`}>
                        
                             <div className="relative">
-                                <div className="py-8 bg-gradient-to-tr from-indigo-600 to-red-600"></div>
+                                <div className="py-8 bg-gradient-to-tr from-red-600 to-red-600"></div>
                                 <div className="absolute px-4 -bottom-7 start-0">
                                     <div className="flex items-end">
                                         <Image src="/images/client/05.jpg" width={34} height={34} className="rounded-full w-10 h-w-10 shadow dark:shadow-gray-700" alt="" />
@@ -249,24 +249,24 @@ export default function NftNavbar() {
                                 <h5 className="font-semibold text-[15px]">Wallet:</h5>
                                 <div className="flex items-center justify-between">
                                     <span className="text-[13px] text-slate-400">qhut0...hfteh45</span>
-                                    <Link href="#!" className="text-indigo-600"><AiOutlineCopy/></Link>
+                                    <Link href="#!" className="text-red-600"><AiOutlineCopy/></Link>
                                 </div>
                             </div>
 
                             <div className="mt-4 px-4">
-                                <h5 className="text-[15px]">Balance: <span className="text-indigo-600 font-semibold">0.00045ETH</span></h5>
+                                <h5 className="text-[15px]">Balance: <span className="text-red-600 font-semibold">0.00045ETH</span></h5>
                             </div>
 
                             <ul className="py-2 text-start">
                                 <li>
-                                    <Link href="/nft-creator-profile" className="flex items-center text-[14px] font-semibold py-1.5 px-4 hover:text-indigo-600"><AiOutlineUser className="me-2"/> Profile</Link>
+                                    <Link href="/nft-creator-profile" className="flex items-center text-[14px] font-semibold py-1.5 px-4 hover:text-red-600"><AiOutlineUser className="me-2"/> Profile</Link>
                                 </li>
                                 <li>
-                                    <Link href="/nft-creator-profile-edit" className="flex items-center text-[14px] font-semibold py-1.5 px-4 hover:text-indigo-600"><IoSettingsOutline className="me-1 w-5"/> Settings</Link>
+                                    <Link href="/nft-creator-profile-edit" className="flex items-center text-[14px] font-semibold py-1.5 px-4 hover:text-red-600"><IoSettingsOutline className="me-1 w-5"/> Settings</Link>
                                 </li>
                                 <li className="border-t border-gray-100 dark:border-gray-800 my-2"></li>
                                 <li>
-                                    <Link href="/auth-login" className="flex items-center text-[14px] font-semibold py-1.5 px-4 hover:text-indigo-600"><LiaSignOutAltSolid className="me-2 h-4 w-4"/> Logout</Link>
+                                    <Link href="/auth-login" className="flex items-center text-[14px] font-semibold py-1.5 px-4 hover:text-red-600"><LiaSignOutAltSolid className="me-2 h-4 w-4"/> Logout</Link>
                                 </li>
                             </ul>
                         </div>

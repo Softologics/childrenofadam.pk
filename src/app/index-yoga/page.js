@@ -124,7 +124,7 @@ export default function IndexYoga(){
                         <p className="text-white/70 text-lg max-w-xl mx-auto">Launch your campaign and benefit from our expertise on designing and managing conversion centered Tailwind CSS v3.x html page.</p>
 
                         <div className="mt-8">
-                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Join Our Classes</Link>
+                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Join Our Classes</Link>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@ export default function IndexYoga(){
                                     <Image src="/images/yoga/ab01.jpg" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} className="shadow rounded-md" alt="" />
                                 </div>
                             </div>
-                            <div className="overflow-hidden after:content-[''] after:absolute after:h-[512px] after:w-[512px] after:bg-indigo-600/5 after:top-0 after:-end-5 after:-z-1 after:rounded-full"></div>
+                            <div className="overflow-hidden after:content-[''] after:absolute after:h-[512px] after:w-[512px] after:bg-red-600/5 after:top-0 after:-end-5 after:-z-1 after:rounded-full"></div>
                         </div>
                     </div>
 
@@ -160,7 +160,7 @@ export default function IndexYoga(){
                             <p className="text-slate-400 max-w-xl">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with real content.</p>
 
                             <div className="mt-6">
-                                <Link href="#" className="relative inline-flex items-center tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 font-semibold text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Learn more <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                                <Link href="#" className="relative inline-flex items-center tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 font-semibold text-red-600 after:bg-red-600 duration-500 ease-in-out">Learn more <FaArrowRight className="ms-2 text-[10px]"/></Link>
                             </div>
                         </div>
                     </div>
@@ -213,14 +213,14 @@ export default function IndexYoga(){
                         return(
                             <div key={index} className="group relative lg:px-6 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
                                 <div className="relative overflow-hidden text-transparent -m-3">
-                                    <Icon.Hexagon className="h-32 w-32 fill-indigo-600/5 mx-auto"></Icon.Hexagon>
-                                    <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-indigo-600 rounded-xl transition-all duration-500 ease-in-out text-4xl flex align-middle justify-center items-center">
+                                    <Icon.Hexagon className="h-32 w-32 fill-red-600/5 mx-auto"></Icon.Hexagon>
+                                    <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-red-600 rounded-xl transition-all duration-500 ease-in-out text-4xl flex align-middle justify-center items-center">
                                         <Image src={item.image} width={56} height={56} className="w-14 h-14" alt="" />
                                     </div>
                                 </div>
 
                                 <div className="mt-6">
-                                    <Link href="#" className="text-xl font-medium transition-all duration-500 ease-in-out hover:text-indigo-600">{item.title}</Link>
+                                    <Link href="#" className="text-xl font-medium transition-all duration-500 ease-in-out hover:text-red-600">{item.title}</Link>
                                     <p className="text-slate-400 transition-all duration-500 ease-in-out mt-3">{item.desc}</p>
                                 </div>
                             </div>
@@ -231,12 +231,12 @@ export default function IndexYoga(){
 
             <div className="container relative md:mt-24 mt-16">
                 <div className="grid grid-cols-1">
-                    <div className="relative overflow-hidden bg-indigo-600 rounded-md shadow dark:shadow-gray-700">
+                    <div className="relative overflow-hidden bg-red-600 rounded-md shadow dark:shadow-gray-700">
                         <div className="grid md:grid-cols-2 items-center gap-[30px]">
                             <div className="relative">
                                 <Image src="/images/yoga/cta.jpg" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} alt="" />
                                 <div className="absolute md:bottom-1/2 md:translate-y-1/2 md:-end-10 ltr:md:translate-x-0 rtl:md:translate-x-0 -bottom-10 end-1/2 ltr:translate-x-1/2 rtl:-translate-x-1/2 text-center">
-                                    <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 dark:text-white">
+                                    <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 dark:text-white">
                                         <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                                     </Link>
                                 </div>
@@ -249,9 +249,9 @@ export default function IndexYoga(){
                                     <p className="text-white/70 text-lg max-w-xl">Search all the open positions on the web. Get your own personalized salary estimate. Read reviews on over 30000+ companies worldwide.</p>
 
                                     <ul className="list-none text-white/50 mt-4">
-                                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
-                                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
-                                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Create your own skin to match your brand</li>
+                                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
+                                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
+                                        <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Create your own skin to match your brand</li>
                                     </ul>
                                 </div>
                             </div>
@@ -270,7 +270,7 @@ export default function IndexYoga(){
                     <p className="text-white/80 max-w-xl mx-auto">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                     <div className="mt-8">
-                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Join Our Classes</Link>
+                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Join Our Classes</Link>
                     </div>
                 </div>
             </div>
@@ -289,22 +289,22 @@ export default function IndexYoga(){
                         <div className="sticky top-20">
                             <ul className="flex-column text-center" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
                                 <li role="presentation">
-                                    <button onClick={() => handleTabClick(0)} className={`${isOpenTab === 0 ?'text-white bg-indigo-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-indigo-600 transition-all duration-500 ease-in-out`}>Monday</button>
+                                    <button onClick={() => handleTabClick(0)} className={`${isOpenTab === 0 ?'text-white bg-red-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-red-600 transition-all duration-500 ease-in-out`}>Monday</button>
                                 </li>
                                 <li role="presentation">
-                                    <button onClick={() => handleTabClick(1)} className={`${isOpenTab === 1 ?'text-white bg-indigo-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-indigo-600 transition-all duration-500 ease-in-out`}>Tuesday</button>
+                                    <button onClick={() => handleTabClick(1)} className={`${isOpenTab === 1 ?'text-white bg-red-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-red-600 transition-all duration-500 ease-in-out`}>Tuesday</button>
                                 </li>
                                 <li role="presentation">
-                                    <button onClick={() => handleTabClick(2)} className={`${isOpenTab === 2 ?'text-white bg-indigo-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-indigo-600 transition-all duration-500 ease-in-out`}>Wednesday</button>
+                                    <button onClick={() => handleTabClick(2)} className={`${isOpenTab === 2 ?'text-white bg-red-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-red-600 transition-all duration-500 ease-in-out`}>Wednesday</button>
                                 </li>
                                 <li role="presentation">
-                                    <button onClick={() => handleTabClick(3)} className={`${isOpenTab === 3 ?'text-white bg-indigo-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-indigo-600 transition-all duration-500 ease-in-out`}>Thursday</button>
+                                    <button onClick={() => handleTabClick(3)} className={`${isOpenTab === 3 ?'text-white bg-red-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-red-600 transition-all duration-500 ease-in-out`}>Thursday</button>
                                 </li>
                                 <li role="presentation">
-                                    <button onClick={() => handleTabClick(4)} className={`${isOpenTab === 4 ?'text-white bg-indigo-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-indigo-600 transition-all duration-500 ease-in-out`}>Friday</button>
+                                    <button onClick={() => handleTabClick(4)} className={`${isOpenTab === 4 ?'text-white bg-red-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-red-600 transition-all duration-500 ease-in-out`}>Friday</button>
                                 </li>
                                 <li role="presentation">
-                                    <button onClick={() => handleTabClick(5)} className={`${isOpenTab === 5 ?'text-white bg-indigo-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-indigo-600 transition-all duration-500 ease-in-out`}>Saturday</button>
+                                    <button onClick={() => handleTabClick(5)} className={`${isOpenTab === 5 ?'text-white bg-red-600 hover:text-white' : ''} shadow dark:shadow-gray-800 px-4 py-2 text-center font-semibold rounded-md w-full mt-3 hover:text-red-600 transition-all duration-500 ease-in-out`}>Saturday</button>
                                 </li>
                             </ul>
                         </div>
@@ -472,14 +472,14 @@ export default function IndexYoga(){
                                         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black h-52 w-52 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out"></div>
 
                                         <ul className="list-none space-x-1 absolute start-0 end-0 -bottom-20 group-hover:bottom-5 transition-all duration-500 ease-in-out flex justify-center">
-                                        <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-indigo-600 bg-indigo-600 hover:border-indigo-600 hover:bg-indigo-600 text-white"><Icon.Facebook className="h-4 w-4"></Icon.Facebook></Link></li>
-                                            <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-indigo-600 bg-indigo-600 hover:border-indigo-600 hover:bg-indigo-600 text-white"><Icon.Instagram className="h-4 w-4"></Icon.Instagram></Link></li>
-                                            <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-indigo-600 bg-indigo-600 hover:border-indigo-600 hover:bg-indigo-600 text-white"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link></li>
+                                        <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-red-600 bg-red-600 hover:border-red-600 hover:bg-red-600 text-white"><Icon.Facebook className="h-4 w-4"></Icon.Facebook></Link></li>
+                                            <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-red-600 bg-red-600 hover:border-red-600 hover:bg-red-600 text-white"><Icon.Instagram className="h-4 w-4"></Icon.Instagram></Link></li>
+                                            <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full border border-red-600 bg-red-600 hover:border-red-600 hover:bg-red-600 text-white"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link></li>
                                         </ul>
                                     </div>
 
                                     <div className="content mt-3">
-                                        <Link href="#" className="text-lg font-semibold hover:text-indigo-600 transition-all duration-500 ease-in-out">{item.name}</Link>
+                                        <Link href="#" className="text-lg font-semibold hover:text-red-600 transition-all duration-500 ease-in-out">{item.name}</Link>
                                         <p className="text-slate-400">{item.title}</p>
                                     </div>
                                 </div>
@@ -522,7 +522,7 @@ export default function IndexYoga(){
                 )}
 
                 <div className="absolute top-2/4 -translate-y-2/4 start-2/4 ltr:-translate-x-2/4 rtl:translate-x-2/4 text-center hidden md:block">
-                    <Link href="https://www.instagram.com/shreethemes/" target="_blank"className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Follow Now</Link>
+                    <Link href="https://www.instagram.com/shreethemes/" target="_blank"className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Follow Now</Link>
                 </div>
             </div>
         </div>

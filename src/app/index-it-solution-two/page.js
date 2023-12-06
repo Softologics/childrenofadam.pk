@@ -41,12 +41,12 @@ export default function ItSolutiontwo(){
                     <div className="md:col-span-7">
                         <div className="md:me-6">
                             <span className="text-xl font-semibold">IT Company</span>
-                            <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5 text-black dark:text-white"><span className="after:absolute after:end-0 after:start-0 after:bottom-2 after:h-1.5 after:w-auto after:bg-gradient-to-l after:to-indigo-600 after:from-green-600 relative">Consultant</span> & <br /> Find Bright <span className="after:absolute after:end-0 after:start-0 after:bottom-2 after:h-1.5 after:w-auto after:bg-gradient-to-l after:to-indigo-600 after:from-green-600 relative">Solutions</span></h4>
+                            <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5 text-black dark:text-white"><span className="after:absolute after:end-0 after:start-0 after:bottom-2 after:h-1.5 after:w-auto after:bg-gradient-to-l after:to-red-600 after:from-green-600 relative">Consultant</span> & <br /> Find Bright <span className="after:absolute after:end-0 after:start-0 after:bottom-2 after:h-1.5 after:w-auto after:bg-gradient-to-l after:to-red-600 after:from-green-600 relative">Solutions</span></h4>
                             <p className="text-slate-400 text-lg max-w-xl">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                             <div className="mt-6">
-                                <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Contact Us</Link>
-                                <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white m-1 lightbox"><Icon.Video className="h-4 w-4"></Icon.Video></Link><span className="font-semibold ms-1 align-middle"></span>
+                                <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Contact Us</Link>
+                                <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white m-1 lightbox"><Icon.Video className="h-4 w-4"></Icon.Video></Link><span className="font-semibold ms-1 align-middle"></span>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ export default function ItSolutiontwo(){
 
             <div className="absolute md:w-3/4 w-full top-1/2 -translate-y-1/2">
                 <div className="absolute w-full h-[5000px] bg-slate-50 dark:bg-slate-800 md:opacity-100 opacity-90 top-1/2 -translate-y-1/2 md:-start-[10%] -start-[25%] ltr:rotate-12 rtl:-rotate-12"></div>
-                <div className="absolute md:w-48 w-20 h-[5000px] bg-indigo-600 top-1/2 -translate-y-1/2 md:end-[10%] -end-[1%] ltr:rotate-12 rtl:-rotate-12"></div>
+                <div className="absolute md:w-48 w-20 h-[5000px] bg-red-600 top-1/2 -translate-y-1/2 md:end-[10%] -end-[1%] ltr:rotate-12 rtl:-rotate-12"></div>
             </div>
         </section>
 
@@ -64,7 +64,7 @@ export default function ItSolutiontwo(){
             <div className="container relative">
                 <div className="grid md:grid-cols-2 grid-cols-1 pb-8 items-center">
                     <div>
-                        <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">Services</h6>
+                        <h6 className="text-red-600 text-sm font-bold uppercase mb-2">Services</h6>
                         <h3 className="md:text-3xl md:leading-normal text-2xl leading-normal font-semibold mb-4 md:mb-0">It was a very common<br /> question that What IT Service<br /> We Provide now!</h3>
                     </div>
                     <p className="text-slate-400 max-w-xl">Explore and learn more about everything from machine learning and global payments to scaling your team.</p>
@@ -75,10 +75,10 @@ export default function ItSolutiontwo(){
                             let Icons = data.icon
                             return (
 
-                                <div key={index} className="group relative p-6 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-indigo-600 dark:hover:bg-indigo-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
+                                <div key={index} className="group relative p-6 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-red-600 dark:hover:bg-red-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden text-center">
                                     <div className="relative overflow-hidden text-transparent -m-3">
-                                        <Icon.Hexagon className="h-24 w-24 fill-indigo-600/5 group-hover:fill-white/10 mx-auto rotate-90"></Icon.Hexagon>
-                                        <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-indigo-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                                        <Icon.Hexagon className="h-24 w-24 fill-red-600/5 group-hover:fill-white/10 mx-auto rotate-90"></Icon.Hexagon>
+                                        <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-red-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
                                             <Icons width={30} height={30}/>
                                         </div>
                                     </div>
@@ -103,7 +103,7 @@ export default function ItSolutiontwo(){
 
                                 <div className="absolute top-1/2 -translate-y-1/2 start-0 end-0 mx-auto lg:w-72 w-56 lg:h-72 h-56 flex justify-center items-center bg-white dark:bg-slate-900 rounded-full shadow-lg dark:shadow-gray-800">
                                     <div className="text-center">
-                                        <span className="text-indigo-600 text-2xl font-bold mb-0 block"><CountUp className="counter-value text-6xl font-bold" end={15} start={1} />+</span>
+                                        <span className="text-red-600 text-2xl font-bold mb-0 block"><CountUp className="counter-value text-6xl font-bold" end={15} start={1} />+</span>
                                         <span className="font-semibold block mt-2">Years <br /> Experience</span>
                                     </div>
                                 </div>
@@ -113,12 +113,12 @@ export default function ItSolutiontwo(){
 
                     <div className="md:col-span-6">
                         <div className="lg:ms-8">
-                            <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">Fast & Effective</h6>
+                            <h6 className="text-red-600 text-sm font-bold uppercase mb-2">Fast & Effective</h6>
                             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">we are a global stakeholder <br /> relations and partnership <br /> building consultancy.</h3>
 
                             <p className="text-slate-400 max-w-xl mb-6">Get instant helpful resources about anything on the go, easily implement secure money transfer solutions, boost your daily efficiency, connect to other app users and create your own Techwind network, and much more with just a few taps. commodo consequat. Duis aute irure.</p>
 
-                            <Link href="/page-services" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"><MdOutlineEventNote className="me-2 text-lg"/> Get Started</Link>
+                            <Link href="/page-services" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md"><MdOutlineEventNote className="me-2 text-lg"/> Get Started</Link>
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ export default function ItSolutiontwo(){
 
                     <p className="text-white/70 max-w-xl mx-auto">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
-                    <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 mx-auto mt-10">
+                    <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 mx-auto mt-10">
                         <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                     </Link>
                 </div>

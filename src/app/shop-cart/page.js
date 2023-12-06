@@ -59,9 +59,9 @@ export default function ShopCart(){
 
                 <div className="relative mt-3">
                     <ul className="tracking-[0.5px] mb-0 inline-flex space-x-1">
-                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-indigo-600"><Link href="/index-shop">Techwind</Link></li>
+                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out hover:text-red-600"><Link href="/index-shop">Techwind</Link></li>
                         <li className="inline-block text-base text-slate-950 dark:text-white mx-0.5"><MdKeyboardArrowRight className="text-xl"/></li>
-                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-indigo-600" aria-current="page">Cart</li>
+                        <li className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-red-600" aria-current="page">Cart</li>
                     </ul>
                 </div>
             </div>
@@ -97,11 +97,11 @@ export default function ShopCart(){
                                             <td className="p-4 text-center">$ {item.amount}</td>
                                             <td className="p-4 text-center">
                                                 <div className="qty-icons space-x-1">
-                                                    <button onClick={handleStepDown} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-md bg-indigo-600/5 hover:bg-indigo-600 border border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white minus"                                            >
+                                                    <button onClick={handleStepDown} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-md bg-red-600/5 hover:bg-red-600 border border-red-600/10 hover:border-red-600 text-red-600 hover:text-white minus"                                            >
                                                         -
                                                     </button>
-                                                    <input min="0" readOnly name="quantity" value={item.qtn} type="number" className="h-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-md bg-indigo-600/5 hover:bg-indigo-600 border border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white pointer-events-none w-16 ps-4 quantity" />
-                                                    <button onClick={handleStepUp} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-md bg-indigo-600/5 hover:bg-indigo-600 border border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white plus" >
+                                                    <input min="0" readOnly name="quantity" value={item.qtn} type="number" className="h-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-md bg-red-600/5 hover:bg-red-600 border border-red-600/10 hover:border-red-600 text-red-600 hover:text-white pointer-events-none w-16 ps-4 quantity" />
+                                                    <button onClick={handleStepUp} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center rounded-md bg-red-600/5 hover:bg-red-600 border border-red-600/10 hover:border-red-600 text-red-600 hover:text-white plus" >
                                                         +
                                                     </button>
                                                 </div>
@@ -116,8 +116,8 @@ export default function ShopCart(){
 
                     <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 mt-6 gap-6">
                         <div className="lg:col-span-9 md:order-1 order-3">
-                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md me-2 mt-2">Shop Now</Link>
-                            <Link  href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center rounded-md bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white mt-2">Add to Cart</Link>
+                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md me-2 mt-2">Shop Now</Link>
+                            <Link  href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center rounded-md bg-red-600/5 hover:bg-red-600 border-red-600/10 hover:border-red-600 text-red-600 hover:text-white mt-2">Add to Cart</Link>
                         </div>
 
                         <div className="lg:col-span-3 md:order-2 order-1">

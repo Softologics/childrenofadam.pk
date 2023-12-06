@@ -134,7 +134,7 @@ export default function CourseDetail(){
 
                         <div className="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
                             <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610"
-                                className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 dark:text-white">
+                                className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 dark:text-white">
                                 <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                             </Link>
                         </div>
@@ -167,7 +167,7 @@ export default function CourseDetail(){
                                             <tbody>
                                                 <tr className="border-t border-gray-100 dark:border-gray-700">
                                                     <td className="p-4"><Link href="#" className="flex items-center"><LiaClipboardListSolid className="me-1"/> {data.ls1}</Link></td>
-                                                    <td className="p-4 text-end"><span className="bg-indigo-600/5 text-indigo-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">Watch Free</span></td>
+                                                    <td className="p-4 text-end"><span className="bg-red-600/5 text-red-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">Watch Free</span></td>
                                                 </tr>
 
                                                 <tr className="border-t border-gray-100 dark:border-gray-700">
@@ -206,7 +206,7 @@ export default function CourseDetail(){
                             <div className="text-center subcribe-form">
                                 <form className="relative mx-auto max-w-xl">
                                     <input type="email" id="subemail" name="name" className="pt-4 pe-40 pb-4 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white/70 dark:bg-slate-900/70 border border-gray-100 dark:border-gray-700" placeholder="Enter your email id.." />
-                                    <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-full">Subcribe Now</button>
+                                    <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white rounded-full">Subcribe Now</button>
                                 </form>
                             </div>
                         </div>

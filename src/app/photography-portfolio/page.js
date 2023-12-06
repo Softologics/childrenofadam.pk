@@ -183,7 +183,7 @@ export default function PhotographyPortfolio(){
                                         <div className="group relative block overflow-hidden rounded-md transition-all duration-500">
                                             <Image src={data.iamge} width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} className="" alt="" />
                                             <div className="absolute top-1/2 -translate-y-1/2 start-0 end-0 text-center opacity-0 group-hover:opacity-100 duration-500" >
-                                                <Link href="#" onClick={() => handleImageClick(data.id)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white lightbox"><FiCamera className="w-4 h-4"/></Link>
+                                                <Link href="#" onClick={() => handleImageClick(data.id)} className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white lightbox"><FiCamera className="w-4 h-4"/></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -205,7 +205,7 @@ export default function PhotographyPortfolio(){
                 )}
                 <div className="grid grid-cols-1 mt-8">
                     <div className="text-center">
-                        <Link href="/photography-portfolio" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 text-slate-400 dark:text-white/70 dark:hover:text-white hover:text-indigo-600 after:bg-indigo-600 dark:after:bg-white duration-500 ease-in-out">See More<FaArrowRight className="ms-2 text-[10px]"/></Link>
+                        <Link href="/photography-portfolio" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 text-slate-400 dark:text-white/70 dark:hover:text-white hover:text-red-600 after:bg-red-600 dark:after:bg-white duration-500 ease-in-out">See More<FaArrowRight className="ms-2 text-[10px]"/></Link>
                     </div>
                 </div>
             </div>

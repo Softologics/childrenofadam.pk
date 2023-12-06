@@ -193,7 +193,7 @@ export default function Crypto(){
                     <div className="subcribe-form mt-6 mb-4">
                         <form className="relative max-w-xl">
                             <input type="email" id="subcribe" name="email" className="pt-4 pe-40 pb-4 ps-6 w-full h-[50px] outline-none dark:text-white rounded-full bg-white/5 shadow border border-slate-900 text-white" placeholder="Your Email Address :" />
-                            <button type="submit" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-full">Register Now <FaArrowRight className='ms-2 text-xs'/></button>
+                            <button type="submit" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white rounded-full">Register Now <FaArrowRight className='ms-2 text-xs'/></button>
                         </form>
                     </div>
 
@@ -248,18 +248,18 @@ export default function Crypto(){
 
                     <div className="lg:col-span-7">
                         <div className="lg:ms-10">
-                            <h6 className="text-indigo-600 text-base">Why choose us?</h6>
+                            <h6 className="text-red-600 text-base">Why choose us?</h6>
                             <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Buy Cryptocurrency <br /> with Techwind</h3>
                             <p className="text-slate-400 max-w-xl">You can combine all the Techwind templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
 
                             <ul className="list-none text-slate-400 mt-4">
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Digital Marketing Solutions for Tomorrow</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Our Talented & Experienced Marketing Agency</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /> Create your own skin to match your brand</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2" /> Digital Marketing Solutions for Tomorrow</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2" /> Our Talented & Experienced Marketing Agency</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2" /> Create your own skin to match your brand</li>
                             </ul>
 
                             <div className="mt-4">
-                                <Link href="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Find Out More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
+                                <Link href="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Find Out More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                             </div>
                         </div>
                     </div>
@@ -276,7 +276,7 @@ export default function Crypto(){
         </section>
 
         <section className="relative md:py-24 py-16 bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/crypto/bg2.jpg')"}}>
-            <div className="absolute inset-0 bg-indigo-600/90"></div>
+            <div className="absolute inset-0 bg-red-600/90"></div>
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-white">Our Benefits</h3>
@@ -334,7 +334,7 @@ export default function Crypto(){
                                     <span className="text-slate-400">Funded 60% = $ 600000</span>
                                 </div>
                                 <div className="w-full bg-gray-100 dark:bg-slate-900 rounded-full h-3">
-                                    <div className="bg-indigo-600 h-3 rounded-full" style={{ "width": "60%" }}></div>
+                                    <div className="bg-red-600 h-3 rounded-full" style={{ "width": "60%" }}></div>
                                 </div>
                                 <div className="flex justify-between mt-2">
                                     <span className="text-slate-400">$ 1000</span>
@@ -343,27 +343,27 @@ export default function Crypto(){
                             </div>
 
                             <ul className="list-none mt-4">
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /><span className="text-slate-400">Soft Cap:</span> &nbsp;10000 USD</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /><span className="text-slate-400">Min. transaction Amount:</span> &nbsp;1000 USD</li>
-                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2" /><span className="text-slate-400">Target:</span> &nbsp;900000 USD</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2" /><span className="text-slate-400">Soft Cap:</span> &nbsp;10000 USD</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2" /><span className="text-slate-400">Min. transaction Amount:</span> &nbsp;1000 USD</li>
+                                <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2" /><span className="text-slate-400">Target:</span> &nbsp;900000 USD</li>
                             </ul>
 
                             <div className="mt-4">
-                                <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md w-full">Join Now</Link>
+                                <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md w-full">Join Now</Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="lg:col-span-7 md:col-span-6 order-1 md:order-2">
                         <div className="lg:ms-10">
-                            <span className="bg-indigo-600/5 text-indigo-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">Sale tokens</span>
+                            <span className="bg-red-600/5 text-red-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">Sale tokens</span>
                             <h4 className="my-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">The token sale is live!</h4>
                             <p className="text-slate-400 para-desc mx-auto mb-3">With Techwind Trade, you can be sure your trading skills are matched with excellent service.</p>
                             <p className="text-slate-400 para-desc mx-auto">Techwind Institutional Markets is a full-stack crypto services platform that works with crypto-native businesses and institutional clients on lending, trading, and custody solutions tailored to your needs.</p>
                             <div className="mt-4">
-                                <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Token sale</Link>
+                                <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Token sale</Link>
 
-                                <Link href="#"  onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white m-1 lightbox"><Icon.Video className="h-4 w-4"></Icon.Video></Link><span className="font-semibold ms-1 align-middle">Watch Now</span>
+                                <Link href="#"  onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610" className="h-9 w-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-full bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white m-1 lightbox"><Icon.Video className="h-4 w-4"></Icon.Video></Link><span className="font-semibold ms-1 align-middle">Watch Now</span>
                             </div>
                             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="S_CGed6E610" onClose={() => setOpen(false)} />
                         </div>
@@ -399,7 +399,7 @@ export default function Crypto(){
 
                         <ul className="list-none space-x-1">
                             <li className="flex items-start mt-6">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2 mt-2" />
+                                <BsCheckCircle className="text-red-600 text-base me-2 mt-2" />
                                 <div className="flex-1 ms-3">
                                     <h6 className="font-semibold text-lg">Buy, sell, and trade on the go</h6>
                                     <p className="text-slate-400 mt-1">Manage your holdings from your mobile device</p>
@@ -407,7 +407,7 @@ export default function Crypto(){
                             </li>
 
                             <li className="flex items-start mt-6">
-                                 <BsCheckCircle  className="text-indigo-600 text-base me-2 mt-2 " />
+                                 <BsCheckCircle  className="text-red-600 text-base me-2 mt-2 " />
                                 <div className="flex-1 ms-3">
                                     <h6 className="font-semibold text-lg">Take control of your wealth</h6>
                                     <p className="text-slate-400 mt-1">Rest assured you (and only you) have access to your funds</p>
@@ -416,7 +416,7 @@ export default function Crypto(){
                         </ul>
 
                         <div className="mt-6">
-                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Download Wallet</Link>
+                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Download Wallet</Link>
                         </div>
                     </div>
 
@@ -432,19 +432,19 @@ export default function Crypto(){
                 <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1">
                     <div className="text-center">
                         <h6 className="text-white mb-0">Founded in</h6>
-                        <h2 className="mb-0 text-4xl mt-3 font-bold text-indigo-600"><CountUp className="counter-value" start={1990} end={2021} /></h2>
+                        <h2 className="mb-0 text-4xl mt-3 font-bold text-red-600"><CountUp className="counter-value" start={1990} end={2021} /></h2>
                     </div>
                     <div className="text-center">
                         <h6 className="text-white mb-0">Team Member</h6>
-                        <h2 className="mb-0 text-4xl mt-3 font-bold text-indigo-600"><CountUp className="counter-value" start={551} end={1000} />+</h2>
+                        <h2 className="mb-0 text-4xl mt-3 font-bold text-red-600"><CountUp className="counter-value" start={551} end={1000} />+</h2>
                     </div>
                     <div className="text-center">
                         <h6 className="text-white mb-0">Users</h6>
-                        <h2 className="mb-0 text-4xl mt-3 font-bold text-indigo-600"><CountUp className="counter-value" start={1} end={10} />M</h2>
+                        <h2 className="mb-0 text-4xl mt-3 font-bold text-red-600"><CountUp className="counter-value" start={1} end={10} />M</h2>
                     </div>
                     <div className="text-center">
                         <h6 className="text-white mb-0">Insurance Cover</h6>
-                        <h2 className="mb-0 text-4xl mt-3 font-bold text-indigo-600">$<CountUp className="counter-value" start={210} end={410} />M</h2>
+                        <h2 className="mb-0 text-4xl mt-3 font-bold text-red-600">$<CountUp className="counter-value" start={210} end={410} />M</h2>
                     </div>
                 </div>
             </div>
@@ -458,15 +458,15 @@ export default function Crypto(){
             <div className="container relative md:pb-24 pb-16">
                 <div className="grid md:grid-cols-2 grid-cols-1 gap-[30px]">
                     <div className="flex">
-                        <Icon.HelpCircle className="fea icon-ex-md text-indigo-600 me-3"></Icon.HelpCircle>
+                        <Icon.HelpCircle className="fea icon-ex-md text-red-600 me-3"></Icon.HelpCircle>
                         <div className="flex-1">
-                            <h5 className="mb-2 text-xl font-semibold">How our <span className="text-indigo-600">Techwind</span> work ?</h5>
+                            <h5 className="mb-2 text-xl font-semibold">How our <span className="text-red-600">Techwind</span> work ?</h5>
                             <p className="text-slate-400">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.</p>
                         </div>
                     </div>
 
                     <div className="flex">
-                        <Icon.HelpCircle className="fea icon-ex-md text-indigo-600 me-3"></Icon.HelpCircle>
+                        <Icon.HelpCircle className="fea icon-ex-md text-red-600 me-3"></Icon.HelpCircle>
                         <div className="flex-1">
                             <h5 className="mb-2 text-xl font-semibold"> What is the main process open account ?</h5>
                             <p className="text-slate-400">If the distribution of letters and words is random, the reader will not be distracted from making a neutral judgement on the visual impact</p>
@@ -474,7 +474,7 @@ export default function Crypto(){
                     </div>
 
                     <div className="flex">
-                        <Icon.HelpCircle className="fea icon-ex-md text-indigo-600 me-3"></Icon.HelpCircle>
+                        <Icon.HelpCircle className="fea icon-ex-md text-red-600 me-3"></Icon.HelpCircle>
                         <div className="flex-1">
                             <h5 className="mb-2 text-xl font-semibold"> How to make unlimited data entry ?</h5>
                             <p className="text-slate-400">Furthermore, it is advantageous when the dummy text is relatively realistic so that the layout impression of the final publication is not compromised.</p>
@@ -482,9 +482,9 @@ export default function Crypto(){
                     </div>
 
                     <div className="flex">
-                        <Icon.HelpCircle className="fea icon-ex-md text-indigo-600 me-3"></Icon.HelpCircle>
+                        <Icon.HelpCircle className="fea icon-ex-md text-red-600 me-3"></Icon.HelpCircle>
                         <div className="flex-1">
-                            <h5 className="mb-2 text-xl font-semibold"> Is <span className="text-indigo-600">Techwind</span> safer to use with my account ?</h5>
+                            <h5 className="mb-2 text-xl font-semibold"> Is <span className="text-red-600">Techwind</span> safer to use with my account ?</h5>
                             <p className="text-slate-400">The most well-known dummy text is the Lorem Ipsum, which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to proper Latin.</p>
                         </div>
                     </div>

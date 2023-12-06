@@ -108,7 +108,7 @@ export default function Restaurent(){
                         <p className="text-white/70 text-lg max-w-xl mx-auto">Beatae cum eius, animi itaque aliquid ducimus facere dicta, vitae ipsam maiores nam sit blanditiis, quisquam expedita?</p>
 
                         <div className="mt-8">
-                            <Link href="/#table" className="py-2 px-5 inline-flex font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md"><IoRestaurantOutline className="me-1"/> Book A Table</Link>
+                            <Link href="/#table" className="py-2 px-5 inline-flex font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md"><IoRestaurantOutline className="me-1"/> Book A Table</Link>
                         </div>
                     </div>
                 </div>
@@ -144,16 +144,16 @@ export default function Restaurent(){
                         let Icons = item.icon
                         return(
                             <div key={index} className="md:px-6 transition duration-500 rounded-2xl text-center">
-                                <div className="w-20 h-20 bg-indigo-600/5 mx-auto text-indigo-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800">
+                                <div className="w-20 h-20 bg-red-600/5 mx-auto text-red-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800">
                                     <Icons className='w-8 h-8'/>
                                 </div>
     
                                 <div className="content mt-7">
-                                    <Link href="/page-services" className="title h5 text-lg font-medium hover:text-indigo-600">{item.title}</Link>
+                                    <Link href="/page-services" className="title h5 text-lg font-medium hover:text-red-600">{item.title}</Link>
                                     <p className="text-slate-400 mt-3">{item.desc}</p>
     
                                     <div className="mt-5">
-                                        <Link href="/page-services" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                                        <Link href="/page-services" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                                     </div>
                                 </div>
                             </div>
@@ -197,10 +197,10 @@ export default function Restaurent(){
                                     <Image src={data.image} width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} className="rounded-full h-32 w-32 mx-auto group-hover:animate-[spin_10s_linear_infinite]" alt="" />
 
                                     <div className="mt-4 text-center">
-                                        <Link href="#" className="text-lg font-medium block hover:text-indigo-600 transition-all duration-500 ease-in-out">{data.dish}</Link>
+                                        <Link href="#" className="text-lg font-medium block hover:text-red-600 transition-all duration-500 ease-in-out">{data.dish}</Link>
                                         <span className="text-slate-400 mt-2 block">A reader will be distracted by the readable</span>
 
-                                        <h5 className="text-indigo-600 font-medium mt-4">$25.00</h5>
+                                        <h5 className="text-red-600 font-medium mt-4">$25.00</h5>
                                     </div>
                                 </div>
                             )
@@ -217,7 +217,7 @@ export default function Restaurent(){
                     <div className="lg:w-1/2 md:w-2/3">
                         <div className="bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800 rounded-md lg:p-12 p-6 lg:ms-12">
                             <div className="section-title mb-4">
-                                <span className="bg-indigo-600/5 text-indigo-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">Reservation</span>
+                                <span className="bg-red-600/5 text-red-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">Reservation</span>
                                 <h4 className="text-4xl font-bold uppercase my-4">Book A Table</h4>
                                 <p className="text-slate-400 mx-auto para-desc">We make it a priority to offer flexible services to accomodate your needs</p>
                             </div>
@@ -226,37 +226,37 @@ export default function Restaurent(){
                                 <div className="grid md:grid-cols-2 gap-4 mt-6">
                                     <div>
                                         <label className="font-semibold">Your Name</label>
-                                        <input name="name" id="name" type="text" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="First Name :" />
+                                        <input name="name" id="name" type="text" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="First Name :" />
                                     </div>
 
                                     <div>
                                         <label className="font-semibold">Your Email</label>
-                                        <input name="email" id="email" type="email" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Your email :" />
+                                        <input name="email" id="email" type="email" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Your email :" />
                                     </div>
 
                                     <div>
                                         <label className="font-semibold">Phone no.</label>
-                                        <input name="number" type="number" id="phone-number" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Phone no. :" />
+                                        <input name="number" type="number" id="phone-number" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Phone no. :" />
                                     </div>
 
                                     <div>
                                         <label className="font-semibold">Person</label>
-                                        <input type="number" min="0" autoComplete="off" id="adult" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" required="" placeholder="Person :" />
+                                        <input type="number" min="0" autoComplete="off" id="adult" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" required="" placeholder="Person :" />
                                     </div>
 
                                     <div>
                                         <label className="font-semibold">Date</label>
-                                        <input name="date" type="text" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0 start" placeholder="(ex: mm/ dd/ yy)" />
+                                        <input name="date" type="text" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0 start" placeholder="(ex: mm/ dd/ yy)" />
                                     </div>
 
                                     <div>
                                         <label className="font-semibold">Time</label>
-                                        <input name="time" type="text" id="input-time" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0 timepicker" placeholder="(ex: 8:00 p.m)" />
+                                        <input name="time" type="text" id="input-time" className="form-input mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0 timepicker" placeholder="(ex: 8:00 p.m)" />
                                     </div>
                                 </div>
 
                                 <div className="grid grid-cols-1 mt-4">
-                                    <input type="submit" id="submit" name="send" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md w-full" value="Book a table" />
+                                    <input type="submit" id="submit" name="send" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md w-full" value="Book a table" />
                                 </div>
                             </form>
                         </div>
@@ -265,7 +265,7 @@ export default function Restaurent(){
             </div>
         </section>
 
-        <section className="relative md:py-24 py-16 bg-indigo-600/5">
+        <section className="relative md:py-24 py-16 bg-red-600/5">
             <div className=" relative">
                 <ClientsOne clients="Happy Clients"/>
             </div>
@@ -303,7 +303,7 @@ export default function Restaurent(){
                     )}
 
                 <div className="absolute top-2/4 -translate-y-2/4 start-2/4 ltr:-translate-x-2/4 rtl:translate-x-2/4 text-center hidden md:block">
-                    <Link href="https://www.instagram.com/shreethemes/" target="_blank" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Follow Now</Link>
+                    <Link href="https://www.instagram.com/shreethemes/" target="_blank" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Follow Now</Link>
                 </div>
             </div>
         </div>

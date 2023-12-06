@@ -24,7 +24,7 @@ export const teams = [
       image: "/images/client/01.jpg",
       name: 'Thomas Israel',
       role: 'Staff Engineer, Algolia',
-      background:"bg-indigo-600/10 dark:bg-indigo-600/30 ",
+      background:"bg-red-600/10 dark:bg-red-600/30 ",
     },
     {
       description: `" The most well-known dummy text is the Lorem Ipsum, which is said to have originated in the 16th century. "`,
@@ -138,75 +138,71 @@ export const blogData = [
   {
       id:1,
       Image: "/images/blog/01.jpg",
-      title: 'Design your apps in your own way',
-      desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+      title: 'Sehat Aaman',
+      desc: 'Children of Adam has acquired several government hospitals in Sindh intending to transform them into comprehensive psychiatric facilities. By repurposing these existing healthcare institutions, the organization leverages existing infrastructure and resources, saving time and resources while accelerating the establishment of these much-needed facilities. Furthermore, these empowered men and women will impart their newly acquired knowledge and abilities to others in their communities, ensuring a never-ending cycle of education and empowerment',
   },
   {
       id:2,
       Image: "/images/blog/02.jpg",
-      title: 'How apps is changing the IT world',
-      desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+      title: 'Roshan Pakistan',
+      desc: 'Within this transformative project, CoA is illuminating homes, with a special focus on rural areas in Pakistan. The overarching goal is to extend the reach of alternative solar energy to villages, currently devoid of electricity. This strategic intervention aims to revolutionize household dynamics, fostering a positive impact on productivity, educational opportunities, and overall standards of living. By harnessing the power of solar energy, CoA envisions not only brightening homes but also empowering communities to thrive in a sustainable and energy-efficient manner. This initiative marks a significant step towards bridging the gap in access to essential resources and elevating the quality of life for those residing in underserved rural areas',
   },
   {
       id:3,    
       Image: "/images/blog/03.jpg",
-      title: 'Smartest Applications for Business',
-      desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+      title: 'Eye Camps',
+      desc: 'In its commitment to enhancing eye care accessibility, CoA is conducting Eye Camps that offer state-of-the-art treatments and cataract surgeries in rural areas. These medical camps are established through collaborations with renowned hospitals, leveraging partnerships to bring in specialized medical professionals from outside Pakistan. The focus is on delivering high-quality eye care services to underserved communities, addressing issues such as cataracts that significantly impact visual health. Through these initiatives, CoA seeks to bridge the healthcare gap, ensuring that individuals in rural areas have access to advanced eye treatments and surgeries, ultimately improving their overall well-being and quality of life.',
   },
   {
     id:4,
     Image: "/images/cafe/b1.jpg",
-    title: 'Best Coffee Shops In The State You Should Know',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+    title: 'Transgender Capacity Building',
+    desc: 'CoA passionately strives to open doors for transgender individuals, offering them valuable vocational and skill enhancement training. The core aim is to broaden their employment prospects, providing a pathway to earn a livelihood with dignity—free from the constraints of resorting to begging or dancing for survival. In embracing this initiative, CoA envisions a transformative journey for transgenders, one where they not only acquire practical skills but also find their unique identity within the rich tapestry of Pakistani society. This goes beyond just job opportunities; its about creating a space where they can authentically belong, contribute meaningfully, and shape their destinies in a way that resonates with the human spirit. Through these endeavors, CoA seeks to foster a society that embraces diversity and offers everyone, including transgenders, the chance to unfold their potential and live fulfilling lives.',
 },
 {
     id:5,
     Image: "/images/cafe/b2.jpg",
-    title: 'The Culture And Coffee Customs Nowadays',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+    title: 'Tameel - Non formal setups',
+    desc: 'CoA has forged a meaningful partnership with the Sultana Foundation, solidified through a signed MOU. This collaboration entails the adoption and establishment of informal schools as part of an innovative educational approach. In line with this vision, CoA is actively engaging educated individuals within communities, providing them a stipend to become local educators. These dedicated individuals play a crucial role in imparting knowledge to neighborhood children who, due to various reasons, cannot attend formal schools. Additionally, CoA is committed to enhancing the educational landscape by adopting a public school. This involves the provision of essential teacher training, school reconstruction, and renovation efforts aimed at creating an improved learning environment for students. Presently, the informal school initiative has successfully reached 47 students, with the potential to expand its reach and accommodate up to 150 students within the same premises. Through these multifaceted efforts, CoA is contributing to the advancement of education, ensuring that more children have access to quality learning experiences and opportunities for a brighter future. ',
 },
 {
     id:6,    
     Image: "/images/cafe/b3.jpg",
-    title: 'Best Cup Of Drinks For Your Break Today',
-    desc: 'The phrasal sequence of the is now so that many campaign and benefit',
+    title: 'PPE Suit Distribution',
+    desc: 'In response to the intense challenges brought about by the pandemic, CoA took meaningful action by generously donating 3,000 top-notch Personal Protective Equipment (PPEs). These vital resources were carefully distributed to reputable Government hospitals and the Pakistan Medical Dental Council (PMDC). We trusted PMDC to further distribute these supplies to hospitals in dire need. This effort reflects our genuine commitment to stand with frontline healthcare heroes and institutions during these tough times. By providing essential PPEs, we aim to play a part in ensuring the safety and well-being of those bravely fighting the battle against the pandemic. Our collaborative approach is rooted in the belief that together, we can make a difference where it matters most—supporting the healthcare sector and protecting those who tirelessly care for others. ',
 },
 {
-    id:7,
-    Image:"/images/gym/blog1.jpg",
-    title:"How to Maximize Time Spent at the Gym",
-    desc:"The phrasal sequence of the is now so that many campaign and benefit"
+    id:7,    
+    Image: "/images/cafe/b3.jpg",
+    title: 'Ration Relief Packs to Widows',
+    desc: 'Amidst the height of the pandemic, CoA took a compassionate step by distributing Ration Relief Packs designed specifically for widows and families in need. These thoughtfully prepared food bags were intended to provide a months worth of essential food items for a family of four. The distribution efforts were focused on the areas surrounding Islamabad, Haripur, and Mardan. This initiative aimed not only to address immediate hunger but also to offer support to vulnerable communities during a challenging time. CoA expresses gratitude to the Honorable Minister of State for Parliamentary Affairs, Mr. Ali Muhammad Khan, for his valuable support in making this relief effort possible. Through these collective endeavors, we strive to make a meaningful impact in alleviating the hardships faced by widows and families affected by the pandemic. ',
 },
 {
-    id:8,
-    Image:"/images/gym/blog2.jpg",
-    title:"Today is the Best Day to Start Training",
-    desc:"The phrasal sequence of the is now so that many campaign and benefit"
+    id:8,    
+    Image: "/images/cafe/b3.jpg",
+    title: 'Sehri and Iftar meal Distribution',
+    desc: 'During the holy month of Ramadan, CoA joined hands with the Islamabad-based NGO Al Khubaib Foundation to conduct Sehri and Iftar Meal Distribution. This collaborative effort aimed to provide cooked food to individuals in need residing in Islamabad and nearby areas, fostering a sense of community and support during this sacred time. ',
 },
 {
-    id:9,
-    Image:"/images/gym/blog3.jpg",
-    title:"Simple Condition for all Around Fitness",
-    desc:"The phrasal sequence of the is now so that many campaign and benefit"
+    id:9,    
+    Image: "/images/cafe/b3.jpg",
+    title: 'Bara Khao Ration Distribution',
+    desc: 'Recognizing the acute challenges brought about by the pandemic, CoA extended its support through the Bara Khao Ration Distribution initiative. Special attention was given to widows, ensuring that essential Ration/Food supplies reached those who needed them the most in Bara Khao. ',
+},
+
+{
+    id:10,    
+    Image: "/images/cafe/b3.jpg",
+    title: 'Qurbani & Meat distribution',
+    desc: 'On the occasion of Eid-Ul-Azha, CoA organized its first Qurbani, sacrificing eight goats and four cows in collaboration with the Al Khubaib Foundation. The meat from this Qurbani was distributed to the most deserving individuals in the vicinity of Islamabad and Haripur, with a particular focus on widows and orphans. This compassionate act sought to bring joy and sustenance to those facing challenges during the festive season, embodying the spirit of giving and community solidarity.  ',
 },
 {
-    id:10,
-    Image:"/images/spa/b1.jpg",
-    title:"Hiking for health in Peru",
-    desc:"The phrasal sequence of the is now so that many campaign and benefit"
+    id:11,    
+    Image: "/images/cafe/b3.jpg",
+    title: 'Flood Relief Projects in Sindh',
+    desc: 'Driven by our deep-rooted commitment to humanity, CoA has taken on a meaningful journey with our flood relief project. Its more than just assistance; its a heartfelt effort to stand by the side of the most deserving and underprivileged communities grappling with the aftermath of floods. In a conscious choice to make a real difference, we ve chosen to be a part of the rebuilding process for widows and daily wage earners, understanding the profound impact a home can have on their lives. This isnt a solo mission; its a collaborative endeavor where weve joined hands with others who share our vision. Post-floods, together with our partners, weve had the privilege of rebuilding approximately 500 homes in different villages. Its not just about construction; its about restoring a sense of stability and dignity to the lives of those whove faced the brunt of the floods. This project is a living expression of our ongoing commitment to stand with communities in times of adversity and make a genuine, human impact on their journey toward recovery. It will be in the form of multiple slides showcasing a story. The following text consists of 4 paragraphs and will be entered along with the photos. - CoA conducted a visit to Masudero Village in Tehsil Rato Dero, District Larkana, Sindh, which, like many villages in the region, suffered significantly from heavy rains. Stagnant water is still evident in various locations, and numerous houses have sustained severe damage. Reconstruction for these affected households poses a considerable challenge. Children of Adam (CoA), by the grace of Almighty Allah, is actively engaged in rehabilitating those affected by the floods. The organization is addressing the immediate need for shelter by constructing small homes. Special attention is given to rebuilding houses for widows and individuals reliant on daily wages. The recent floods have left vast areas in Sindh submerged, displacing residents and erasing entire villages. The affected people are grappling with lacking essential resources such as food, clean water, suitable clothing, and tools to protect themselves from mosquitoes, insects, and rodents. CoA, in collaboration with its partner Khubaib Foundation, is dedicated to providing a measure of relief. While some interventions are temporary, such as immediate aid, others, like the installation of hand pumps, aim to offer long-term, sustainable assistance to the affected communities.',
 },
-{
-    id:11,
-    Image:"/images/spa/b2.jpg",
-    title:"Sisley Spa opens at Miramar",
-    desc:"The phrasal sequence of the is now so that many campaign and benefit"
-},
-{
-    id:12,
-    Image:"/images/spa/b3.jpg",
-    title:"Top 5 Tips for Choosing a Day Spa",
-    desc:"The phrasal sequence of the is now so that many campaign and benefit"
-},
+
 ]
 export  const KeyFeaturestwo = [
     {
@@ -366,7 +362,7 @@ export  const teamData = [
         name:"Ronny Jofra",
         title:"C.E.O.",
         desc:"If the distribution of letters and words is random",
-        background:"bg-indigo-600/10 dark:bg-indigo-600/30 ",
+        background:"bg-red-600/10 dark:bg-red-600/30 ",
     },
     {
         image:"/images/client/02.jpg",
@@ -394,7 +390,7 @@ export  const teamData = [
         name:"Ronny Jofra",
         title:"C.E.O.",
         desc:"If the distribution of letters and words is random",
-        background:"bg-indigo-600/10 dark:bg-indigo-600/30  ",
+        background:"bg-red-600/10 dark:bg-red-600/30  ",
     },
     {
         image:"/images/client/06.jpg",
@@ -456,7 +452,7 @@ export   const digitalServices = [
     {
         icon:FiAirplay,
         title:"Digital Marketing",
-        background:"bg-indigo-600/5 text-indigo-600",
+        background:"bg-red-600/5 text-red-600",
         desc:"The phrasal sequence of the Lorem Ipsum text is now so that many"
     },
     {
@@ -627,7 +623,7 @@ export  const hostingServices = [
         sale: 'Sale',
         price: '3.99',
         time: '/year',
-        background:"bg-indigo-600"
+        background:"bg-red-600"
     },
     {
         image: "/images/hosting/biz.jpg",
@@ -816,14 +812,14 @@ export const NftServices = [
         image: "/images/client/01.jpg",
         name: 'Calvin Carlo',
         id: 'calvin_carlo',
-        background:" bg-gradient-to-r to-orange-600/70 from-indigo-600/70",
+        background:" bg-gradient-to-r to-orange-600/70 from-red-600/70",
     },
     {
         Id:2,
         image: "/images/client/02.jpg",
         name: 'Tiffany Betancourt',
         id: 'cutiegirl',
-        background:" bg-gradient-to-r to-red-600/70 from-indigo-600/70"
+        background:" bg-gradient-to-r to-red-600/70 from-red-600/70"
     },
     {
         Id:3,
@@ -844,14 +840,14 @@ export const NftServices = [
         image: "/images/client/05.jpg",
         name: 'Donna Schultz',
         id: 'angel',
-        background:"bg-gradient-to-r to-indigo-600/70 from-blue-600/70"
+        background:"bg-gradient-to-r to-red-600/70 from-blue-600/70"
     },
     {
         Id:6,
         image: "/images/client/06.jpg",
         name: 'Joshua Morris',
         id: 'crazyanyone',
-        background:"bg-gradient-to-r to-orange-600/70 from-indigo-600/70"
+        background:"bg-gradient-to-r to-orange-600/70 from-red-600/70"
     },
     {
         Id:7,
@@ -872,14 +868,14 @@ export const NftServices = [
         image: "/images/client/02.jpg",
         name: 'Tiffany Betancourt',
         id: 'cutiegirl',
-        background:" bg-gradient-to-r to-orange-600/70 from-indigo-600/70"
+        background:" bg-gradient-to-r to-orange-600/70 from-red-600/70"
     },
     {
         Id:10,
         image: "/images/client/03.jpg",
         name: 'Mari Harrington',
         id: 'norse_queen',
-        background:"bg-gradient-to-r to-red-600/70 from-indigo-600/70"
+        background:"bg-gradient-to-r to-red-600/70 from-red-600/70"
     },
     {
         Id:11,
@@ -900,14 +896,14 @@ export const NftServices = [
         image: "/images/client/06.jpg",
         name: 'Joshua Morris',
         id: 'crazyanyone',
-        background:"bg-gradient-to-r to-indigo-600/70 from-blue-600/70"
+        background:"bg-gradient-to-r to-red-600/70 from-blue-600/70"
     },
     {
         Id:14,
         image: "/images/client/07.jpg",
         name: 'Carl Williams',
         id: 'looserbad',
-        background:"bg-gradient-to-r to-orange-600/70 from-indigo-600/70"
+        background:"bg-gradient-to-r to-orange-600/70 from-red-600/70"
     },
     {
         Id:15,
@@ -2026,7 +2022,7 @@ export   const mesonaryData = [
             amount:"$21.00",
             descAmount:"$16.00",
             tag:"Sale",
-            tagBg:"bg-indigo-600"
+            tagBg:"bg-red-600"
         },
         {
             id:8,

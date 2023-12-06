@@ -117,7 +117,7 @@ export default function Hosting(){
                     <p className="text-slate-300 text-lg max-w-xl mx-auto">Create, collaborate, and turn your ideas into incredible products with the definitive platform for digital design.</p>
 
                     <div className="mt-8">
-                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Get Started</Link>
+                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Get Started</Link>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@ export default function Hosting(){
                                                     <span className="p-4 block bg-white dark:bg-slate-900 text-center">
                                                         <Image src={item.image} width={64} height={64} className="rounded-full shadow-md mx-auto h-16 w-16 mb-3" alt="" />
 
-                                                        <span className="text-xl font-medium group-hover:text-indigo-600 transition-all duration-500 ease-in-out">{item.extension}</span>
+                                                        <span className="text-xl font-medium group-hover:text-red-600 transition-all duration-500 ease-in-out">{item.extension}</span>
                                                         <span className="text-slate-400 block">{item.description}</span>
                                                     </span>
                                                     <span className={`p-4 block text-center ${item.background}`}>
@@ -169,10 +169,10 @@ export default function Hosting(){
                     {hosting.map((Data,index) => {
                         let Icons = Data.icon
                         return (
-                            <div key={index} className="group relative p-6 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-indigo-600 dark:hover:bg-indigo-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden">
+                            <div key={index} className="group relative p-6 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 hover:bg-red-600 dark:hover:bg-red-600 transition-all duration-500 ease-in-out rounded-xl bg-white dark:bg-slate-900 overflow-hidden">
                                 <div className="relative overflow-hidden inline-flex text-transparent -m-3">
-                                    <Icon.Hexagon className="h-24 w-24 fill-indigo-600/5 group-hover:fill-white/10"></Icon.Hexagon>
-                                    <div className="absolute top-2/4 -translate-y-2/4 start-8 text-indigo-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
+                                    <Icon.Hexagon className="h-24 w-24 fill-red-600/5 group-hover:fill-white/10"></Icon.Hexagon>
+                                    <div className="absolute top-2/4 -translate-y-2/4 start-8 text-red-600 rounded-xl group-hover:text-white transition-all duration-500 ease-in-out text-3xl flex align-middle justify-center items-center">
                                         <Icons className="w-7 h-7"/>
                                     </div>
                                 </div>
@@ -200,13 +200,13 @@ export default function Hosting(){
                         <p className="text-slate-400 max-w-xl">You can combine all the Techwind templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
 
                         <ul className="list-none text-slate-400 mt-4">
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Create your own skin to match your brand</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Create your own skin to match your brand</li>
                         </ul>
 
                         <div className="mt-4">
-                            <Link href="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Find Out More<MdKeyboardArrowRight className="text-xl ms-1"/> </Link>
+                            <Link href="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Find Out More<MdKeyboardArrowRight className="text-xl ms-1"/> </Link>
                         </div>
                     </div>
                 </div>
@@ -224,8 +224,8 @@ export default function Hosting(){
                             {aboutData.map((item,index)=>{
                                 let Icons = item.icon
                                 return(
-                                    <div key={index} className="group flex items-center relative overflow-hidden p-6 rounded-md shadow dark:shadow-gray-800 bg-gray-50 dark:bg-slate-800 hover:bg-indigo-600 dark:hover:bg-indigo-600 transition-all duration-500 ease-in-out">
-                                    <span className="text-indigo-600 group-hover:text-white text-5xl font-semibold transition-all duration-500 ease-in-out">
+                                    <div key={index} className="group flex items-center relative overflow-hidden p-6 rounded-md shadow dark:shadow-gray-800 bg-gray-50 dark:bg-slate-800 hover:bg-red-600 dark:hover:bg-red-600 transition-all duration-500 ease-in-out">
+                                    <span className="text-red-600 group-hover:text-white text-5xl font-semibold transition-all duration-500 ease-in-out">
                                         <Icons className='h-10 w-10'/>
                                     </span>
                                     <div className="flex-1 ms-3">
@@ -244,7 +244,7 @@ export default function Hosting(){
             </div>
         </section>
 
-        <section className="relative md:pt-24 md:pb-36 pt-16 pb-24 bg-indigo-600">
+        <section className="relative md:pt-24 md:pb-36 pt-16 pb-24 bg-red-600">
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-8 text-center">
                     <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold text-white">Hosting / Server Rates</h3>
@@ -267,10 +267,10 @@ export default function Hosting(){
                                 <div className="p-6 hosting-price">
                                     <ul className="inline-block flex-wrap justify-center text-center p-1 bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-full" >
                                         <li className="inline-block">
-                                            <button onClick={() => handleTabClick(0)} className={`${isOpenTab === 0 ?'text-white bg-indigo-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} id="dashboard-tab" >Monthly</button>
+                                            <button onClick={() => handleTabClick(0)} className={`${isOpenTab === 0 ?'text-white bg-red-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} id="dashboard-tab" >Monthly</button>
                                         </li>
                                         <li className="inline-block">
-                                            <button onClick={() => handleTabClick(1)} className={`${isOpenTab === 1 ?'text-white bg-indigo-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} >Monthly</button>
+                                            <button onClick={() => handleTabClick(1)} className={`${isOpenTab === 1 ?'text-white bg-red-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} >Monthly</button>
                                             
                                         </li>
                                     </ul>
@@ -293,7 +293,7 @@ export default function Hosting(){
                                     </div>
 
                                     <div className="mt-6">
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white rounded-md">Add Cart</Link>
+                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600/5 hover:bg-red-600 border-red-600/10 hover:border-red-600 text-red-600 hover:text-white rounded-md">Add Cart</Link>
                                     </div>
                                 </div>
 
@@ -311,12 +311,12 @@ export default function Hosting(){
                                 </div>
 
                                 <div className="p-4">
-                                    <Link href="/page-services" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
+                                    <Link href="/page-services" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Read More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                                 </div>
                             </div>
 
 
-                            <div className="group relative rounded-md overflow-hidden hover:shadow dark:shadow-gray-800 hover:shadow-indigo-600 border-[3px] border-indigo-600 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out">
+                            <div className="group relative rounded-md overflow-hidden hover:shadow dark:shadow-gray-800 hover:shadow-red-600 border-[3px] border-red-600 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out">
                                 <div className="p-6 py-8 border-b border-gray-100 dark:border-gray-700">
                                     <h5 className="text-lg font-semibold uppercase">Premium</h5>
                                     <p className="text-slate-400 mt-4">We offers a <b className="text-black dark:text-white">free month</b> of service for new customers.</p>
@@ -325,10 +325,10 @@ export default function Hosting(){
                                 <div className="p-6 hosting-price">
                                     <ul className="inline-block flex-wrap justify-center text-center p-1 bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-full" id="myTabtwo" data-tabs-toggle="#PremiumContent" role="tablist">
                                     <li className="inline-block">
-                                            <button onClick={() => handleTabClick1(0)} className={`${isOpenTab1 === 0 ?'text-white bg-indigo-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} id="dashboard-tab" >Monthly</button>
+                                            <button onClick={() => handleTabClick1(0)} className={`${isOpenTab1 === 0 ?'text-white bg-red-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} id="dashboard-tab" >Monthly</button>
                                         </li>
                                         <li className="inline-block">
-                                            <button onClick={() => handleTabClick1(1)} className={`${isOpenTab1 === 1 ?'text-white bg-indigo-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} >Monthly</button>
+                                            <button onClick={() => handleTabClick1(1)} className={`${isOpenTab1 === 1 ?'text-white bg-red-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} >Monthly</button>
                                         </li>
                                     </ul>
 
@@ -350,7 +350,7 @@ export default function Hosting(){
                                     </div>
 
                                     <div className="mt-6">
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white rounded-md">Add Cart</Link>
+                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600/5 hover:bg-red-600 border-red-600/10 hover:border-red-600 text-red-600 hover:text-white rounded-md">Add Cart</Link>
                                     </div>
                                 </div>
 
@@ -368,10 +368,10 @@ export default function Hosting(){
                                 </div>
 
                                 <div className="p-4">
-                                    <Link href="/page-services" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
+                                    <Link href="/page-services" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Read More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                                 </div>
 
-                                <div className="p-4 bg-indigo-600">
+                                <div className="p-4 bg-red-600">
                                     <p className="text-white text-sm">The most frequently chosen package</p>
                                 </div>
                             </div>
@@ -386,10 +386,10 @@ export default function Hosting(){
                                 <div className="p-6 hosting-price">
                                     <ul className="inline-block flex-wrap justify-center text-center p-1 bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-full" id="myTabthree" data-tabs-toggle="#BusinessContent" role="tablist">
                                             <li className="inline-block">
-                                            <button onClick={() => handleTabClick2(0)} className={`${isOpenTab2 === 0 ?'text-white bg-indigo-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} id="dashboard-tab" >Monthly</button>
+                                            <button onClick={() => handleTabClick2(0)} className={`${isOpenTab2 === 0 ?'text-white bg-red-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} id="dashboard-tab" >Monthly</button>
                                         </li>
                                         <li className="inline-block">
-                                            <button onClick={() => handleTabClick2(1)} className={`${isOpenTab2 === 1 ?'text-white bg-indigo-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} >Monthly</button>
+                                            <button onClick={() => handleTabClick2(1)} className={`${isOpenTab2 === 1 ?'text-white bg-red-600 hover:text-white' : ''} px-4 py-1 text-sm font-semibold rounded-full w-full transition-all duration-500 ease-in-out`} >Monthly</button>
                                         </li>
                                     </ul>
 
@@ -411,7 +411,7 @@ export default function Hosting(){
                                     </div>
 
                                     <div className="mt-6">
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white rounded-md">Add Cart</Link>
+                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600/5 hover:bg-red-600 border-red-600/10 hover:border-red-600 text-red-600 hover:text-white rounded-md">Add Cart</Link>
                                     </div>
                                 </div>
 
@@ -429,7 +429,7 @@ export default function Hosting(){
                                 </div>
 
                                 <div className="p-4">
-                                    <Link href="/page-services" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
+                                    <Link href="/page-services" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Read More <MdKeyboardArrowRight className="text-xl ms-1"/></Link>
                                 </div>
                             </div>
 
@@ -460,7 +460,7 @@ export default function Hosting(){
                                     return(
                                         <div className="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4" key={index}>
                                             <h2 className="text-base font-semibold bg-white dark:bg-slate-900">
-                                                <button type="button" onClick={() => toggleAccordion(data.id)} className={`flex justify-between items-center p-5 w-full font-medium text-start ${activeIndex === data.id ? 'bg-gray-50 dark:bg-slate-800 text-indigo-600' : ''}`} data-accordion-target={`#${data.target}`} aria-expanded={data.ariaExpanded} aria-controls={data.target}>
+                                                <button type="button" onClick={() => toggleAccordion(data.id)} className={`flex justify-between items-center p-5 w-full font-medium text-start ${activeIndex === data.id ? 'bg-gray-50 dark:bg-slate-800 text-red-600' : ''}`} data-accordion-target={`#${data.target}`} aria-expanded={data.ariaExpanded} aria-controls={data.target}>
                                                     <span>{data.que}</span>
                                                     <svg data-accordion-icon className={`${activeIndex === index ? "rotate-180" : "rotate-270" } w-4 h-4 shrink-01`}  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                                     <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path>

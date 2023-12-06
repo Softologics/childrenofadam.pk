@@ -101,13 +101,13 @@ export default function Construction(){
                             <p className="text-slate-900 dark:text-white/75 text-lg max-w-xl">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
                             <div className="mt-6">
-                                <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Contact Us</Link>
+                                <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Contact Us</Link>
                             </div>
                         </div>
                     </div>
 
                     <div className="lg:col-span-4 md:col-span-5 md:text-center md:order-2 order-1">
-                        <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox lg:h-24 h-20 lg:w-24 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white hover:bg-indigo-600 text-indigo-600 hover:text-white duration-500 ease-in-out mx-auto">
+                        <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox lg:h-24 h-20 lg:w-24 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white hover:bg-red-600 text-red-600 hover:text-white duration-500 ease-in-out mx-auto">
                             <i className="mdi mdi-play inline-flex items-center justify-center text-3xl"></i>
                         </Link>
                     </div>
@@ -122,7 +122,7 @@ export default function Construction(){
                     <div className="relative z-2 transition-all duration-500 ease-in-out sm:-mt-[200px] -mt-[140px] m-0">
                         <div className="relative bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md overflow-hidden">
                             <div className="grid lg:grid-cols-12 grid-cols-1">
-                                <div className="lg:col-span-4 order-1 lg:order-2 bg-indigo-600">
+                                <div className="lg:col-span-4 order-1 lg:order-2 bg-red-600">
                                     <div className="p-[30px] lg:text-start text-center">
                                         <span className="text-xl text-white/75">Our proud</span>
                                         <h4 className="text-2xl font-semibold text-white my-3">25 years of undefeated success</h4>
@@ -139,7 +139,7 @@ export default function Construction(){
                                             let Icons = item.icon
                                             return(
                                                 <div className="group flex transition-all duration-500 ease-in-out" key={index}>
-                                                    <div className="flex align-middle justify-center items-center w-14 h-14 mt-1 bg-indigo-600/5 group-hover:bg-indigo-600 group-hover:text-white text-indigo-600 rounded-full text-2xl shadow-sm dark:shadow-gray-800 transition-all duration-500 ease-in-out">
+                                                    <div className="flex align-middle justify-center items-center w-14 h-14 mt-1 bg-red-600/5 group-hover:bg-red-600 group-hover:text-white text-red-600 rounded-full text-2xl shadow-sm dark:shadow-gray-800 transition-all duration-500 ease-in-out">
                                                         <Icons className='w-8 h-8'/>
                                                     </div>
                                                     <div className="flex-1 ms-4">
@@ -169,7 +169,7 @@ export default function Construction(){
                             <div className="absolute bottom-16 end-0">
                                 <Image src="/images/construction/ab02.jpg" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} className="rounded-md rounded-ee-[30px] shadow-md w-56 h-56" alt="" />
                                 <div className="absolute bottom-0 end-0 text-center">
-                                    <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox h-14 w-14 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-indigo-600 text-white">
+                                    <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox h-14 w-14 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-red-600 text-white">
                                         <i className="mdi mdi-play inline-flex items-center justify-center text-xl"></i>
                                     </Link>
                                 </div>
@@ -180,11 +180,11 @@ export default function Construction(){
 
                     <div className="md:col-span-7">
                         <div className="lg:ms-4">
-                            <span className="bg-indigo-600 inline-block text-white text-xs font-semibold px-2.5 py-0.5 rounded-full h-5">About Company</span>
+                            <span className="bg-red-600 inline-block text-white text-xs font-semibold px-2.5 py-0.5 rounded-full h-5">About Company</span>
                             <h4 className="mb-6 mt-4 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Worlds largest and <br /> trusted construction company</h4>
                             <p className="text-slate-400 max-w-xl">It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. This might also explain why one can now find slightly different versions.</p>
                             <div className="mt-6">
-                                <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Read More <MdKeyboardArrowRight/></Link>
+                                <Link href="#" className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Read More <MdKeyboardArrowRight/></Link>
                             </div>
 
                             <div className="pt-6 mt-6 border-t dark:border-gray-700">
@@ -221,7 +221,7 @@ export default function Construction(){
                             <div className="group relative block overflow-hidden rounded-md transition-all duration-500" key={index}>
                                 <Link href="/portfolio-detail-one"><Image src={item.image} width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} className="rounded-md shadow dark:shadow-gray-800" alt="" /></Link>
                                 <div className="content pt-3">
-                                    <h5 className="mb-1"><Link href="/portfolio-detail-one" className="hover:text-indigo-600 transition-all duration-500 font-semibold text-lg">{item.title}</Link></h5>
+                                    <h5 className="mb-1"><Link href="/portfolio-detail-one" className="hover:text-red-600 transition-all duration-500 font-semibold text-lg">{item.title}</Link></h5>
                                     <h6 className="text-slate-400">{item.name}</h6>
                                 </div>
                             </div>
@@ -239,7 +239,7 @@ export default function Construction(){
 
                     <p className="text-white/80 max-w-xl mx-auto">Start working with Techwind that can provide everything you need to generate awareness, drive traffic, connect.</p>
 
-                    <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 mx-auto mt-10">
+                    <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610" className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 mx-auto mt-10">
                         <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                     </Link>
                 </div>
@@ -249,7 +249,7 @@ export default function Construction(){
         <section className="relative md:pt-24 pt-16">
             <div className="container relative">
                 <div className="grid grid-cols-1 pb-8 text-center">
-                    <h6 className="text-indigo-600 text-base mb-2">Our Minds</h6>
+                    <h6 className="text-red-600 text-base mb-2">Our Minds</h6>
                     <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Management Team</h3>
 
                     <p className="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>

@@ -33,7 +33,7 @@ export default function UserInvioce(){
                                         <Image src="/images/logo-light.png" width={138} height={24}  className="hidden dark:block" alt="" />
                                         <div className="flex mt-4">
                                             <Link href="#" className="h-4 w-4 me-3 mt-1"></Link>
-                                            <Link href="#"className="text-indigo-600 dark:text-white font-medium">https://1.envato.market/techwind-next</Link>
+                                            <Link href="#"className="text-red-600 dark:text-white font-medium">https://1.envato.market/techwind-next</Link>
                                         </div>
                                     </div>
 
@@ -201,7 +201,7 @@ export default function UserInvioce(){
 
                                     <div className="mt-4 md:mt-0">
                                         <div className="text-slate-400 text-center md:text-end">
-                                            <h6 className="mb-0"><Link href="/page-terms" target="_blank" className="text-indigo-600">Terms & Conditions</Link></h6>
+                                            <h6 className="mb-0"><Link href="/page-terms" target="_blank" className="text-red-600">Terms & Conditions</Link></h6>
                                         </div>
                                     </div>
                                 </div>

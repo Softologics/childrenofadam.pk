@@ -57,7 +57,7 @@ export default function CompanyDetails(){
                                         <li className="flex mt-2 items-center font-medium"><Icon.Users className="h-4 w-4 text-amber-500 me-3"></Icon.Users><span className="text-slate-400 me-3">No. of employees :</span> 200</li>
                                     </ul>
 
-                                    <Link href="/page-job-apply" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-6">Apply Now</Link>
+                                    <Link href="/page-job-apply" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md mt-6">Apply Now</Link>
                                 </div>
                             </div>
 
@@ -82,11 +82,11 @@ export default function CompanyDetails(){
                                 return(
                                     <div key={index}>
                                     <Link href="/page-job-detail" className="group flex  bg-white dark:bg-slate-900 transition-all duration-500 hover:scale-105 shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 ease-in-out items-center p-3 rounded-md">
-                                        <div className="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-indigo-600/10 text-indigo-600 text-center rounded-full me-3">
+                                        <div className="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-gradient-to-r from-transparent to-red-600/10 text-red-600 text-center rounded-full me-3">
                                             <Icon className="h-5 w-5 rotate-45"></Icon>
                                         </div>
                                         <div className="content">
-                                            <h4 className="text-lg font-medium group-hover:text-indigo-600 duration-500 ease-in-out">{item.title}</h4>
+                                            <h4 className="text-lg font-medium group-hover:text-red-600 duration-500 ease-in-out">{item.title}</h4>
                                             <p className="text-slate-400">{item.location}</p>
                                         </div>
                                     </Link>

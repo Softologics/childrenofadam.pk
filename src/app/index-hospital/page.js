@@ -93,7 +93,7 @@ export default function Hospital(){
                     <p className="text-white/60 text-lg max-w-xl">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
 
                     <div className="mt-8">
-                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md">Make Appointment</Link>
+                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Make Appointment</Link>
                         <p className="text-white/60 text-base mt-2">T&C apply. Please read <Link href="#" className="text-white inline-flex items-center">Terms and Conditions <FaArrowRight className="ms-2 text-[10px]"/></Link></p>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ export default function Hospital(){
                         <div className="grid md:grid-cols-3 grid-cols-1 gap-[24px]">
                             <div>
                                 <div
-                                    className="w-16 h-16 bg-indigo-600/5 text-indigo-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800">
+                                    className="w-16 h-16 bg-red-600/5 text-red-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800">
                                     <RiHospitalLine className ="w-6 h-6"/>
                                 </div>
 
@@ -116,13 +116,13 @@ export default function Hospital(){
                                     <p className="text-slate-400 mt-3">This is required when, for example, the is not yet available. Dummy text is also known as fill that.</p>
 
                                     <div className="mt-5">
-                                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div
-                                    className="w-16 h-16 bg-indigo-600/5 text-indigo-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800">
+                                    className="w-16 h-16 bg-red-600/5 text-red-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800">
                                     <IoMedkitOutline className='w-6 h-6'/>
                                 </div>
 
@@ -131,7 +131,7 @@ export default function Hospital(){
                                     <p className="text-slate-400 mt-3">This is required when, for example, the is not yet available. Dummy text is also known as fill that.</p>
 
                                     <div className="mt-5">
-                                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@ export default function Hospital(){
 
                             <div>
                                 <div
-                                    className="w-16 h-16 bg-indigo-600/5 text-indigo-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800">
+                                    className="w-16 h-16 bg-red-600/5 text-red-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800">
                                     <AiOutlineClockCircle className="w-6 h-6"/>
                                 </div>
 
@@ -148,20 +148,20 @@ export default function Hospital(){
                                     <ul className="list-none mt-3 space-x-1">
                                         <li className="flex justify-between">
                                             <p className="text-slate-400">Monday - Friday</p>
-                                            <p className="text-indigo-600">8.00 - 20.00</p>
+                                            <p className="text-red-600">8.00 - 20.00</p>
                                         </li>
                                         <li className="flex justify-between">
                                             <p className="text-slate-400">Saturday</p>
-                                            <p className="text-indigo-600">8.00 - 18.00</p>
+                                            <p className="text-red-600">8.00 - 18.00</p>
                                         </li>
                                         <li className="flex justify-between">
                                             <p className="text-slate-400">Sunday</p>
-                                            <p className="text-indigo-600">8.00 - 14.00</p>
+                                            <p className="text-red-600">8.00 - 14.00</p>
                                         </li>
                                     </ul>
 
                                     <div className="mt-5">
-                                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                                        <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                                     </div>
                                 </div>
                             </div>
@@ -177,7 +177,7 @@ export default function Hospital(){
                             <Image src="/images/hospital/about-2.png" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}} className="rounded-md" alt="" />
                             <div className="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
                                 <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610"
-                                    className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 dark:text-white">
+                                    className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 dark:text-white">
                                     <i className="mdi mdi-play inline-flex items-center justify-center text-xl"></i>
                                 </Link>
                             </div>
@@ -190,7 +190,7 @@ export default function Hospital(){
                             <h4 className="mb-6 md:text-3xl text-2xl lg:leading-normal leading-normal font-medium">About Our Treatments</h4>
                             <p className="text-slate-400 max-w-xl">Great doctor if you need your family member to get effective immediate assistance, examination, emergency treatment or a simple consultation. Thank you.</p>
                             <p className="text-slate-400 max-w-xl mt-3">The most well-known dummy text is the Lorem Ipsum, which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to proper Latin. It contains a series of real Latin words.</p>
-                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-3">Read More <i className="mdi mdi-chevron-right align-middle"></i></Link>
+                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md mt-3">Read More <i className="mdi mdi-chevron-right align-middle"></i></Link>
                         </div>
                     </div>
                 </div>
@@ -208,12 +208,12 @@ export default function Hospital(){
                         let Icons = item.icon
                         return(
                             <div className="text-center md:px-6" key={index}>
-                                <div className="w-20 h-20 bg-indigo-600/5 text-indigo-600 rounded-3xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                                <div className="w-20 h-20 bg-red-600/5 text-red-600 rounded-3xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
                                     <Icons className='w-7 h-7'/>
                                 </div>
     
                                 <div className="content mt-7">
-                                    <Link href="/page-services" className="title h5 text-lg font-medium hover:text-indigo-600">{item.title}</Link>
+                                    <Link href="/page-services" className="title h5 text-lg font-medium hover:text-red-600">{item.title}</Link>
                                     <p className="text-slate-400 mt-3">{item.desc}</p>
                                 </div>
                             </div>
@@ -260,7 +260,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Eye Care</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">09:00AM - 10:00AM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">09:00AM - 10:00AM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
@@ -273,7 +273,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Psychotherapy</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">09:00AM - 01:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">09:00AM - 01:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
@@ -290,7 +290,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Gynecology</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">11:00AM - 04:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">11:00AM - 04:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="p-3 border border-gray-100 dark:border-gray-700">
@@ -301,7 +301,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Cardiology</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">11:00AM - 12:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">11:00AM - 12:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="p-3 border border-gray-100 dark:border-gray-700">
@@ -312,7 +312,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Orthopedic</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">09:00AM - 10:00AM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">09:00AM - 10:00AM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                 </tr>
@@ -329,7 +329,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Neurology</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">02:00PM - 04:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">02:00PM - 04:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="p-3 border border-gray-100 dark:border-gray-700">
@@ -340,7 +340,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Cardiology</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">11:00AM - 12:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">11:00AM - 12:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
@@ -359,7 +359,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Neurology</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">04:00PM - 05:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">04:00PM - 05:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
@@ -371,7 +371,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Neurology</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">04:30PM - 06:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">04:30PM - 06:00PM</span>
                                     </td>
                                 </tr>
 
@@ -385,7 +385,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Psychotherapy</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">06:00PM - 09:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">06:00PM - 09:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="p-3 border border-gray-100 dark:border-gray-700">
@@ -396,7 +396,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Orthopedic</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">07:00PM - 08:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">07:00PM - 08:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="p-3 border border-gray-100 dark:border-gray-700">
@@ -407,7 +407,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Cardiology</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">06:00PM - 07:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">06:00PM - 07:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="p-3 border border-gray-100 dark:border-gray-700">
@@ -418,7 +418,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Psychotherapy</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">06:00PM - 07:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">06:00PM - 07:00PM</span>
                                     </td>
                                 </tr>
 
@@ -433,7 +433,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Orthopedic</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">09:00PM - 10:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">09:00PM - 10:00PM</span>
                                     </td>
                                     <td className="p-3 border border-gray-100 dark:border-gray-700">
                                         <div className="flex items-center mb-3">
@@ -443,7 +443,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Cardiology</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">09:00PM - 10:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">09:00PM - 10:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="p-3 border border-gray-100 dark:border-gray-700">
@@ -454,7 +454,7 @@ export default function Hospital(){
                                                 <span className="text-slate-400">Orthopedic</span>
                                             </div>
                                         </div>
-                                        <span className="py-2 px-4 bg-indigo-600/5 text-indigo-600 rounded-md block text-center">09:00PM - 10:00PM</span>
+                                        <span className="py-2 px-4 bg-red-600/5 text-red-600 rounded-md block text-center">09:00PM - 10:00PM</span>
                                     </td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
                                     <td className="border border-gray-100 dark:border-gray-700"></td>
@@ -482,16 +482,16 @@ export default function Hospital(){
                                 <Image src={item.image} width={96} height={96} className="h-24 w-24 rounded-full shadow-md dark:shadow-gray-800" alt="" />
 
                                 <div className="content mt-4">
-                                    <Link href="#" className="text-lg font-medium hover:text-indigo-600 block">{item.name}</Link>
+                                    <Link href="#" className="text-lg font-medium hover:text-red-600 block">{item.name}</Link>
                                     <span className="text-slate-400 block">{item.title}</span>
 
                                     <p className="text-slate-400 mt-4">{item.desc}</p>
 
                                     <ul className="list-none  space-x-1 mt-4 flex">
-                                        <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><Icon.Facebook className="h-4 w-4"></Icon.Facebook></Link></li>
-                                        <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><Icon.Instagram className="h-4 w-4"></Icon.Instagram></Link></li>
-                                        <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><Icon.Twitter className="h-4 w-4"></Icon.Twitter></Link></li>
-                                        <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 hover:text-white"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link></li>
+                                        <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 hover:text-white"><Icon.Facebook className="h-4 w-4"></Icon.Facebook></Link></li>
+                                        <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 hover:text-white"><Icon.Instagram className="h-4 w-4"></Icon.Instagram></Link></li>
+                                        <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 hover:text-white"><Icon.Twitter className="h-4 w-4"></Icon.Twitter></Link></li>
+                                        <li><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center border border-gray-100 dark:border-gray-800 rounded-md hover:border-red-600 dark:hover:border-red-600 hover:bg-red-600 hover:text-white"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -512,7 +512,7 @@ export default function Hospital(){
                                     <Image src="/images/hospital/bg.jpg" width={0} height={0} sizes='100vw' style={{width:"100%",height:"auto"}} className="rounded-md shadow-lg" alt="" />
                                     <div className="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
                                         <Link href="#" onClick={() => setOpen(true)} data-id="S_CGed6E610"
-                                            className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600 dark:text-white">
+                                            className="lightbox h-20 w-20 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600 dark:text-white">
                                             <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                                         </Link>
                                     </div>
@@ -551,7 +551,7 @@ export default function Hospital(){
                 </div>
             </div>
 
-            <div className="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-indigo-500 to-indigo-600"></div>
+            <div className="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-red-500 to-red-600"></div>
         </section>
 
         <section className="relative md:py-24 py-16">

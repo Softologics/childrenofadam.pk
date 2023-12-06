@@ -107,7 +107,7 @@ export default function Software(){
         <>
         <Navbar navClass="nav-light" />
 
-        <section className="relative md:h-screen md:py-0 py-36 items-center overflow-hidden bg-indigo-600  bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/bg3.png')"}}>
+        <section className="relative md:h-screen md:py-0 py-36 items-center overflow-hidden bg-red-600  bg-center bg-no-repeat bg-cover" style={{backgroundImage:"url('/images/bg3.png')"}}>
             <div className="container relative">
                 <div className="grid grid-cols-1 md:mt-36 mt-10 text-center">
                     <h4 className="font-bold text-white lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5">Integrated Techwind <span className="text-orange-500">Software <br /> & Saas</span> Plateform </h4>
@@ -161,52 +161,52 @@ export default function Software(){
 
                     <div className="group relative hover:bg-white dark:hover:bg-slate-900 hover:shadow dark:hover:shadow-gray-800 p-6 transition duration-500 ease-in-out rounded-xl overflow-hidden text-center h-fit">
                         <div className="relative overflow-hidden text-transparent -m-3">
-                            <Icon.Hexagon className="h-28 w-28 fill-indigo-600/5 dark:fill-white/5 mx-auto rotate-[30deg]"></Icon.Hexagon>
-                            <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-indigo-600 dark:text-white rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center"> <MdAirplay className="w-7 h-7"/>
+                            <Icon.Hexagon className="h-28 w-28 fill-red-600/5 dark:fill-white/5 mx-auto rotate-[30deg]"></Icon.Hexagon>
+                            <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-red-600 dark:text-white rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center"> <MdAirplay className="w-7 h-7"/>
                             </div>
                         </div>
 
                         <div className="mt-6">
-                            <Link href="#" className="text-xl font-medium hover:text-indigo-600 duration-500 ease-in-out">UX / UI Design</Link>
+                            <Link href="#" className="text-xl font-medium hover:text-red-600 duration-500 ease-in-out">UX / UI Design</Link>
                             <p className="text-slate-400 transition duration-500 ease-in-out mt-3">If the distribution of letters and words is random, the reader will not be distracted from making.</p>
                         </div>
                     </div>
 
                     <div className="group relative hover:bg-white dark:hover:bg-slate-900 hover:shadow dark:hover:shadow-gray-800 p-6 transition duration-500 ease-in-out rounded-xl overflow-hidden text-center h-fit md:mt-16">
                         <div className="relative overflow-hidden text-transparent -m-3">
-                            <Icon.Hexagon className="h-28 w-28 fill-indigo-600/5 dark:fill-white/5 mx-auto rotate-[30deg]"></Icon.Hexagon>
-                            <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-indigo-600 dark:text-white rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center"><MdApi className="w-7 h-7"/>
+                            <Icon.Hexagon className="h-28 w-28 fill-red-600/5 dark:fill-white/5 mx-auto rotate-[30deg]"></Icon.Hexagon>
+                            <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-red-600 dark:text-white rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center"><MdApi className="w-7 h-7"/>
                             </div>
                         </div>
 
                         <div className="mt-6">
-                            <Link href="#" className="text-xl font-medium hover:text-indigo-600 duration-500 ease-in-out">IOS App Designer</Link>
+                            <Link href="#" className="text-xl font-medium hover:text-red-600 duration-500 ease-in-out">IOS App Designer</Link>
                             <p className="text-slate-400 transition duration-500 ease-in-out mt-3">If the distribution of letters and words is random, the reader will not be distracted from making.</p>
                         </div>
                     </div>
 
                     <div className="group relative hover:bg-white dark:hover:bg-slate-900 hover:shadow dark:hover:shadow-gray-800 p-6 transition duration-500 ease-in-out rounded-xl overflow-hidden text-center h-fit">
                         <div className="relative overflow-hidden text-transparent -m-3">
-                            <Icon.Hexagon className="h-28 w-28 fill-indigo-600/5 dark:fill-white/5 mx-auto rotate-[30deg]"></Icon.Hexagon>
-                            <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-indigo-600 dark:text-white rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center"><HiOutlineCog6Tooth className="w-7 h-7"/>
+                            <Icon.Hexagon className="h-28 w-28 fill-red-600/5 dark:fill-white/5 mx-auto rotate-[30deg]"></Icon.Hexagon>
+                            <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-red-600 dark:text-white rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center"><HiOutlineCog6Tooth className="w-7 h-7"/>
                             </div>
                         </div>
 
                         <div className="mt-6">
-                            <Link href="#" className="text-xl font-medium hover:text-indigo-600 duration-500 ease-in-out">Web Security</Link>
+                            <Link href="#" className="text-xl font-medium hover:text-red-600 duration-500 ease-in-out">Web Security</Link>
                             <p className="text-slate-400 transition duration-500 ease-in-out mt-3">If the distribution of letters and words is random, the reader will not be distracted from making.</p>
                         </div>
                     </div>
 
                     <div className="group relative hover:bg-white dark:hover:bg-slate-900 hover:shadow dark:hover:shadow-gray-800 p-6 transition duration-500 ease-in-out rounded-xl overflow-hidden text-center h-fit md:mt-16">
                         <div className="relative overflow-hidden text-transparent -m-3">
-                            <Icon.Hexagon className="h-28 w-28 fill-indigo-600/5 dark:fill-white/5 mx-auto rotate-[30deg]"></Icon.Hexagon>
-                            <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-indigo-600 dark:text-white rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center"><FaRegComments className="w-7 h-7"/>
+                            <Icon.Hexagon className="h-28 w-28 fill-red-600/5 dark:fill-white/5 mx-auto rotate-[30deg]"></Icon.Hexagon>
+                            <div className="absolute top-2/4 -translate-y-2/4 start-0 end-0 mx-auto text-red-600 dark:text-white rounded-xl transition duration-500 ease-in-out text-3xl flex align-middle justify-center items-center"><FaRegComments className="w-7 h-7"/>
                             </div>
                         </div>
 
                         <div className="mt-6">
-                            <Link href="#" className="text-xl font-medium hover:text-indigo-600 duration-500 ease-in-out">24/7 Support</Link>
+                            <Link href="#" className="text-xl font-medium hover:text-red-600 duration-500 ease-in-out">24/7 Support</Link>
                             <p className="text-slate-400 transition duration-500 ease-in-out mt-3">If the distribution of letters and words is random, the reader will not be distracted from making.</p>
                         </div>
                     </div>
@@ -221,13 +221,13 @@ export default function Software(){
                         <h4 className="mb-4 text-2xl leading-normal font-medium">Great Product Analytics <br /> With Real Problem</h4>
                         <p className="text-slate-400">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
                         <ul className="list-none  text-slate-400 mt-4">
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Create your own skin to match your brand</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Create your own skin to match your brand</li>
                         </ul>
 
                         <div className="mt-4">
-                              <Link href="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Find Out More <MdKeyboardArrowRight className="text-xl ms-1"/> </Link>
+                              <Link href="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Find Out More <MdKeyboardArrowRight className="text-xl ms-1"/> </Link>
                         </div>
                     </div>
                 </div>
@@ -237,20 +237,20 @@ export default function Software(){
                 <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                     <div className="relative order-1 md:order-2">
                         <Image src="/images/saas/classic03.png" width={0} height={0} sizes="100vw" style={{width:"100%", height:"auto"}}  className="rounded-lg shadow-md dark:shadow-gray-800" alt="" />
-                        <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-indigo-600/5 bottom-0 end-0 rotate-45 -z-1 rounded-3xl"></div>
+                        <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-red-600/5 bottom-0 end-0 rotate-45 -z-1 rounded-3xl"></div>
                     </div>
 
                     <div className="lg:me-8 order-2 md:order-1">
                         <h4 className="mb-4 text-2xl leading-normal font-medium">Get Notified About Importent Email</h4>
                         <p className="text-slate-400">Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts. If the distribution of letters visual impact.</p>
                         <ul className="list-none  text-slate-400 mt-4">
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
-                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-indigo-600 text-base me-2"/> Create your own skin to match your brand</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Digital Marketing Solutions for Tomorrow</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Our Talented & Experienced Marketing Agency</li>
+                            <li className="mb-1 flex items-center"><BsCheckCircle className="text-red-600 text-base me-2"/> Create your own skin to match your brand</li>
                         </ul>
 
                         <div className="mt-4">
-                            <Link href="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Find Out More <MdKeyboardArrowRight className="text-xl ms-1"/> </Link>
+                            <Link href="/page-aboutus" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Find Out More <MdKeyboardArrowRight className="text-xl ms-1"/> </Link>
                         </div>
                     </div>
                 </div>
@@ -260,7 +260,7 @@ export default function Software(){
                 <div className="grid md:grid-cols-2 grid-cols-1 items-center mt-10 gap-[30px]">
                     <div className="relative">
                         <Image src="/images/saas/classic02.png" width={0} height={0} sizes="100vw" style={{width:"100%", height:"auto"}}  className="rounded-lg shadow-md dark:shadow-gray-800" alt="" />
-                        <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-indigo-600/5 bottom-0 start-0 rotate-45 -z-1 rounded-3xl"></div>
+                        <div className="overflow-hidden absolute lg:h-[400px] h-[320px] lg:w-[400px] w-[320px] bg-red-600/5 bottom-0 start-0 rotate-45 -z-1 rounded-3xl"></div>
                     </div>
 
                     <div className="lg:ms-8">
@@ -268,8 +268,8 @@ export default function Software(){
                             {aboutData.map((item,index)=>{
                                 let Icons = item.icon
                                 return(
-                                    <div key={index} className="group flex items-center relative overflow-hidden p-6 rounded-md shadow dark:shadow-gray-800 bg-gray-50 dark:bg-slate-800 hover:bg-indigo-600 dark:hover:bg-indigo-600 transition-all duration-500 ease-in-out">
-                                        <span className="text-indigo-600 group-hover:text-white text-5xl font-semibold transition-all duration-500 ease-in-out">
+                                    <div key={index} className="group flex items-center relative overflow-hidden p-6 rounded-md shadow dark:shadow-gray-800 bg-gray-50 dark:bg-slate-800 hover:bg-red-600 dark:hover:bg-red-600 transition-all duration-500 ease-in-out">
+                                        <span className="text-red-600 group-hover:text-white text-5xl font-semibold transition-all duration-500 ease-in-out">
                                             <Icons className="w-8 h-8"/>
                                         </span>
                                         <div className="flex-1 ms-3">
@@ -307,34 +307,34 @@ export default function Software(){
                                 <span className="inline-block h6 ml-1">/ month</span>
                             </div>
                             <p className="mb-6 text-slate-400">Free features for your business.</p>
-                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white rounded-md w-full">Redeem Now</Link>
+                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600/5 hover:bg-red-600 border-red-600/10 hover:border-red-600 text-red-600 hover:text-white rounded-md w-full">Redeem Now</Link>
                         </div>
                         <div className="border-b border-slate-200 dark:border-slate-200/5"></div>
                         <ul className="self-start pt-8">
                             <li className="flex items-center mb-1 text-slate-400">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2"/>
+                                <BsCheckCircle className="text-red-600 text-base me-2"/>
                                 <span>Complete documentation</span>
                             </li>
                             <li className="flex items-center my-1 text-slate-400">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2"/>
+                                <BsCheckCircle className="text-red-600 text-base me-2"/>
                                 <span>Working materials in Figma</span>
                             </li>
                             <li className="flex items-center my-1 text-slate-400">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2"/>
+                                <BsCheckCircle className="text-red-600 text-base me-2"/>
                                 <span>100GB cloud storage</span>
                             </li>
                             <li className="flex items-center my-1 text-slate-400">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2"/>
+                                <BsCheckCircle className="text-red-600 text-base me-2"/>
                                 <span>500 team members</span>
                             </li>
                             <li className="flex items-center my-1 text-slate-400">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2"/>
+                                <BsCheckCircle className="text-red-600 text-base me-2"/>
                                 <span>Free Support</span>
                             </li>
                         </ul>
                     </div>
 
-                    <div className="shadow rounded-md p-6 bg-gradient-to-t bg-indigo-600">
+                    <div className="shadow rounded-md p-6 bg-gradient-to-t bg-red-600">
                         <div className="pb-8">
                             <h3 className="mb-6 text-xl font-medium text-white">Business</h3>
                             <div className="mb-6 text-white/50">
@@ -379,28 +379,28 @@ export default function Software(){
                                 <span className="inline-block h6 ml-1">/ month</span>
                             </div>
                             <p className="mb-6 text-slate-400">Corporate features for up to 100 users.</p>
-                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md w-full">Signup Now</Link>
+                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md w-full">Signup Now</Link>
                         </div>
                         <div className="border-b border-slate-200 dark:border-slate-200/5"></div>
                         <ul className="self-start pt-8">
                             <li className="flex items-center mb-1 text-slate-400">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2"/>
+                                <BsCheckCircle className="text-red-600 text-base me-2"/>
                                 <span>Complete documentation</span>
                             </li>
                             <li className="flex items-center my-1 text-slate-400">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2"/>
+                                <BsCheckCircle className="text-red-600 text-base me-2"/>
                                 <span>Working materials in Figma</span>
                             </li>
                             <li className="flex items-center my-1 text-slate-400">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2"/>
+                                <BsCheckCircle className="text-red-600 text-base me-2"/>
                                 <span>100GB cloud storage</span>
                             </li>
                             <li className="flex items-center my-1 text-slate-400">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2"/>
+                                <BsCheckCircle className="text-red-600 text-base me-2"/>
                                 <span>500 team members</span>
                             </li>
                             <li className="flex items-center my-1 text-slate-400">
-                                <BsCheckCircle className="text-indigo-600 text-base me-2"/>
+                                <BsCheckCircle className="text-red-600 text-base me-2"/>
                                 <span>Free Support</span>
                             </li>
                         </ul>
@@ -420,7 +420,7 @@ export default function Software(){
                         {accordionData1.map((item, index) => (
                             <div key={index} className="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4">
                                 <h2 className="text-base font-semibold" id="accordion-collapse-heading-1">
-                                    <button type="button" onClick={() => toggleAccordion(item.id)} className={`flex justify-between items-center p-5 w-full font-medium text-start ${activeIndex === item.id ? 'bg-gray-50 dark:bg-slate-800 text-indigo-600' : ''}`} data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                                    <button type="button" onClick={() => toggleAccordion(item.id)} className={`flex justify-between items-center p-5 w-full font-medium text-start ${activeIndex === item.id ? 'bg-gray-50 dark:bg-slate-800 text-red-600' : ''}`} data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
                                         <span>{item.title}</span>
                                         <svg data-accordion-icon className={`${activeIndex === item.id ? "rotate-180" : "rotate-270" } w-4 h-4 shrink-01`}  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path>
@@ -443,7 +443,7 @@ export default function Software(){
                         {accordionData2.map((item, index) => (
                             <div key={index} className="relative shadow dark:shadow-gray-800 rounded-md overflow-hidden mt-4">
                                 <h2 className="text-base font-semibold" id="accordion-collapse-heading-1">
-                                    <button type="button" onClick={() => toggleAccordion(item.id)} className={`flex justify-between items-center p-5 w-full font-medium text-start ${activeIndex === item.id ? 'bg-gray-50 dark:bg-slate-800 text-indigo-600' : ''}`} data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                                    <button type="button" onClick={() => toggleAccordion(item.id)} className={`flex justify-between items-center p-5 w-full font-medium text-start ${activeIndex === item.id ? 'bg-gray-50 dark:bg-slate-800 text-red-600' : ''}`} data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
                                         <span>{item.title}</span>
                                         <svg data-accordion-icon className={`${activeIndex === item.id ? "rotate-180" : "rotate-270" } w-4 h-4 shrink-01`}  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path>

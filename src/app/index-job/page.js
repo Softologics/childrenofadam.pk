@@ -95,7 +95,7 @@ export default function IndexJob(){
             </div>
             <div className="container relative z-1">
                 <div className="grid grid-cols-1 mt-10">
-                    <h4 className="lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 font-bold">Make The Best Move to <br /> Choose Your <span className="text-indigo-600">New Job</span></h4>
+                    <h4 className="lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 font-bold">Make The Best Move to <br /> Choose Your <span className="text-red-600">New Job</span></h4>
                     <p className="text-slate-400 text-lg max-w-xl">Find Jobs, Employment & Career Opportunities. Some of the companies we have helped recruit excellent applicants over the years.</p>
 
                     <div className="grid lg:grid-cols-12 grid-cols-1" id="reserve-form">
@@ -106,25 +106,25 @@ export default function IndexJob(){
                                         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-0 gap-6">
                                             <div>
                                                 <div className="filter-search-form relative lg:before:content-[''] lg:before:absolute lg:before:top-[10px] lg:before:end-0 lg:before:h-10 lg:before:z-1 lg:before:border-r lg:before:border-inherit lg:before:rounded-md lg:before:outline-0 lg:dark:before:border-gray-700">
-                                                    <LuSearch  className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-indigo-600 text-[20px]"/>
+                                                    <LuSearch  className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-red-600 text-[20px]"/>
                                                     <input name="name" type="text" id="job-keyword" className="form-input lg:rounded-t-sm lg:rounded-e-none lg:rounded-b-none lg:rounded-s-sm lg:outline-0 w-full filter-input-box bg-gray-50 dark:bg-slate-800 border-0 focus:ring-0" placeholder="Search your Keywords" />
                                                 </div>
                                             </div>
                                             <div>                                                        
                                                 <div className="filter-search-form relative lg:before:content-[''] lg:before:absolute lg:before:top-[10px] lg:before:end-0 lg:before:h-10 lg:before:z-1 lg:before:border-r lg:before:border-inherit lg:before:rounded-md lg:before:outline-0 lg:dark:before:border-gray-700">
-                                                    <AiOutlineHome className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-indigo-600 text-[20px]"/>
+                                                    <AiOutlineHome className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-red-600 text-[20px]"/>
                                                     <Select className="form-input filter-input-box bg-gray-50 dark:bg-slate-800 border-0" options={country} />
 
                                                     </div>
                                                 </div>
                                             <div>                                                       
                                                 <div className="filter-search-form relative lg:before:content-[''] lg:before:absolute lg:before:top-[10px] lg:before:end-0 lg:before:h-10 lg:before:z-1 lg:before:border-r lg:before:border-inherit lg:before:rounded-md lg:before:outline-0 lg:dark:before:border-gray-700">
-                                                    <AiOutlineDollar className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-indigo-600 text-[20px]"/>
+                                                    <AiOutlineDollar className="icons  absolute top-[48%] -translate-y-1/2 start-3 z-1 text-red-600 text-[20px]"/>
                                                     <Select className="form-input filter-input-box bg-gray-50 dark:bg-slate-800 border-0" options={time} />
                                                 </div>
                                                 </div>
                                             <div>
-                                                <input type="submit" id="search-buy" name="search" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white searchbtn lg:rounded-t-none lg w-full" value="Search" style={{height:"60px"}} />
+                                                <input type="submit" id="search-buy" name="search" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white searchbtn lg:rounded-t-none lg w-full" value="Search" style={{height:"60px"}} />
                                             </div>
                                         </div>
                                     </div>
@@ -138,7 +138,7 @@ export default function IndexJob(){
                 </div>
             </div>
 
-            <div className="absolute inset-0 bg-indigo-600/5"></div>
+            <div className="absolute inset-0 bg-red-600/5"></div>
             <ul className="circles p-0 mb-0">
                 <li className="brand-img"><Image width={48} height={48} src="/images/client/shree-logo.png" className="w-9 h-9" alt="" /></li>
                 <li className="brand-img"><Image width={48} height={48} src="/images/client/skype.png" className="w-9 h-9" alt="" /></li>
@@ -175,7 +175,7 @@ export default function IndexJob(){
 
                     <div className="lg:col-span-4 md:col-span-6 md:text-end hidden md:block">
                         <Link href
-                        ="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 text-slate-400 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">All Categories <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                        ="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 text-slate-400 hover:text-red-600 after:bg-red-600 duration-500 ease-in-out">All Categories <FaArrowRight className="ms-2 text-[10px]"/></Link>
                     </div>
                 </div>
             </div>
@@ -189,14 +189,14 @@ export default function IndexJob(){
                                 return(
                                 
                                     <div className="tiny-slide" key={index}>
-                                        <div className="px-3 py-10 rounded-md shadow dark:shadow-gray-800 group text-center bg-white dark:bg-slate-900 hover:bg-indigo-600/5 dark:hover:bg-indigo-600/5 transition duration-500 m-2">
-                                            <div className="w-[84px] h-[84px] bg-indigo-600/5 group-hover:bg-indigo-600 text-indigo-600 group-hover:text-white rounded-full text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 transition duration-500 mx-auto">
+                                        <div className="px-3 py-10 rounded-md shadow dark:shadow-gray-800 group text-center bg-white dark:bg-slate-900 hover:bg-red-600/5 dark:hover:bg-red-600/5 transition duration-500 m-2">
+                                            <div className="w-[84px] h-[84px] bg-red-600/5 group-hover:bg-red-600 text-red-600 group-hover:text-white rounded-full text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 transition duration-500 mx-auto">
                                                 <Icons className='w-7 h-7'/>
                                             </div>
     
                                             <div className="content mt-6">
                                                 <Link href
-                                                ="/page-job-grid" className="title h5 text-lg font-medium hover:text-indigo-600">{item.title} <br /> {item.title2}</Link>
+                                                ="/page-job-grid" className="title h5 text-lg font-medium hover:text-red-600">{item.title} <br /> {item.title2}</Link>
                                                 <p className="text-slate-400 mt-3">{item.jobs} Jobs</p>
                                             </div>
                                         </div>
@@ -210,7 +210,7 @@ export default function IndexJob(){
                 <div className="grid md:grid-cols-12 grid-cols-1 md:hidden mt-8">
                     <div className="md:col-span-12 text-center">
                         <Link href
-                        ="#" className="relative inline-block font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 text-slate-400 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">All Categories</Link>
+                        ="#" className="relative inline-block font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 text-slate-400 hover:text-red-600 after:bg-red-600 duration-500 ease-in-out">All Categories</Link>
                     </div>
                 </div>
             </div>
@@ -244,7 +244,7 @@ export default function IndexJob(){
                             <p className="text-slate-400 max-w-xl">It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. This might also explain why one can now find slightly different versions.</p>
 
                             <div className="mt-6">
-                                <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                                <Link href="#" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                             </div>
                         </div>
                     </div>
@@ -289,13 +289,13 @@ export default function IndexJob(){
                         return(
                             <div className="rounded-md shadow dark:shadow-gray-800" key={index}>
                                 <div className="p-6">
-                                    <Link href={`/page-job-detail/${item.id}`} className="title h5 text-lg font-semibold hover:text-indigo-600">{item.title}</Link>
-                                    <p className="text-slate-400 mt-2 flex items-center"><GoClock className="me-1 text-indigo-600"/>{item.posted}</p>
+                                    <Link href={`/page-job-detail/${item.id}`} className="title h5 text-lg font-semibold hover:text-red-600">{item.title}</Link>
+                                    <p className="text-slate-400 mt-2 flex items-center"><GoClock className="me-1 text-red-600"/>{item.posted}</p>
     
                                     <div className="flex justify-between items-center mt-4">
-                                        <span className="bg-indigo-600/5 text-indigo-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">{item.jobTitle}</span>
+                                        <span className="bg-red-600/5 text-red-600 text-xs font-bold px-2.5 py-0.5 rounded h-5">{item.jobTitle}</span>
     
-                                        <p className="text-slate-400 flex items-center"><AiOutlineDollar className="me-2 text-indigo-600 text-lg"/>{item.package}</p>
+                                        <p className="text-slate-400 flex items-center"><AiOutlineDollar className="me-2 text-red-600 text-lg"/>{item.package}</p>
                                     </div>
                                 </div>
     
@@ -314,7 +314,7 @@ export default function IndexJob(){
 
                 <div className="grid md:grid-cols-12 grid-cols-1 mt-8">
                     <div className="md:col-span-12 text-center">
-                        <Link href="/page-job-grid" className="relative inline-flex  items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 text-slate-400 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">See More Jobs<FaArrowRight className="ms-2 text-[10px]"/></Link>
+                        <Link href="/page-job-grid" className="relative inline-flex  items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:transition-all after:duration-500 text-slate-400 hover:text-red-600 after:bg-red-600 duration-500 ease-in-out">See More Jobs<FaArrowRight className="ms-2 text-[10px]"/></Link>
                     </div>
                 </div>
             </div>

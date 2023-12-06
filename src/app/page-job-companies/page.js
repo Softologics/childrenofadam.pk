@@ -54,13 +54,13 @@ export default function JobCompanies(){
                         {
                             jobData.map((data,index) => {
                                 return (
-                                    <Link href={`/page-job-company-detail/${data.id}`} key={index}  className="group bg-white dark:bg-slate-900 p-6 rounded shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 border-4 border-white dark:border-slate-900 hover:border-b-indigo-600 dark:hover:border-b-indigo-600 text-center duration-500 ease-in-out">
+                                    <Link href={`/page-job-company-detail/${data.id}`} key={index}  className="group bg-white dark:bg-slate-900 p-6 rounded shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 border-4 border-white dark:border-slate-900 hover:border-b-red-600 dark:hover:border-b-red-600 text-center duration-500 ease-in-out">
                                         <Image src={data.image} height={64} width={64} className="h-16 w-16 mx-auto p-3 rounded-full bg-gray-50 dark:bg-slate-800 shadow-md dark:shadow-gray-800" alt="" />
 
                                         <div className="content mt-3">
-                                            <span className="text-lg font-semibold group-hover:text-indigo-600 transition duration-500 block">{data.name}</span>
+                                            <span className="text-lg font-semibold group-hover:text-red-600 transition duration-500 block">{data.name}</span>
 
-                                            <span className="text-base text-slate-400 inline-flex items-center"><RiMapPinLine className="text-indigo-600 me-1"/>{data.location}</span>
+                                            <span className="text-base text-slate-400 inline-flex items-center"><RiMapPinLine className="text-red-600 me-1"/>{data.location}</span>
                                         </div>
                                     </Link>
                                 )

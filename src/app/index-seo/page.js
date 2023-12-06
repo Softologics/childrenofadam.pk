@@ -64,11 +64,11 @@ export default function Seo(){
                         <div className="subcribe-form mt-6 mb-3">
                             <form className="relative max-w-xl mx-auto">
                                 <input type="url" id="site-url" name="url" className="pt-4 pe-40 pb-4 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white/60 dark:bg-slate-900/60 shadow dark:shadow-gray-800" placeholder="http://www.yourdomain.com" />
-                                <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border border-indigo-600 hover:border-indigo-700 text-white rounded-full">Start Free Trial</button>
+                                <button type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] h-[46px] bg-red-600 hover:bg-red-700 border border-red-600 hover:border-red-700 text-white rounded-full">Start Free Trial</button>
                             </form>
                         </div>
 
-                        <span className="font-medium">Looking for help? <Link href="#" className="text-indigo-600">Get in touch with us</Link></span>
+                        <span className="font-medium">Looking for help? <Link href="#" className="text-red-600">Get in touch with us</Link></span>
                     </div>
                 </div>
             </div>
@@ -115,8 +115,8 @@ export default function Seo(){
 
             <div className="container relative md:mt-24 mt-16">
                 <div className="grid grid-cols-1 pb-8 text-center">
-                    <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">Services</h6>
-                    <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold bg-gradient-to-r from-red-600 to-indigo-600 text-transparent bg-clip-text">We are SEO Professionals</h3>
+                    <h6 className="text-red-600 text-sm font-bold uppercase mb-2">Services</h6>
+                    <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold bg-gradient-to-r from-red-600 to-red-600 text-transparent bg-clip-text">We are SEO Professionals</h3>
 
                     <p className="text-slate-400 max-w-xl mx-auto">Your content is an integral part of your SEO efforts and online marketing strategy</p>
                 </div>
@@ -126,16 +126,16 @@ export default function Seo(){
                         let Icons = item.icon
                         return(
                             <div key={index} className="p-6 hover:shadow-xl hover:shadow-gray-100 dark:hover:shadow-gray-800 transition duration-500 rounded-2xl mt-6">
-                                <div className="w-20 h-20 bg-indigo-600/5 text-indigo-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800">
+                                <div className="w-20 h-20 bg-red-600/5 text-red-600 rounded-xl text-3xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800">
                                     <Icons className="h-7 w-7"/>
                                 </div>
 
                                 <div className="content mt-7">
-                                    <Link href="/page-services" className="title h5 text-lg font-medium hover:text-indigo-600">{item.title}</Link>
+                                    <Link href="/page-services" className="title h5 text-lg font-medium hover:text-red-600">{item.title}</Link>
                                     <p className="text-slate-400 mt-3">{item.desc}</p>
 
                                     <div className="mt-5">
-                                        <Link href="/page-services" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
+                                        <Link href="/page-services" className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-red-600 hover:text-red-600 after:bg-red-600 duration-500">Read More <FaArrowRight className="ms-2 text-[10px]"/></Link>
                                     </div>
                                 </div>
                             </div>
@@ -158,21 +158,21 @@ export default function Seo(){
                         <div className="sticky top-20">
                             <ul className="flex-column p-6 bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
                                 <li role="presentation" onClick={() =>setBlock(0)}>
-                                    <button className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full hover:text-indigo-600 transition-all duration-500 ease-in-out ${block === 0 ? 'text-white bg-indigo-600 hover:text-white' : ''}`} id="profile-tab" data-tabs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="true">
+                                    <button className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full hover:text-red-600 transition-all duration-500 ease-in-out ${block === 0 ? 'text-white bg-red-600 hover:text-white' : ''}`} id="profile-tab" data-tabs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="true">
                                         <span className="block">Step 1</span>
                                         <span className="text-xl mt-2 block">SEO Audit</span>
                                         <span className="block mt-2">We offer flexible and comprehensive online marketing plans</span>
                                     </button>
                                 </li>
                                 <li role="presentation" onClick={() =>setBlock(1)}>
-                                    <button className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full mt-6 transition-all duration-500 ease-in-out ${block === 1 ? 'text-white bg-indigo-600 hover:text-white' : ''}`} id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="false">
+                                    <button className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full mt-6 transition-all duration-500 ease-in-out ${block === 1 ? 'text-white bg-red-600 hover:text-white' : ''}`} id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab" aria-controls="dashboard" aria-selected="false">
                                         <span className="block">Step 2</span>
                                         <span className="text-xl mt-2 block">Project Execution</span>
                                         <span className="block mt-2">We offer flexible and comprehensive online marketing plans</span>
                                     </button>
                                 </li>
                                 <li role="presentation" onClick={() =>setBlock(2)}>
-                                    <button className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full mt-6 transition-all duration-500 ease-in-out ${block === 2 ? 'text-white bg-indigo-600 hover:text-white' : ''}`} id="settings-tab" data-tabs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">
+                                    <button className={`px-4 py-2 text-start text-base font-semibold rounded-md w-full mt-6 transition-all duration-500 ease-in-out ${block === 2 ? 'text-white bg-red-600 hover:text-white' : ''}`} id="settings-tab" data-tabs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">
                                         <span className="block">Step 3</span>
                                         <span className="text-xl mt-2 block">Results & Reporting</span>
                                         <span className="block mt-2">We offer flexible and comprehensive online marketing plans</span>
@@ -205,7 +205,7 @@ export default function Seo(){
                                 <Image src="/images/business/about02.jpg" width={0} height={0} sizes='100vw' style={{width:"100%", height:"auto"}}  className="rounded-md shadow-md w-48 h-48" alt="" />
                                 <div className="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
                                     <Link href="#" onClick={() => setOpen(true)} data-type="youtube" data-id="S_CGed6E610"
-                                        className="lightbox h-14 w-14 rounded-full shadow-md dark:shadow-gyay-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-indigo-600">
+                                        className="lightbox h-14 w-14 rounded-full shadow-md dark:shadow-gyay-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-red-600">
                                         <i className="mdi mdi-play inline-flex items-center justify-center text-xl"></i>
                                     </Link>
                                 </div>
@@ -216,12 +216,12 @@ export default function Seo(){
 
                     <div className="md:col-span-6">
                         <div className="lg:ms-5">
-                            <h6 className="text-indigo-600 text-sm font-bold uppercase mb-2">Our History</h6>
+                            <h6 className="text-red-600 text-sm font-bold uppercase mb-2">Our History</h6>
                             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">“Sweet as the Moment When <br /> the coworking Went Pop”</h3>
 
                             <p className="text-slate-400 max-w-xl mb-6">Get instant helpful resources about anything on the go, easily implement secure money transfer solutions, boost your daily efficiency, connect to other app users and create your own Techwind network, and much more with just a few taps. commodo consequat. Duis aute irure.</p>
 
-                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600/5 hover:bg-indigo-600 border-indigo-600/10 hover:border-indigo-600 text-indigo-600 hover:text-white rounded-md">Get Started</Link>
+                            <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600/5 hover:bg-red-600 border-red-600/10 hover:border-red-600 text-red-600 hover:text-white rounded-md">Get Started</Link>
                         </div>
                     </div>
                 </div>
@@ -247,7 +247,7 @@ export default function Seo(){
                                             <Image src={item.image} height={64} width={64} className="h-16 w-16 rounded-full shadow dark:shadow-gray-800" alt="" />
         
                                             <div className="ps-4">
-                                                <Link href="#" className="text-lg hover:text-indigo-600 duration-500 ease-in-out">{item.name}</Link>
+                                                <Link href="#" className="text-lg hover:text-red-600 duration-500 ease-in-out">{item.name}</Link>
                                                 <p className="text-slate-400">{item.title}</p>
                                             </div>
                                         </div>
@@ -269,7 +269,7 @@ export default function Seo(){
                                             <Image src={item.image1} height={64} width={64} className="h-16 w-16 rounded-full shadow dark:shadow-gray-800" alt="" />
         
                                             <div className="ps-4">
-                                                <Link href="#" className="text-lg hover:text-indigo-600 duration-500 ease-in-out">{item.name1}</Link>
+                                                <Link href="#" className="text-lg hover:text-red-600 duration-500 ease-in-out">{item.name1}</Link>
                                                 <p className="text-slate-400">{item.title1}</p>
                                             </div>
                                         </div>

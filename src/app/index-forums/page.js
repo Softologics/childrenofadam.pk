@@ -92,7 +92,7 @@ export default function Forums(){
                     <div className="subcribe-form mt-6">
                         <form className="relative max-w-xl mx-auto">
                             <input type="text" id="SearchForumKeyword" name="text" className="pt-4 pe-14 pb-4 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800" placeholder="Enter your keywords :" />
-                            <button type="submit" className="inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] w-[46px] h-[46px] bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-full"><LuSearch className="text-base"/></button>
+                            <button type="submit" className="inline-flex items-center justify-center tracking-wide align-middle transition duration-500 ease-in-out text-base text-center absolute top-[2px] end-[3px] w-[46px] h-[46px] bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-full"><LuSearch className="text-base"/></button>
                         </form>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ export default function Forums(){
                                     <p className="text-slate-400 max-w-xl">Talk about anything that is on your mind and see what others think. As a guest to our forum you are only able to view posts. When you register with the Forumix forum you can join in with topics, start new topics and generally be a part of the first level of our community.</p>
 
                                     <div className="mt-6">
-                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded me-2 mt-2">Register Now!</Link>
+                                        <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle transition duration-500 ease-in-out text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded me-2 mt-2">Register Now!</Link>
                                     </div>
                                 </div>
                             </div>
@@ -142,9 +142,9 @@ export default function Forums(){
                                             <tr key={index} className="border-b border-gray-100 dark:border-slate-800">
                                                 <th className="p-4 text-start">
                                                     <div className="flex">
-                                                        <FaRegComment className="text-indigo-600 text-2xl"/>
+                                                        <FaRegComment className="text-red-600 text-2xl"/>
                                                         <div className="ms-2">
-                                                            <Link href="/forums-topic" className="hover:text-indigo-600 text-lg">{item.title}</Link>
+                                                            <Link href="/forums-topic" className="hover:text-red-600 text-lg">{item.title}</Link>
                                                             <p className="text-slate-400 font-normal">{item.desc}</p>
                                                         </div>
                                                     </div>
@@ -156,7 +156,7 @@ export default function Forums(){
                                                         <Image src={item.image} width={40} height={40} className="h-10 rounded-full shadow dark:shadow-slate-800" alt="" />
 
                                                         <div className="ms-2">
-                                                            <Link href="#" className="hover:text-indigo-600 font-semibold">{item.name}</Link>
+                                                            <Link href="#" className="hover:text-red-600 font-semibold">{item.name}</Link>
                                                             <p className="text-slate-400 text-sm font-normal inline-flex items-center"><GoClock/>May 2022</p>
                                                         </div>
                                                     </div>
@@ -176,24 +176,24 @@ export default function Forums(){
                                 <div className="grid grid-cols-1">
                                     <div className="mb-4">
                                         <label className="font-semibold" htmlFor="LoginEmail">Email Address:</label>
-                                        <input id="LoginEmail" type="email" className="form-input mt-3 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="name@example.com" />
+                                        <input id="LoginEmail" type="email" className="form-input mt-3 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="name@example.com" />
                                     </div>
 
                                     <div className="mb-4">
                                         <label className="font-semibold" >Password:</label>
-                                        <input id="LoginPassword" type="password" className="form-input mt-3 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-indigo-600 dark:border-gray-800 dark:focus:border-indigo-600 focus:ring-0" placeholder="Password:" />
+                                        <input id="LoginPassword" type="password" className="form-input mt-3 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-200 focus:border-red-600 dark:border-gray-800 dark:focus:border-red-600 focus:ring-0" placeholder="Password:" />
                                     </div>
 
                                     <div className="flex justify-between mb-4">
                                         <div className="flex items-center mb-0">
-                                            <input className="form-checkbox rounded border-gray-200 dark:border-gray-800 text-indigo-600 focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50 me-2" type="checkbox" value="" id="RememberMe" />
+                                            <input className="form-checkbox rounded border-gray-200 dark:border-gray-800 text-red-600 focus:border-red-300 focus:ring focus:ring-offset-0 focus:ring-red-200 focus:ring-opacity-50 me-2" type="checkbox" value="" id="RememberMe" />
                                             <label className="form-checkbox-label text-slate-400" >Remember me</label>
                                         </div>
                                         <p className="text-slate-400 mb-0"><Link href="/auth-re-password" className="text-slate-400">Forgot password ?</Link></p>
                                     </div>
 
                                     <div className="mb-4">
-                                        <input type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md w-full" value="Login / Sign in" />
+                                        <input type="submit" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md w-full" value="Login / Sign in" />
                                     </div>
 
                                     <div className="text-center">
@@ -207,7 +207,7 @@ export default function Forums(){
                                 <Image src="/images/blog/06.jpg" width={96} height={84} className="h-16 rounded-md shadow dark:shadow-gray-800" alt="" />
 
                                 <div className="ms-3">
-                                    <Link href="#" className="font-semibold hover:text-indigo-600">Consultant Business</Link>
+                                    <Link href="#" className="font-semibold hover:text-red-600">Consultant Business</Link>
                                     <p className="text-sm text-slate-400">1st May 2022</p>
                                 </div>
                             </div>
@@ -216,7 +216,7 @@ export default function Forums(){
                                 <Image src="/images/blog/07.jpg" width={96} height={84} className="h-16 rounded-md shadow dark:shadow-gray-800" alt="" />
 
                                 <div className="ms-3">
-                                    <Link href="#" className="font-semibold hover:text-indigo-600">Grow Your Business</Link>
+                                    <Link href="#" className="font-semibold hover:text-red-600">Grow Your Business</Link>
                                     <p className="text-sm text-slate-400">1st May 2022</p>
                                 </div>
                             </div>
@@ -225,34 +225,34 @@ export default function Forums(){
                                 <Image src="/images/blog/08.jpg" width={96} height={84} className="h-16 rounded-md shadow dark:shadow-gray-800" alt="" />
 
                                 <div className="ms-3">
-                                    <Link href="#" className="font-semibold hover:text-indigo-600">Look On The Glorious Balance</Link>
+                                    <Link href="#" className="font-semibold hover:text-red-600">Look On The Glorious Balance</Link>
                                     <p className="text-sm text-slate-400">1st May 2022</p>
                                 </div>
                             </div>
 
                             <h5 className="text-lg font-semibold bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md p-2 text-center mt-8">Social sites</h5>
                             <ul className="list-none text-center mt-8 space-x-1">
-                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600"><Icon.Facebook className="h-4 w-4"></Icon.Facebook></Link></li>
-                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600"><Icon.Instagram className="h-4 w-4"></Icon.Instagram></Link></li>
-                                <li className="inline"><Link href="#"  className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600"><Icon.Twitter className="h-4 w-4"></Icon.Twitter></Link></li>
-                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link></li>
-                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600"><Icon.GitHub className="h-4 w-4"></Icon.GitHub></Link></li>
-                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600"><Icon.Youtube className="h-4 w-4"></Icon.Youtube></Link></li>
-                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-indigo-600 hover:text-white hover:bg-indigo-600"><Icon.Gitlab className="h-4 w-4"></Icon.Gitlab></Link></li>
+                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-red-600 hover:text-white hover:bg-red-600"><Icon.Facebook className="h-4 w-4"></Icon.Facebook></Link></li>
+                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-red-600 hover:text-white hover:bg-red-600"><Icon.Instagram className="h-4 w-4"></Icon.Instagram></Link></li>
+                                <li className="inline"><Link href="#"  className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-red-600 hover:text-white hover:bg-red-600"><Icon.Twitter className="h-4 w-4"></Icon.Twitter></Link></li>
+                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-red-600 hover:text-white hover:bg-red-600"><Icon.Linkedin className="h-4 w-4"></Icon.Linkedin></Link></li>
+                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-red-600 hover:text-white hover:bg-red-600"><Icon.GitHub className="h-4 w-4"></Icon.GitHub></Link></li>
+                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-red-600 hover:text-white hover:bg-red-600"><Icon.Youtube className="h-4 w-4"></Icon.Youtube></Link></li>
+                                <li className="inline"><Link href="#" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-100 dark:border-gray-800 rounded-md text-slate-400 hover:border-red-600 hover:text-white hover:bg-red-600"><Icon.Gitlab className="h-4 w-4"></Icon.Gitlab></Link></li>
                             </ul>
 
                             <h5 className="text-lg font-semibold bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 rounded-md p-2 text-center mt-8">Tagscloud</h5>
                             <ul className="list-none text-center mt-8 space-x-1">
-                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-indigo-600 dark:hover:bg-indigo-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Business</Link></li>
-                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-indigo-600 dark:hover:bg-indigo-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Finance</Link></li>
-                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-indigo-600 dark:hover:bg-indigo-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Marketing</Link></li>
-                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-indigo-600 dark:hover:bg-indigo-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Fashion</Link></li>
-                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-indigo-600 dark:hover:bg-indigo-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Bride</Link></li>
-                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-indigo-600 dark:hover:bg-indigo-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Lifestyle</Link></li>
-                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-indigo-600 dark:hover:bg-indigo-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Travel</Link></li>
-                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-indigo-600 dark:hover:bg-indigo-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Beauty</Link></li>
-                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-indigo-600 dark:hover:bg-indigo-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Video</Link></li>
-                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-indigo-600 dark:hover:bg-indigo-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Audio</Link></li>
+                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-red-600 dark:hover:bg-red-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Business</Link></li>
+                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-red-600 dark:hover:bg-red-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Finance</Link></li>
+                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-red-600 dark:hover:bg-red-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Marketing</Link></li>
+                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-red-600 dark:hover:bg-red-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Fashion</Link></li>
+                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-red-600 dark:hover:bg-red-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Bride</Link></li>
+                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-red-600 dark:hover:bg-red-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Lifestyle</Link></li>
+                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-red-600 dark:hover:bg-red-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Travel</Link></li>
+                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-red-600 dark:hover:bg-red-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Beauty</Link></li>
+                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-red-600 dark:hover:bg-red-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Video</Link></li>
+                                <li className="inline-block m-2"><Link href="#" className="px-3 py-1 text-slate-400 hover:text-white dark:hover:text-white bg-gray-50 dark:bg-slate-800 text-sm hover:bg-red-600 dark:hover:bg-red-600 rounded-md shadow dark:shadow-gray-800 transition-all duration-500 ease-in-out">Audio</Link></li>
                             </ul>
                         </div>
                     </div>
