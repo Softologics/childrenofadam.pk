@@ -6,7 +6,7 @@ import {LiaTimesSolid} from "react-icons/lia"
 
 export default function CookieModal(){
 
-    const [display,setDisplay] = useState(true);
+    const [display,setDisplay] = useState(false);
 
     return(
              <div className="cookie-popup fixed max-w-lg bottom-3 end-3 start-3 sm:start-0 mx-auto bg-white dark:bg-slate-900 shadow dark:shadow-gray-800 rounded-md py-5 px-6 z-50" style={{display: display ? 'block' :'none'}}>

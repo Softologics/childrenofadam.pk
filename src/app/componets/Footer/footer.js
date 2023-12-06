@@ -47,40 +47,17 @@ export default function Footer() {
         },
         {
             liClass: 'mt-[10px]',
-            route: '/page-services',
-            title: 'Services',
-
-        },
-        {
-            route: '/page-team',
-            title: 'Team',
-            liClass: 'mt-[10px]',
-
-        },
-        {
-            route: '/page-pricing',
-            title: 'Pricing',
-            liClass: 'mt-[10px]',
-
-        },
-        {
-            route: '/portfolio-creative-four',
-            title: 'Project',
-            liClass: 'mt-[10px]',
+            route: '/contact-one',
+            title: 'Contact Us',
 
         },
         {
             route: '/blog',
-            title: 'Blog',
-            liClass: 'mt-[10px]',
-
-        },
-        {
-            route: '/auth-login',
-            title: 'Login',
+            title: 'Projects',
             liClass: 'mt-[10px]',
 
         }
+
     ]
     return (
         <div>
@@ -92,19 +69,19 @@ export default function Footer() {
                                 <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
                                     <div className="lg:col-span-4 md:col-span-12">
                                         <Link href="/#" className="text-[22px] focus:outline-none">
-                                            <Image src="/images/logo-light.png" width={138} height={24} alt="" />
+                                            <Image src="/images/childrenofadam/logo.png" width={138} height={24} alt="" />
                                         </Link>
-                                        <p className="mt-6 text-gray-300">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                        <p className="mt-6 text-gray-300">CoA Pakistan has been established with the complete assistance of Bani Adam/CoA USA, however, in future for executing above projects it will need support of other donors. All projects of CoA have active involvement of community.
+
+</p>
                                         <ul className="list-none mt-5 space-x-1 space-y-1">
-                                            <li className="inline"><Link href="https://1.envato.market/techwind-next" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><PiShoppingCart className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="https://www.behance.net/shreethemes" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaBehance className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="https://dribbble.com/shreethemes" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaDribbble className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="http://linkedin.com/company/shreethemes" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaLinkedin className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="https://www.facebook.com/shreethemes" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaFacebookF className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="https://www.instagram.com/shreethemes/" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaInstagram className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="https://twitter.com/shreethemes" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaTwitter className='text-sm'/></Link></li>
-                                            <li className="inline"><Link href="mailto:support@shreethemes.in" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaRegEnvelope  className=" text-sm"/></Link></li>
-                                            <li className="inline"><Link href="https://forms.gle/QkTueCikDGqJnbky9" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaRegFile className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><PiShoppingCart className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaBehance className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaDribbble className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaLinkedin className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaFacebookF className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaInstagram className='text-sm'/></Link></li>
+                                            <li className="inline"><Link href="#" target="_blank" className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"><FaTwitter className='text-sm'/></Link></li>
                                         </ul>
                                     </div>
 
@@ -117,14 +94,14 @@ export default function Footer() {
                                         </ul>
                                     </div>
 
-                                    <div className="lg:col-span-3 md:col-span-4">
+                                    {/* <div className="lg:col-span-3 md:col-span-4">
                                         <h5 className="tracking-[1px] text-gray-100 font-semibold">Usefull Links</h5>
                                         <ul className="list-none footer-list mt-6">
                                             {footerLinks.map((data, index) => (
                                                 <li key={index} className={data.liClass}><Link href={data.route} className="text-gray-300 hover:text-gray-400 duration-500 ease-in-out flex items-center"><MdKeyboardArrowRight className="text-xl me-1"/> {data.title}</Link></li>
                                             ))}
                                         </ul>
-                                    </div>
+                                    </div> */}
 
                                     <div className="lg:col-span-3 md:col-span-4">
                                         <h5 className="tracking-[1px] text-gray-100 font-semibold">Newsletter</h5>
@@ -152,7 +129,7 @@ export default function Footer() {
                     <div className="container relative text-center">
                         <div className="grid md:grid-cols-2 items-center">
                             <div className="md:text-start text-center">
-                                <p className="mb-0">© {new Date().getFullYear()} Techwind. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0">© {new Date().getFullYear()} Children of Adam. Design & Develop with <i className="mdi mdi-heart text-red-600"></i> by <Link href="/https://shreethemes.in/" target="_blank" className="text-reset">Plug Orange</Link>.</p>
                             </div>
 
                             <ul className="list-none md:text-end text-center space-x-1 mt-6 md:mt-0">

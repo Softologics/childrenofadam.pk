@@ -327,53 +327,38 @@ export const clientsDataTwo = [
 ]
 export const ourCausesData = [
     {
-        image:"/images/charity/cause01.jpg",
-        title:"Donate For Food",
+        image:"/images/childrenofadam/qtra.jpg",
+        title:"Qutrah (Quenching Thirst)",
         desc:"If you use this site regularly and would like to help keep the site on the Internet",
         Progress:"45%",
         Raised:"$4500",
         Goal:"$10000"
     },
     {
-        image:"/images/charity/cause02.jpg",
-        title:"Food For Orphan",
+        image:"/images/childrenofadam/sehat.jpg",
+        title:"Sehat Aaman",
         desc:"If you use this site regularly and would like to help keep the site on the Internet",
         Progress:"50%",
         Raised:"$4500",
         Goal:"$10000"
     },
     {
-        image:"/images/charity/cause03.jpg",
-        title:"Home For Homeless",
+        image:"/images/childrenofadam/mharat.jpg",
+        title:"Maharat",
         desc:"If you use this site regularly and would like to help keep the site on the Internet",
         Progress:"83%",
         Raised:"$4500",
         Goal:"$10000"
     },
     {
-        image:"/images/charity/cause04.jpg",
-        title:"Holyday Gifts In Kind",
+        image:"/images/childrenofadam/takmeel.jpg",
+        title:"Takmeel",
         desc:"If you use this site regularly and would like to help keep the site on the Internet",
         Progress:"40%",
         Raised:"$4500",
         Goal:"$10000"
     },
-    {
-        image:"/images/charity/cause05.jpg",
-        title:"For clean Water in Africa",
-        desc:"If you use this site regularly and would like to help keep the site on the Internet",
-        Progress:"55%",
-        Raised:"$4500",
-        Goal:"$10000"
-    },
-     {
-        image:"/images/charity/cause06.jpg",
-        title:"Health and Rights",
-        desc:"If you use this site regularly and would like to help keep the site on the Internet",
-        Progress:"60%",
-        Raised:"$4500",
-        Goal:"$10000"
-    },
+   
 ]
 export  const teamData = [
     {
