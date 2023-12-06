@@ -1,23 +1,23 @@
 "use client"
 import React, {useState,useEffect} from 'react'
 import Link from "next/link"
-import Image from "next/image"
+// import Image from "next/image"
 import dynamic from "next/dynamic"
 
 const Navbar = dynamic(()=>import('../componets/Navbar/navbar'));
 const Footer = dynamic(()=>import('../componets/Footer/footer'));
 const Switcher = dynamic(()=>import('../componets/switcher'));
 
-const CompanyLogo = dynamic(()=>import('../componets/companyLogo'));
-const KeyFeature = dynamic(()=>import('../componets/keyFeatures'));
+// const CompanyLogo = dynamic(()=>import('../componets/companyLogo'));
+// const KeyFeature = dynamic(()=>import('../componets/keyFeatures'));
 
-import * as Icon from 'react-feather';
+// import * as Icon from 'react-feather';
 import {MdKeyboardArrowRight} from "react-icons/md"
-import { FaRegEnvelope } from "react-icons/fa"
+// import { FaRegEnvelope } from "react-icons/fa"
 
-import { teamData } from '../Data/data'
+// import { teamData } from '../Data/data'
 
-import ModalVideo from 'react-modal-video'
+// import ModalVideo from 'react-modal-video'
 import "../../../node_modules/react-modal-video/css/modal-video.css";
 
 const TinySlider = dynamic(()=>import('tiny-slider-react'),{ssr: false,});

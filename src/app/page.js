@@ -42,7 +42,7 @@ export default function Index() {
                 <h4 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-5 text-white">Children of Adam Neuropsychiatric Hospital</h4>
                 <p className="text-white/75 text-lg max-w-xl">The Neuropsychiatric Hospital will be based in Karachi because
                   the city is home to diverse communities and is accessible to people from all areas,
-                  both nationally and internationally, making it an ideal location for the hospital."</p>
+                  both nationally and internationally, making it an ideal location for the hospital.</p>
 
                 <div className="mt-6">
                   <Link href="#" className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-red-600 hover:bg-red-700 border-red-600 hover:border-red-700 text-white rounded-md">Donate Now</Link>
@@ -154,7 +154,7 @@ export default function Index() {
 
                 <p className="text-slate-400 max-w-xl mb-6">Pakistan bears a significant disease burden coupled with a shortage of adequate healthcare
 facilities. Among its cities, Karachi stands out as the most populous and severely affected by
-mental illness, drawing individuals from other provinces. Additionally, Karachi's status as a
+mental illness, drawing individuals from other provinces. Additionally, Karachis status as a
 healthcare hub facilitates easy accessibility for healthcare professionals and patients
 worldwide.
 In response to these critical factors, CoA has made the courageous decision to construct,

@@ -3,7 +3,7 @@ import React from 'react'
 import Link from 'next/link';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import * as Icon from 'react-feather';
+// import * as Icon from 'react-feather';
 
 export default function Navbar({ navClass, navJustify }) {
     const [isMenu, setisMenu] = useState(false);
